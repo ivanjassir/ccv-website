@@ -159,7 +159,8 @@ h1,h2,h3,h4{font-family:'Sora',sans-serif;font-weight:600;line-height:1.12;lette
   font-family:'Sora',sans-serif;font-weight:700;font-size:1.05rem;color:#fff;
   background:linear-gradient(150deg,var(--brand),var(--brand-deep));
   box-shadow:0 10px 24px -10px rgba(14,125,142,.7);
-  transform:scale(.3);opacity:0;transition:transform .55s cubic-bezier(.2,.9,.3,1.5),opacity .45s;transition-delay:inherit}
+  transition:transform .55s cubic-bezier(.2,.9,.3,1.5),opacity .45s;transition-delay:inherit}
+.js .timeline:not(.in) .tstep__dot{transform:scale(.3);opacity:0}
 .timeline.in .tstep__dot{transform:scale(1);opacity:1}
 .tstep__dot::before{content:"";position:absolute;inset:-6px;border-radius:50%;border:2px solid rgba(14,125,142,.35);opacity:0;transform:scale(.6)}
 .timeline.in .tstep__dot::before{animation:dotPing 2.4s ease-out infinite;animation-delay:1.2s}
@@ -276,13 +277,14 @@ h1,h2,h3,h4{font-family:'Sora',sans-serif;font-weight:600;line-height:1.12;lette
 
 /* REVEALS */
 [data-reveal]{transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
-[data-reveal]:not(.in){opacity:0;transform:translateY(26px)}
+.js [data-reveal]:not(.in){opacity:0;transform:translateY(26px)}
 [data-reveal] [data-stagger]{transition:opacity .6s ease,transform .6s cubic-bezier(.2,.7,.2,1)}
-[data-reveal]:not(.in) [data-stagger]{opacity:0;transform:translateY(20px)}
+.js [data-reveal]:not(.in) [data-stagger]{opacity:0;transform:translateY(20px)}
 
 /* RESPONSIVE */
 @media (max-width:900px){
   .cards,.cards--3{grid-template-columns:repeat(2,1fr)}
+  .cards--banners{grid-template-columns:1fr}
   .logos{grid-template-columns:repeat(3,1fr)}
   .client-strip__track{gap:34px}
   .client-strip__track img{width:112px;height:46px}
@@ -308,6 +310,7 @@ h1,h2,h3,h4{font-family:'Sora',sans-serif;font-weight:600;line-height:1.12;lette
 }
 
 </style>
+<script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
 <a class="skip" href="#main">Saltar al contenido</a>
@@ -376,10 +379,10 @@ h1,h2,h3,h4{font-family:'Sora',sans-serif;font-weight:600;line-height:1.12;lette
 
   <!-- STATS -->
   <section class="wrap stats" data-reveal>
-    <div class="stat" data-stagger><b data-count="40" data-suffix="+">0</b><span>Años de experiencia</span></div>
-    <div class="stat" data-stagger><b data-count="7">0</b><span>Divisiones especializadas</span></div>
-    <div class="stat" data-stagger><b data-count="8">0</b><span>Industrias atendidas</span></div>
-    <div class="stat" data-stagger><b data-count="100" data-suffix="%">0</b><span>Soporte técnico local</span></div>
+    <div class="stat" data-stagger><b data-count="40" data-suffix="+">40+</b><span>Años de experiencia</span></div>
+    <div class="stat" data-stagger><b data-count="7">7</b><span>Divisiones especializadas</span></div>
+    <div class="stat" data-stagger><b data-count="8">8</b><span>Industrias atendidas</span></div>
+    <div class="stat" data-stagger><b data-count="100" data-suffix="%">100%</b><span>Soporte técnico local</span></div>
   </section>
 
   <!-- DIVISIONES -->
@@ -623,13 +626,18 @@ h1,h2,h3,h4{font-family:'Sora',sans-serif;font-weight:600;line-height:1.12;lette
     </div>
   </div>
   <div class="wrap footer__bottom">
-    <span>&copy; <span id="year"></span> Corporación Científica Venezolana, C.A.</span>
+    <span>&copy; <span id="year">2026</span> Corporación Científica Venezolana, C.A.</span>
     <span class="muted">RIF J-00162138-5 · Caracas, Venezuela</span>
   </div>
 </footer>
 
 <script>
 const CCV = (() => {
+  /* Progressive enhancement: only enable JS-gated reveal animations when JS runs.
+     Without this class the content stays fully visible (e.g. iOS Quick Look,
+     no-JS previews of the self-contained file). */
+  document.documentElement.classList.add('js');
+
   const nav = document.querySelector('.nav');
   const toggle = document.querySelector('.nav__toggle');
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;

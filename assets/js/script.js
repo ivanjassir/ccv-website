@@ -1,4 +1,9 @@
 const CCV = (() => {
+  /* Progressive enhancement: only enable JS-gated reveal animations when JS runs.
+     Without this class the content stays fully visible (e.g. iOS Quick Look,
+     no-JS previews of the self-contained file). */
+  document.documentElement.classList.add('js');
+
   const nav = document.querySelector('.nav');
   const toggle = document.querySelector('.nav__toggle');
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
