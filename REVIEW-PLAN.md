@@ -112,15 +112,25 @@ Once Phase 0 lands, per-page cost is minutes (content entry), not hours.
 
 ---
 
-## 7. Open decisions (need your call before Phase 0)
+## 7. Decisions — LOCKED (2026-07-14)
 
-1. **Build approach** — data-driven generator (recommended) vs. hand-built pages.
-2. **Scope** — rebuild all ~110, or a prioritized subset (A–C + top E) first?
-   Prune the `copia-de-*` duplicates either way.
-3. **Branding** — "CCV Grupo" master brand with Venezuela locator (recommended),
-   or keep "CCV" standalone and add a small group/countries strip only?
-4. **Contact form / seminars backend** — static mailto (current) vs. a real
-   submission endpoint (e.g. Formspree, or their own).
+1. **Build approach** ✅ **Data-driven generator.** Content in JSON/Markdown
+   rendered through the 6 templates by a build step (extend `build_preview.py`).
+   One component library; generated `dist/`.
+2. **Scope** ✅ **Prioritized subset first** — Phase 0 foundations + division
+   landings (7) + sector pages (8) + top product-category pages, then expand.
+   Prune `copia-de-*` duplicates.
+3. **Branding** ✅ **CCV Grupo + Venezuela locator** — header shows "CCV Grupo"
+   with a "Venezuela" locator and a region switcher (VE/CO/PE).
+4. **Contact form / seminars backend** — *still open* (Phase 5): static mailto
+   (current) vs. a real submission endpoint. Not blocking Phase 0.
+
+### Immediate next step — Phase 0 kickoff
+
+Deliverables when we start: (a) shared component library (extract homepage
+CSS/JS), (b) content schema + generator, (c) the 6 templates, (d) CCV Grupo
+header/footer + region switcher, (e) "Presencia regional" (countries) component,
+(f) SEO/redirect map. Say the word and I'll scaffold it.
 
 ---
 
