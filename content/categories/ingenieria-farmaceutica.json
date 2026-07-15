@@ -1,0 +1,21 @@
+{
+  "order": 1,
+  "slug": "ingenieria-farmaceutica",
+  "parent": {
+    "slug": "soluciones-farma",
+    "name": "Soluciones Farma"
+  },
+  "name": "Ingeniería Farmacéutica",
+  "eyebrow": "Soluciones Farma",
+  "hero": {
+    "title": "Ingeniería Farmacéutica",
+    "lead": "Diseño y ejecución de proyectos de producción bajo GMP."
+  },
+  "intro": "Soluciones de ingeniería farmacéutica respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Ingeniería Farmacéutica | Soluciones Farma | CCV Grupo Venezuela",
+    "description": "Diseño y ejecución de proyectos de producción bajo GMP."
+  }
+}

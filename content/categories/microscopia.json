@@ -1,0 +1,21 @@
+{
+  "order": 3,
+  "slug": "microscopia",
+  "parent": {
+    "slug": "life-science-forense",
+    "name": "Life Science & Forense"
+  },
+  "name": "Microscopía",
+  "eyebrow": "Life Science & Forense",
+  "hero": {
+    "title": "Microscopía",
+    "lead": "Microscopía óptica y digital para investigación y patología."
+  },
+  "intro": "Soluciones de microscopía respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Microscopía | Life Science & Forense | CCV Grupo Venezuela",
+    "description": "Microscopía óptica y digital para investigación y patología."
+  }
+}

@@ -14,11 +14,31 @@
   "intro": "Maximizamos la disponibilidad y la vida útil de sus equipos con programas preventivos y correctivos, calibración trazable y disponibilidad de partes originales.",
   "children_title": "Servicios",
   "children": [
-    { "name": "Instalación y Puesta en Marcha", "desc": "Comisionamiento profesional con validación de desempeño." },
-    { "name": "Calibración y Mantenimiento", "desc": "Programas preventivos y correctivos que aseguran la continuidad." },
-    { "name": "Repuestos y Consumibles", "desc": "Suministro oportuno de partes originales certificadas." },
-    { "name": "Consultoría", "desc": "Asesoría técnica y optimización de operaciones de laboratorio." },
-    { "name": "Ingeniería", "desc": "Soluciones de ingeniería a la medida de cada proyecto." }
+    {
+      "name": "Instalación y Puesta en Marcha",
+      "desc": "Comisionamiento profesional con validación de desempeño.",
+      "slug": "instalacion-y-puesta-en-marcha"
+    },
+    {
+      "name": "Calibración y Mantenimiento",
+      "desc": "Programas preventivos y correctivos que aseguran la continuidad.",
+      "slug": "calibracion-y-mantenimiento"
+    },
+    {
+      "name": "Repuestos y Consumibles",
+      "desc": "Suministro oportuno de partes originales certificadas.",
+      "slug": "repuestos-y-consumibles"
+    },
+    {
+      "name": "Consultoría",
+      "desc": "Asesoría técnica y optimización de operaciones de laboratorio.",
+      "slug": "consultoria"
+    },
+    {
+      "name": "Ingeniería",
+      "desc": "Soluciones de ingeniería a la medida de cada proyecto.",
+      "slug": "ingenieria"
+    }
   ],
   "meta": {
     "title": "Servicio Técnico | CCV Grupo Venezuela",

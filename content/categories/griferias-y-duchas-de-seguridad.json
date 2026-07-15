@@ -1,0 +1,21 @@
+{
+  "order": 5,
+  "slug": "griferias-y-duchas-de-seguridad",
+  "parent": {
+    "slug": "proyectos-laboratorio",
+    "name": "Proyectos de Laboratorio"
+  },
+  "name": "Griferías y Duchas de Seguridad",
+  "eyebrow": "Proyectos de Laboratorio",
+  "hero": {
+    "title": "Griferías y Duchas de Seguridad",
+    "lead": "Accesorios, griferías técnicas y duchas de emergencia."
+  },
+  "intro": "Soluciones de griferías y duchas de seguridad respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Griferías y Duchas de Seguridad | Proyectos de Laboratorio | CCV Grupo Venezuela",
+    "description": "Accesorios, griferías técnicas y duchas de emergencia."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "order": 5,
+  "slug": "agua-pw-y-wfi-y-vapor-puro",
+  "parent": {
+    "slug": "soluciones-farma",
+    "name": "Soluciones Farma"
+  },
+  "name": "Agua PW & WFI y Vapor Puro",
+  "eyebrow": "Soluciones Farma",
+  "hero": {
+    "title": "Agua PW & WFI y Vapor Puro",
+    "lead": "Generación, almacenamiento y distribución de agua de proceso."
+  },
+  "intro": "Soluciones de agua pw & wfi y vapor puro respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Agua PW & WFI y Vapor Puro | Soluciones Farma | CCV Grupo Venezuela",
+    "description": "Generación, almacenamiento y distribución de agua de proceso."
+  }
+}

@@ -1,58 +1,60 @@
 {% extends "base.html" %}
 {% block main %}
 <main id="main">
-  <!-- SECTOR HERO -->
+  <!-- CATEGORY HERO -->
   <section class="dhero">
     <div class="dhero__bg" aria-hidden="true"></div>
     <div class="wrap">
       <nav class="crumbs" aria-label="Ruta de navegación">
         <a href="index.html">Inicio</a> <span aria-hidden="true">/</span>
-        <a href="{{ sector.parent.slug }}.html">{{ sector.parent.name }}</a> <span aria-hidden="true">/</span>
-        <span aria-current="page">{{ sector.name }}</span>
+        <a href="{{ cat.parent.slug }}.html">{{ cat.parent.name }}</a> <span aria-hidden="true">/</span>
+        <span aria-current="page">{{ cat.name }}</span>
       </nav>
-      <span class="pill" data-reveal>{{ sector.eyebrow }}</span>
-      <h1 class="dhero__title" data-reveal>{{ sector.hero.title }}</h1>
-      <p class="dhero__lead" data-reveal>{{ sector.hero.lead }}</p>
+      <span class="pill" data-reveal>{{ cat.eyebrow }}</span>
+      <h1 class="dhero__title" data-reveal>{{ cat.hero.title }}</h1>
+      <p class="dhero__lead" data-reveal>{{ cat.hero.lead }}</p>
       <div class="hero__cta" data-reveal>
         <a href="index.html#contacto" class="btn btn--lg">Solicitar asesoría</a>
-        <a href="{{ sector.parent.slug }}.html" class="btn btn--lg btn--ghost">Volver a {{ sector.parent.name }}</a>
+        <a href="{{ cat.parent.slug }}.html" class="btn btn--lg btn--ghost">Volver a {{ cat.parent.name }}</a>
       </div>
     </div>
   </section>
 
-  <!-- APPLICATIONS -->
+  <!-- INTRO / ITEMS -->
   <section class="section">
     <div class="wrap">
       <header class="s-head" data-reveal>
-        <span class="s-tag">{{ sector.name }}</span>
-        <h2>{{ sector.applications_title }}</h2>
-        <p>{{ sector.intro }}</p>
+        <span class="s-tag">{{ cat.name }}</span>
+        <h2>{{ cat["items_title"] or "Soluciones" }}</h2>
+        <p>{{ cat.intro }}</p>
       </header>
+      {% if cat["items"] %}
       <div class="cards" data-reveal>
-        {% for a in sector.applications %}
+        {% for a in cat["items"] %}
         <article class="card" data-stagger data-tilt data-spot>
           <h3>{{ a.name }}</h3>
           <p>{{ a.desc }}</p>
         </article>
         {% endfor %}
       </div>
+      {% endif %}
     </div>
   </section>
 
-  <!-- SIBLING SECTORS -->
-  {% set siblings = sectors | selectattr('parent.slug', 'equalto', sector.parent.slug) | rejectattr('slug', 'equalto', sector.slug) | list %}
+  <!-- SIBLINGS -->
+  {% set siblings = categories | selectattr("parent.slug", "equalto", cat.parent.slug) | rejectattr("slug", "equalto", cat.slug) | list %}
   {% if siblings %}
   <section class="section section--soft">
     <div class="wrap">
       <header class="s-head" data-reveal>
-        <span class="s-tag">{{ sector.parent.name }}</span>
-        <h2>Otras áreas</h2>
+        <span class="s-tag">{{ cat.parent.name }}</span>
+        <h2>Más en {{ cat.parent.name }}</h2>
       </header>
       <div class="cards" data-reveal>
         {% for s in siblings %}
         <a class="card card--link" href="{{ s.slug }}.html" data-stagger data-tilt data-spot>
           <h3>{{ s.name }}</h3>
-          <span class="card__more">Ver área</span>
+          <span class="card__more">Ver más</span>
         </a>
         {% endfor %}
       </div>
@@ -63,8 +65,8 @@
   <!-- CTA BAND -->
   <section class="cta-band">
     <div class="wrap cta-band__inner" data-reveal>
-      <h2>¿Necesita equipar su laboratorio?</h2>
-      <p>Nuestro equipo de asesores le ayuda a seleccionar la instrumentación adecuada para su industria.</p>
+      <h2>¿Listo para su próximo proyecto?</h2>
+      <p>Nuestro equipo de asesores está listo para ayudarle a encontrar la solución adecuada.</p>
       <a href="index.html#contacto" class="btn btn--lg">Contáctenos</a>
     </div>
   </section>

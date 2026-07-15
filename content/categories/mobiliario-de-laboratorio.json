@@ -1,0 +1,21 @@
+{
+  "order": 1,
+  "slug": "mobiliario-de-laboratorio",
+  "parent": {
+    "slug": "proyectos-laboratorio",
+    "name": "Proyectos de Laboratorio"
+  },
+  "name": "Mobiliario de Laboratorio",
+  "eyebrow": "Proyectos de Laboratorio",
+  "hero": {
+    "title": "Mobiliario de Laboratorio",
+    "lead": "Diseño y ejecución de obras con mobiliario técnico."
+  },
+  "intro": "Soluciones de mobiliario de laboratorio respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Mobiliario de Laboratorio | Proyectos de Laboratorio | CCV Grupo Venezuela",
+    "description": "Diseño y ejecución de obras con mobiliario técnico."
+  }
+}

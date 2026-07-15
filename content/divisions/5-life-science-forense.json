@@ -14,12 +14,36 @@
   "intro": "Habilitamos laboratorios de investigación, diagnóstico y criminalística con plataformas de última generación y el soporte técnico para operarlas con confianza.",
   "children_title": "Plataformas y aplicaciones",
   "children": [
-    { "name": "PCR y qPCR", "desc": "Amplificación y detección de ácidos nucleicos en tiempo real." },
-    { "name": "Secuenciación de ADN", "desc": "Secuenciadores para genómica e identificación genética." },
-    { "name": "Microscopía", "desc": "Microscopía óptica y digital para investigación y patología." },
-    { "name": "Lectores de Placas", "desc": "Detección multimodal para ensayos de alto rendimiento." },
-    { "name": "Instrumentos Analíticos", "desc": "Equipamiento para análisis de biología molecular." },
-    { "name": "Análisis Forense", "desc": "PCR, microscopía y lectores dedicados a criminalística." }
+    {
+      "name": "PCR y qPCR",
+      "desc": "Amplificación y detección de ácidos nucleicos en tiempo real.",
+      "slug": "pcr-y-qpcr"
+    },
+    {
+      "name": "Secuenciación de ADN",
+      "desc": "Secuenciadores para genómica e identificación genética.",
+      "slug": "secuenciacion-de-adn"
+    },
+    {
+      "name": "Microscopía",
+      "desc": "Microscopía óptica y digital para investigación y patología.",
+      "slug": "microscopia"
+    },
+    {
+      "name": "Lectores de Placas",
+      "desc": "Detección multimodal para ensayos de alto rendimiento.",
+      "slug": "lectores-de-placas"
+    },
+    {
+      "name": "Instrumentos Analíticos",
+      "desc": "Equipamiento para análisis de biología molecular.",
+      "slug": "instrumentos-analiticos"
+    },
+    {
+      "name": "Análisis Forense",
+      "desc": "PCR, microscopía y lectores dedicados a criminalística.",
+      "slug": "analisis-forense"
+    }
   ],
   "meta": {
     "title": "Life Science y Forense | CCV Grupo Venezuela",

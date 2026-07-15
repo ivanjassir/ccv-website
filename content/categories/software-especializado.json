@@ -1,0 +1,21 @@
+{
+  "order": 2,
+  "slug": "software-especializado",
+  "parent": {
+    "slug": "informatica-lims",
+    "name": "Informática · LIMS"
+  },
+  "name": "Software Especializado",
+  "eyebrow": "Informática · LIMS",
+  "hero": {
+    "title": "Software Especializado",
+    "lead": "Aplicaciones para adquisición, análisis y reporte de datos."
+  },
+  "intro": "Soluciones de software especializado respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Software Especializado | Informática · LIMS | CCV Grupo Venezuela",
+    "description": "Aplicaciones para adquisición, análisis y reporte de datos."
+  }
+}

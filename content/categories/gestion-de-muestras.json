@@ -1,0 +1,21 @@
+{
+  "order": 4,
+  "slug": "gestion-de-muestras",
+  "parent": {
+    "slug": "informatica-lims",
+    "name": "Informática · LIMS"
+  },
+  "name": "Gestión de Muestras",
+  "eyebrow": "Informática · LIMS",
+  "hero": {
+    "title": "Gestión de Muestras",
+    "lead": "Registro, seguimiento y control del ciclo de vida de la muestra."
+  },
+  "intro": "Soluciones de gestión de muestras respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Gestión de Muestras | Informática · LIMS | CCV Grupo Venezuela",
+    "description": "Registro, seguimiento y control del ciclo de vida de la muestra."
+  }
+}

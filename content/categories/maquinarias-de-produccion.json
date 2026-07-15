@@ -1,0 +1,21 @@
+{
+  "order": 8,
+  "slug": "maquinarias-de-produccion",
+  "parent": {
+    "slug": "soluciones-farma",
+    "name": "Soluciones Farma"
+  },
+  "name": "Maquinarias de Producción",
+  "eyebrow": "Soluciones Farma",
+  "hero": {
+    "title": "Maquinarias de Producción",
+    "lead": "Equipos de llenado, dosificación y acondicionamiento."
+  },
+  "intro": "Soluciones de maquinarias de producción respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Maquinarias de Producción | Soluciones Farma | CCV Grupo Venezuela",
+    "description": "Equipos de llenado, dosificación y acondicionamiento."
+  }
+}

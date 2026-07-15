@@ -1,0 +1,21 @@
+{
+  "order": 1,
+  "slug": "reactivos-analiticos",
+  "parent": {
+    "slug": "reactivos-consumibles",
+    "name": "Reactivos y Consumibles"
+  },
+  "name": "Reactivos Analíticos",
+  "eyebrow": "Reactivos y Consumibles",
+  "hero": {
+    "title": "Reactivos Analíticos",
+    "lead": "Reactivos de alta pureza para análisis y control de calidad."
+  },
+  "intro": "Soluciones de reactivos analíticos respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Reactivos Analíticos | Reactivos y Consumibles | CCV Grupo Venezuela",
+    "description": "Reactivos de alta pureza para análisis y control de calidad."
+  }
+}

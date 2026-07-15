@@ -1,0 +1,21 @@
+{
+  "order": 3,
+  "slug": "integracion-de-instrumentos",
+  "parent": {
+    "slug": "informatica-lims",
+    "name": "Informática · LIMS"
+  },
+  "name": "Integración de Instrumentos",
+  "eyebrow": "Informática · LIMS",
+  "hero": {
+    "title": "Integración de Instrumentos",
+    "lead": "Captura automática de datos directamente desde los equipos."
+  },
+  "intro": "Soluciones de integración de instrumentos respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Integración de Instrumentos | Informática · LIMS | CCV Grupo Venezuela",
+    "description": "Captura automática de datos directamente desde los equipos."
+  }
+}

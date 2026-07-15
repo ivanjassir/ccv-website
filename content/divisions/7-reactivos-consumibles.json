@@ -14,11 +14,31 @@
   "intro": "Complementamos su instrumentación con un portafolio de reactivos, estándares y consumibles de marcas reconocidas, con trazabilidad y disponibilidad para su operación diaria.",
   "children_title": "Portafolio",
   "children": [
-    { "name": "Reactivos Analíticos", "desc": "Reactivos de alta pureza para análisis y control de calidad." },
-    { "name": "Estándares de Referencia", "desc": "Materiales de referencia certificados y trazables." },
-    { "name": "Material Volumétrico", "desc": "Vidriería volumétrica calibrada para medición precisa." },
-    { "name": "Consumibles de Laboratorio", "desc": "Columnas, filtros, viales y fungibles de uso rutinario." },
-    { "name": "Vidriería", "desc": "Vidriería técnica y de laboratorio de uso general." }
+    {
+      "name": "Reactivos Analíticos",
+      "desc": "Reactivos de alta pureza para análisis y control de calidad.",
+      "slug": "reactivos-analiticos"
+    },
+    {
+      "name": "Estándares de Referencia",
+      "desc": "Materiales de referencia certificados y trazables.",
+      "slug": "estandares-de-referencia"
+    },
+    {
+      "name": "Material Volumétrico",
+      "desc": "Vidriería volumétrica calibrada para medición precisa.",
+      "slug": "material-volumetrico"
+    },
+    {
+      "name": "Consumibles de Laboratorio",
+      "desc": "Columnas, filtros, viales y fungibles de uso rutinario.",
+      "slug": "consumibles-de-laboratorio"
+    },
+    {
+      "name": "Vidriería",
+      "desc": "Vidriería técnica y de laboratorio de uso general.",
+      "slug": "vidrieria"
+    }
   ],
   "meta": {
     "title": "Reactivos y Consumibles | CCV Grupo Venezuela",

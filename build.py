@@ -33,12 +33,12 @@ divisions = [
 ]
 divisions.sort(key=lambda d: d.get("order", 99))
 
-sectors_dir = ROOT / "content/sectors"
-sectors = [
+categories_dir = ROOT / "content/categories"
+categories = [
     json.loads(p.read_text(encoding="utf-8"))
-    for p in sorted(sectors_dir.glob("*.json"))
-] if sectors_dir.exists() else []
-sectors.sort(key=lambda s: s.get("order", 99))
+    for p in sorted(categories_dir.glob("*.json"))
+] if categories_dir.exists() else []
+categories.sort(key=lambda c: (c.get("parent", {}).get("slug", ""), c.get("order", 99)))
 
 current_region = next(
     (r for r in site["regions"] if r.get("current")), site["regions"][0]
@@ -47,7 +47,7 @@ current_region = next(
 GLOBAL = {
     "site": site,
     "divisions": divisions,
-    "sectors": sectors,
+    "categories": categories,
     "current_region": current_region,
     "year": YEAR,
 }
@@ -70,10 +70,10 @@ for d in divisions:
         f"{d['slug']}.html",
         env.get_template("division.html").render(**GLOBAL, division=d, meta=d["meta"], page="division"),
     )
-for s in sectors:
+for c in categories:
     write(
-        f"{s['slug']}.html",
-        env.get_template("sector.html").render(**GLOBAL, sector=s, meta=s["meta"], page="sector"),
+        f"{c['slug']}.html",
+        env.get_template("category.html").render(**GLOBAL, cat=c, meta=c["meta"], page="category"),
     )
 
 # ---- self-contained preview.html (homepage, fully inlined) ----
@@ -105,4 +105,4 @@ leftover = re.findall(r'(?:src|href)="(assets/[^"]+)"', html)
 size_mb = (ROOT / "preview.html").stat().st_size / (1024 * 1024)
 print(f"  preview.html ({size_mb:.2f} MB) — leftover local refs: {leftover or 'none'}")
 
-print(f"\nDone: 1 home + {len(divisions)} divisions + {len(sectors)} sectors + preview.html")
+print(f"\nDone: 1 home + {len(divisions)} divisions + {len(categories)} categories + preview.html")

@@ -14,11 +14,31 @@
   "intro": "Acompañamos cada proyecto desde el anteproyecto hasta la puesta en marcha, integrando infraestructura, seguridad y ergonomía en espacios diseñados para el trabajo científico.",
   "children_title": "Alcance de proyectos",
   "children": [
-    { "name": "Mobiliario de Laboratorio", "desc": "Diseño y ejecución de obras con mobiliario técnico." },
-    { "name": "Campanas de Extracción de Gases", "desc": "Contención y extracción segura de vapores y gases." },
-    { "name": "Superficies de Trabajo", "desc": "Encimeras resistentes a químicos y agentes agresivos." },
-    { "name": "Laboratorios Modulares", "desc": "Espacios prefabricados y salas de flujo laminar." },
-    { "name": "Griferías y Duchas de Seguridad", "desc": "Accesorios, griferías técnicas y duchas de emergencia." }
+    {
+      "name": "Mobiliario de Laboratorio",
+      "desc": "Diseño y ejecución de obras con mobiliario técnico.",
+      "slug": "mobiliario-de-laboratorio"
+    },
+    {
+      "name": "Campanas de Extracción de Gases",
+      "desc": "Contención y extracción segura de vapores y gases.",
+      "slug": "campanas-de-extraccion-de-gases"
+    },
+    {
+      "name": "Superficies de Trabajo",
+      "desc": "Encimeras resistentes a químicos y agentes agresivos.",
+      "slug": "superficies-de-trabajo"
+    },
+    {
+      "name": "Laboratorios Modulares",
+      "desc": "Espacios prefabricados y salas de flujo laminar.",
+      "slug": "laboratorios-modulares"
+    },
+    {
+      "name": "Griferías y Duchas de Seguridad",
+      "desc": "Accesorios, griferías técnicas y duchas de emergencia.",
+      "slug": "griferias-y-duchas-de-seguridad"
+    }
   ],
   "meta": {
     "title": "Proyectos de Laboratorio | CCV Grupo Venezuela",

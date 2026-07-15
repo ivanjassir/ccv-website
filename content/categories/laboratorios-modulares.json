@@ -1,0 +1,21 @@
+{
+  "order": 4,
+  "slug": "laboratorios-modulares",
+  "parent": {
+    "slug": "proyectos-laboratorio",
+    "name": "Proyectos de Laboratorio"
+  },
+  "name": "Laboratorios Modulares",
+  "eyebrow": "Proyectos de Laboratorio",
+  "hero": {
+    "title": "Laboratorios Modulares",
+    "lead": "Espacios prefabricados y salas de flujo laminar."
+  },
+  "intro": "Soluciones de laboratorios modulares respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Laboratorios Modulares | Proyectos de Laboratorio | CCV Grupo Venezuela",
+    "description": "Espacios prefabricados y salas de flujo laminar."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "order": 4,
+  "slug": "consultoria",
+  "parent": {
+    "slug": "servicio-tecnico",
+    "name": "Servicio Técnico"
+  },
+  "name": "Consultoría",
+  "eyebrow": "Servicio Técnico",
+  "hero": {
+    "title": "Consultoría",
+    "lead": "Asesoría técnica y optimización de operaciones de laboratorio."
+  },
+  "intro": "Soluciones de consultoría respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Consultoría | Servicio Técnico | CCV Grupo Venezuela",
+    "description": "Asesoría técnica y optimización de operaciones de laboratorio."
+  }
+}

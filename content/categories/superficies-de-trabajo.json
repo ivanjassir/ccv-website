@@ -1,0 +1,21 @@
+{
+  "order": 3,
+  "slug": "superficies-de-trabajo",
+  "parent": {
+    "slug": "proyectos-laboratorio",
+    "name": "Proyectos de Laboratorio"
+  },
+  "name": "Superficies de Trabajo",
+  "eyebrow": "Proyectos de Laboratorio",
+  "hero": {
+    "title": "Superficies de Trabajo",
+    "lead": "Encimeras resistentes a químicos y agentes agresivos."
+  },
+  "intro": "Soluciones de superficies de trabajo respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Superficies de Trabajo | Proyectos de Laboratorio | CCV Grupo Venezuela",
+    "description": "Encimeras resistentes a químicos y agentes agresivos."
+  }
+}

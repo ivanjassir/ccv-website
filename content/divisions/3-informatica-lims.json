@@ -14,11 +14,31 @@
   "intro": "Conectamos personas, equipos y datos en una sola plataforma para reducir errores, acelerar la toma de decisiones y asegurar el cumplimiento normativo.",
   "children_title": "Capacidades",
   "children": [
-    { "name": "LIMS", "desc": "Sistema de gestión de información de laboratorio de extremo a extremo." },
-    { "name": "Software Especializado", "desc": "Aplicaciones para adquisición, análisis y reporte de datos." },
-    { "name": "Integración de Instrumentos", "desc": "Captura automática de datos directamente desde los equipos." },
-    { "name": "Gestión de Muestras", "desc": "Registro, seguimiento y control del ciclo de vida de la muestra." },
-    { "name": "Cumplimiento y Trazabilidad", "desc": "Auditoría, firmas electrónicas y trazabilidad de resultados." }
+    {
+      "name": "LIMS",
+      "desc": "Sistema de gestión de información de laboratorio de extremo a extremo.",
+      "slug": "lims"
+    },
+    {
+      "name": "Software Especializado",
+      "desc": "Aplicaciones para adquisición, análisis y reporte de datos.",
+      "slug": "software-especializado"
+    },
+    {
+      "name": "Integración de Instrumentos",
+      "desc": "Captura automática de datos directamente desde los equipos.",
+      "slug": "integracion-de-instrumentos"
+    },
+    {
+      "name": "Gestión de Muestras",
+      "desc": "Registro, seguimiento y control del ciclo de vida de la muestra.",
+      "slug": "gestion-de-muestras"
+    },
+    {
+      "name": "Cumplimiento y Trazabilidad",
+      "desc": "Auditoría, firmas electrónicas y trazabilidad de resultados.",
+      "slug": "cumplimiento-y-trazabilidad"
+    }
   ],
   "meta": {
     "title": "Informática y LIMS | CCV Grupo Venezuela",

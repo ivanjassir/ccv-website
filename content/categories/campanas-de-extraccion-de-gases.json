@@ -1,0 +1,21 @@
+{
+  "order": 2,
+  "slug": "campanas-de-extraccion-de-gases",
+  "parent": {
+    "slug": "proyectos-laboratorio",
+    "name": "Proyectos de Laboratorio"
+  },
+  "name": "Campanas de Extracción de Gases",
+  "eyebrow": "Proyectos de Laboratorio",
+  "hero": {
+    "title": "Campanas de Extracción de Gases",
+    "lead": "Contención y extracción segura de vapores y gases."
+  },
+  "intro": "Soluciones de campanas de extracción de gases respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Campanas de Extracción de Gases | Proyectos de Laboratorio | CCV Grupo Venezuela",
+    "description": "Contención y extracción segura de vapores y gases."
+  }
+}

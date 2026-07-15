@@ -1,0 +1,21 @@
+{
+  "order": 3,
+  "slug": "repuestos-y-consumibles",
+  "parent": {
+    "slug": "servicio-tecnico",
+    "name": "Servicio Técnico"
+  },
+  "name": "Repuestos y Consumibles",
+  "eyebrow": "Servicio Técnico",
+  "hero": {
+    "title": "Repuestos y Consumibles",
+    "lead": "Suministro oportuno de partes originales certificadas."
+  },
+  "intro": "Soluciones de repuestos y consumibles respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Repuestos y Consumibles | Servicio Técnico | CCV Grupo Venezuela",
+    "description": "Suministro oportuno de partes originales certificadas."
+  }
+}

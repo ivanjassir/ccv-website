@@ -1,0 +1,21 @@
+{
+  "order": 5,
+  "slug": "instrumentos-analiticos",
+  "parent": {
+    "slug": "life-science-forense",
+    "name": "Life Science & Forense"
+  },
+  "name": "Instrumentos Analíticos",
+  "eyebrow": "Life Science & Forense",
+  "hero": {
+    "title": "Instrumentos Analíticos",
+    "lead": "Equipamiento para análisis de biología molecular."
+  },
+  "intro": "Soluciones de instrumentos analíticos respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Instrumentos Analíticos | Life Science & Forense | CCV Grupo Venezuela",
+    "description": "Equipamiento para análisis de biología molecular."
+  }
+}

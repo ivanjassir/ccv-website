@@ -1,0 +1,21 @@
+{
+  "order": 4,
+  "slug": "consumibles-de-laboratorio",
+  "parent": {
+    "slug": "reactivos-consumibles",
+    "name": "Reactivos y Consumibles"
+  },
+  "name": "Consumibles de Laboratorio",
+  "eyebrow": "Reactivos y Consumibles",
+  "hero": {
+    "title": "Consumibles de Laboratorio",
+    "lead": "Columnas, filtros, viales y fungibles de uso rutinario."
+  },
+  "intro": "Soluciones de consumibles de laboratorio respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Consumibles de Laboratorio | Reactivos y Consumibles | CCV Grupo Venezuela",
+    "description": "Columnas, filtros, viales y fungibles de uso rutinario."
+  }
+}

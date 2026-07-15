@@ -1,7 +1,10 @@
 {
   "order": 7,
   "slug": "industria-quimica",
-  "parent": { "slug": "equipos-laboratorio", "name": "Equipos de Laboratorio" },
+  "parent": {
+    "slug": "equipos-laboratorio",
+    "name": "Equipos de Laboratorio"
+  },
   "name": "Industria Química",
   "eyebrow": "Equipos de Laboratorio",
   "hero": {
@@ -9,15 +12,27 @@
     "lead": "Soluciones para materias primas, control de proceso y producto terminado en la industria química y de especialidades."
   },
   "intro": "Proveemos instrumentación para asegurar la calidad y consistencia en procesos químicos, desde la recepción de materias primas hasta el despacho de producto.",
-  "applications_title": "Aplicaciones",
-  "applications": [
-    { "name": "Materias primas", "desc": "Identidad, pureza y conformidad de insumos." },
-    { "name": "Control de proceso", "desc": "Monitoreo en línea y de laboratorio." },
-    { "name": "Producto terminado", "desc": "Especificaciones y liberación de lote." },
-    { "name": "Especialidades químicas", "desc": "Formulaciones y productos de alto valor." }
-  ],
   "meta": {
     "title": "Industria Química | Equipos de Laboratorio | CCV Grupo Venezuela",
     "description": "Instrumentación para materias primas, control de proceso y producto terminado en la industria química."
-  }
+  },
+  "items": [
+    {
+      "name": "Materias primas",
+      "desc": "Identidad, pureza y conformidad de insumos."
+    },
+    {
+      "name": "Control de proceso",
+      "desc": "Monitoreo en línea y de laboratorio."
+    },
+    {
+      "name": "Producto terminado",
+      "desc": "Especificaciones y liberación de lote."
+    },
+    {
+      "name": "Especialidades químicas",
+      "desc": "Formulaciones y productos de alto valor."
+    }
+  ],
+  "items_title": "Aplicaciones"
 }

@@ -1,0 +1,21 @@
+{
+  "order": 4,
+  "slug": "sistema-de-liofilizacion",
+  "parent": {
+    "slug": "soluciones-farma",
+    "name": "Soluciones Farma"
+  },
+  "name": "Sistema de Liofilización",
+  "eyebrow": "Soluciones Farma",
+  "hero": {
+    "title": "Sistema de Liofilización",
+    "lead": "Liofilizadores GMP de producción y de laboratorio."
+  },
+  "intro": "Soluciones de sistema de liofilización respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Sistema de Liofilización | Soluciones Farma | CCV Grupo Venezuela",
+    "description": "Liofilizadores GMP de producción y de laboratorio."
+  }
+}

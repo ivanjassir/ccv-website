@@ -1,0 +1,21 @@
+{
+  "order": 4,
+  "slug": "lectores-de-placas",
+  "parent": {
+    "slug": "life-science-forense",
+    "name": "Life Science & Forense"
+  },
+  "name": "Lectores de Placas",
+  "eyebrow": "Life Science & Forense",
+  "hero": {
+    "title": "Lectores de Placas",
+    "lead": "Detección multimodal para ensayos de alto rendimiento."
+  },
+  "intro": "Soluciones de lectores de placas respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Lectores de Placas | Life Science & Forense | CCV Grupo Venezuela",
+    "description": "Detección multimodal para ensayos de alto rendimiento."
+  }
+}

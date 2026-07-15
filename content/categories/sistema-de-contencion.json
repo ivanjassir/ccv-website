@@ -1,0 +1,21 @@
+{
+  "order": 2,
+  "slug": "sistema-de-contencion",
+  "parent": {
+    "slug": "soluciones-farma",
+    "name": "Soluciones Farma"
+  },
+  "name": "Sistema de Contención",
+  "eyebrow": "Soluciones Farma",
+  "hero": {
+    "title": "Sistema de Contención",
+    "lead": "Barreras y aisladores para el manejo de activos potentes."
+  },
+  "intro": "Soluciones de sistema de contención respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Sistema de Contención | Soluciones Farma | CCV Grupo Venezuela",
+    "description": "Barreras y aisladores para el manejo de activos potentes."
+  }
+}

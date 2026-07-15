@@ -1,0 +1,21 @@
+{
+  "order": 1,
+  "slug": "lims",
+  "parent": {
+    "slug": "informatica-lims",
+    "name": "Informática · LIMS"
+  },
+  "name": "LIMS",
+  "eyebrow": "Informática · LIMS",
+  "hero": {
+    "title": "LIMS",
+    "lead": "Sistema de gestión de información de laboratorio de extremo a extremo."
+  },
+  "intro": "Soluciones de lims respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "LIMS | Informática · LIMS | CCV Grupo Venezuela",
+    "description": "Sistema de gestión de información de laboratorio de extremo a extremo."
+  }
+}

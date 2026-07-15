@@ -1,0 +1,21 @@
+{
+  "order": 6,
+  "slug": "analisis-forense",
+  "parent": {
+    "slug": "life-science-forense",
+    "name": "Life Science & Forense"
+  },
+  "name": "Análisis Forense",
+  "eyebrow": "Life Science & Forense",
+  "hero": {
+    "title": "Análisis Forense",
+    "lead": "PCR, microscopía y lectores dedicados a criminalística."
+  },
+  "intro": "Soluciones de análisis forense respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Análisis Forense | Life Science & Forense | CCV Grupo Venezuela",
+    "description": "PCR, microscopía y lectores dedicados a criminalística."
+  }
+}

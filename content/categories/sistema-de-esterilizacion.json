@@ -1,0 +1,21 @@
+{
+  "order": 3,
+  "slug": "sistema-de-esterilizacion",
+  "parent": {
+    "slug": "soluciones-farma",
+    "name": "Soluciones Farma"
+  },
+  "name": "Sistema de Esterilización",
+  "eyebrow": "Soluciones Farma",
+  "hero": {
+    "title": "Sistema de Esterilización",
+    "lead": "Calor seco, calor húmedo y agentes químicos."
+  },
+  "intro": "Soluciones de sistema de esterilización respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Sistema de Esterilización | Soluciones Farma | CCV Grupo Venezuela",
+    "description": "Calor seco, calor húmedo y agentes químicos."
+  }
+}

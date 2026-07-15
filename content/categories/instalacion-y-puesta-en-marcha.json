@@ -1,0 +1,21 @@
+{
+  "order": 1,
+  "slug": "instalacion-y-puesta-en-marcha",
+  "parent": {
+    "slug": "servicio-tecnico",
+    "name": "Servicio Técnico"
+  },
+  "name": "Instalación y Puesta en Marcha",
+  "eyebrow": "Servicio Técnico",
+  "hero": {
+    "title": "Instalación y Puesta en Marcha",
+    "lead": "Comisionamiento profesional con validación de desempeño."
+  },
+  "intro": "Soluciones de instalación y puesta en marcha respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Instalación y Puesta en Marcha | Servicio Técnico | CCV Grupo Venezuela",
+    "description": "Comisionamiento profesional con validación de desempeño."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "order": 1,
+  "slug": "pcr-y-qpcr",
+  "parent": {
+    "slug": "life-science-forense",
+    "name": "Life Science & Forense"
+  },
+  "name": "PCR y qPCR",
+  "eyebrow": "Life Science & Forense",
+  "hero": {
+    "title": "PCR y qPCR",
+    "lead": "Amplificación y detección de ácidos nucleicos en tiempo real."
+  },
+  "intro": "Soluciones de pcr y qpcr respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "PCR y qPCR | Life Science & Forense | CCV Grupo Venezuela",
+    "description": "Amplificación y detección de ácidos nucleicos en tiempo real."
+  }
+}

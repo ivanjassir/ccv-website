@@ -1,0 +1,21 @@
+{
+  "order": 7,
+  "slug": "cabinas-de-flujo-laminar",
+  "parent": {
+    "slug": "soluciones-farma",
+    "name": "Soluciones Farma"
+  },
+  "name": "Cabinas de Flujo Laminar",
+  "eyebrow": "Soluciones Farma",
+  "hero": {
+    "title": "Cabinas de Flujo Laminar",
+    "lead": "Seguridad biológica y flujo laminar para procesos críticos."
+  },
+  "intro": "Soluciones de cabinas de flujo laminar respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Cabinas de Flujo Laminar | Soluciones Farma | CCV Grupo Venezuela",
+    "description": "Seguridad biológica y flujo laminar para procesos críticos."
+  }
+}

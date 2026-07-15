@@ -1,0 +1,21 @@
+{
+  "order": 5,
+  "slug": "ingenieria",
+  "parent": {
+    "slug": "servicio-tecnico",
+    "name": "Servicio Técnico"
+  },
+  "name": "Ingeniería",
+  "eyebrow": "Servicio Técnico",
+  "hero": {
+    "title": "Ingeniería",
+    "lead": "Soluciones de ingeniería a la medida de cada proyecto."
+  },
+  "intro": "Soluciones de ingeniería respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Ingeniería | Servicio Técnico | CCV Grupo Venezuela",
+    "description": "Soluciones de ingeniería a la medida de cada proyecto."
+  }
+}

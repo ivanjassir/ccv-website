@@ -1,0 +1,21 @@
+{
+  "order": 2,
+  "slug": "estandares-de-referencia",
+  "parent": {
+    "slug": "reactivos-consumibles",
+    "name": "Reactivos y Consumibles"
+  },
+  "name": "Estándares de Referencia",
+  "eyebrow": "Reactivos y Consumibles",
+  "hero": {
+    "title": "Estándares de Referencia",
+    "lead": "Materiales de referencia certificados y trazables."
+  },
+  "intro": "Soluciones de estándares de referencia respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Estándares de Referencia | Reactivos y Consumibles | CCV Grupo Venezuela",
+    "description": "Materiales de referencia certificados y trazables."
+  }
+}

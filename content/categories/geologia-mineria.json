@@ -1,7 +1,10 @@
 {
   "order": 4,
   "slug": "geologia-mineria",
-  "parent": { "slug": "equipos-laboratorio", "name": "Equipos de Laboratorio" },
+  "parent": {
+    "slug": "equipos-laboratorio",
+    "name": "Equipos de Laboratorio"
+  },
   "name": "Geología y Minería",
   "eyebrow": "Equipos de Laboratorio",
   "hero": {
@@ -9,14 +12,23 @@
     "lead": "Soluciones para exploración, minería y metalurgia: composición elemental, mineralogía y control de procesos."
   },
   "intro": "Ofrecemos instrumentación para el análisis de minerales, metales ferrosos y no ferrosos y procesos metalúrgicos, desde la exploración hasta el control de calidad.",
-  "applications_title": "Aplicaciones",
-  "applications": [
-    { "name": "Minera", "desc": "Análisis de minerales, leyes y control de planta." },
-    { "name": "Ferrosos y no ferrosos", "desc": "Composición de aceros, aleaciones y metales." },
-    { "name": "Metalúrgica", "desc": "Control de proceso y calidad en metalurgia." }
-  ],
   "meta": {
     "title": "Geología y Minería | Equipos de Laboratorio | CCV Grupo Venezuela",
     "description": "Instrumentación para composición elemental, mineralogía y control de procesos en minería y metalurgia."
-  }
+  },
+  "items": [
+    {
+      "name": "Minera",
+      "desc": "Análisis de minerales, leyes y control de planta."
+    },
+    {
+      "name": "Ferrosos y no ferrosos",
+      "desc": "Composición de aceros, aleaciones y metales."
+    },
+    {
+      "name": "Metalúrgica",
+      "desc": "Control de proceso y calidad en metalurgia."
+    }
+  ],
+  "items_title": "Aplicaciones"
 }

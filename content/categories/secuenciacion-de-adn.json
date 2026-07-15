@@ -1,0 +1,21 @@
+{
+  "order": 2,
+  "slug": "secuenciacion-de-adn",
+  "parent": {
+    "slug": "life-science-forense",
+    "name": "Life Science & Forense"
+  },
+  "name": "Secuenciación de ADN",
+  "eyebrow": "Life Science & Forense",
+  "hero": {
+    "title": "Secuenciación de ADN",
+    "lead": "Secuenciadores para genómica e identificación genética."
+  },
+  "intro": "Soluciones de secuenciación de adn respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Secuenciación de ADN | Life Science & Forense | CCV Grupo Venezuela",
+    "description": "Secuenciadores para genómica e identificación genética."
+  }
+}

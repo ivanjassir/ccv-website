@@ -1,0 +1,21 @@
+{
+  "order": 3,
+  "slug": "material-volumetrico",
+  "parent": {
+    "slug": "reactivos-consumibles",
+    "name": "Reactivos y Consumibles"
+  },
+  "name": "Material Volumétrico",
+  "eyebrow": "Reactivos y Consumibles",
+  "hero": {
+    "title": "Material Volumétrico",
+    "lead": "Vidriería volumétrica calibrada para medición precisa."
+  },
+  "intro": "Soluciones de material volumétrico respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Material Volumétrico | Reactivos y Consumibles | CCV Grupo Venezuela",
+    "description": "Vidriería volumétrica calibrada para medición precisa."
+  }
+}

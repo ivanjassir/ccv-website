@@ -1,0 +1,21 @@
+{
+  "order": 6,
+  "slug": "salas-blancas-y-equipos-asociados",
+  "parent": {
+    "slug": "soluciones-farma",
+    "name": "Soluciones Farma"
+  },
+  "name": "Salas Blancas y Equipos Asociados",
+  "eyebrow": "Soluciones Farma",
+  "hero": {
+    "title": "Salas Blancas y Equipos Asociados",
+    "lead": "Componentes, SAS de paso, duchas de aire y biodescontaminación."
+  },
+  "intro": "Soluciones de salas blancas y equipos asociados respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Salas Blancas y Equipos Asociados | Soluciones Farma | CCV Grupo Venezuela",
+    "description": "Componentes, SAS de paso, duchas de aire y biodescontaminación."
+  }
+}

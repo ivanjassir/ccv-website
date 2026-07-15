@@ -1,0 +1,21 @@
+{
+  "order": 5,
+  "slug": "cumplimiento-y-trazabilidad",
+  "parent": {
+    "slug": "informatica-lims",
+    "name": "Informática · LIMS"
+  },
+  "name": "Cumplimiento y Trazabilidad",
+  "eyebrow": "Informática · LIMS",
+  "hero": {
+    "title": "Cumplimiento y Trazabilidad",
+    "lead": "Auditoría, firmas electrónicas y trazabilidad de resultados."
+  },
+  "intro": "Soluciones de cumplimiento y trazabilidad respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Cumplimiento y Trazabilidad | Informática · LIMS | CCV Grupo Venezuela",
+    "description": "Auditoría, firmas electrónicas y trazabilidad de resultados."
+  }
+}

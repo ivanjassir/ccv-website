@@ -1,7 +1,10 @@
 {
   "order": 8,
   "slug": "farmaceutica-cosmetica",
-  "parent": { "slug": "equipos-laboratorio", "name": "Equipos de Laboratorio" },
+  "parent": {
+    "slug": "equipos-laboratorio",
+    "name": "Equipos de Laboratorio"
+  },
   "name": "Farmacéutica y Cosmética",
   "eyebrow": "Equipos de Laboratorio",
   "hero": {
@@ -9,16 +12,31 @@
     "lead": "Instrumentación para control de calidad, estabilidad y microbiología en productos farmacéuticos y cosméticos."
   },
   "intro": "Apoyamos a la industria farmacéutica humana y veterinaria y a la cosmética con soluciones para el control de producto y el cumplimiento de buenas prácticas.",
-  "applications_title": "Aplicaciones",
-  "applications": [
-    { "name": "Cosmética", "desc": "Control de calidad de formulaciones y producto terminado." },
-    { "name": "Farmacéutica humana", "desc": "Materias primas, producto terminado y liberación." },
-    { "name": "Farmacéutica veterinaria", "desc": "Control de calidad de productos veterinarios." },
-    { "name": "Estabilidad de productos", "desc": "Cámaras y estudios de estabilidad." },
-    { "name": "Microbiología", "desc": "Control microbiológico y bioburden." }
-  ],
   "meta": {
     "title": "Farmacéutica y Cosmética | Equipos de Laboratorio | CCV Grupo Venezuela",
     "description": "Instrumentación para control de calidad, estabilidad y microbiología en productos farmacéuticos y cosméticos."
-  }
+  },
+  "items": [
+    {
+      "name": "Cosmética",
+      "desc": "Control de calidad de formulaciones y producto terminado."
+    },
+    {
+      "name": "Farmacéutica humana",
+      "desc": "Materias primas, producto terminado y liberación."
+    },
+    {
+      "name": "Farmacéutica veterinaria",
+      "desc": "Control de calidad de productos veterinarios."
+    },
+    {
+      "name": "Estabilidad de productos",
+      "desc": "Cámaras y estudios de estabilidad."
+    },
+    {
+      "name": "Microbiología",
+      "desc": "Control microbiológico y bioburden."
+    }
+  ],
+  "items_title": "Aplicaciones"
 }

@@ -1,0 +1,62 @@
+{
+  "order": 1,
+  "slug": "alimentos-y-bebidas",
+  "parent": {
+    "slug": "equipos-laboratorio",
+    "name": "Equipos de Laboratorio"
+  },
+  "name": "Alimentos y Bebidas",
+  "eyebrow": "Equipos de Laboratorio",
+  "hero": {
+    "title": "Control de calidad para alimentos y bebidas",
+    "lead": "Instrumentación para inocuidad, composición nutricional y control de proceso en toda la cadena de alimentos y bebidas."
+  },
+  "intro": "Acompañamos a la industria de alimentos y bebidas con soluciones analíticas para materias primas, producto en proceso y producto terminado, cumpliendo con normativas nacionales e internacionales.",
+  "meta": {
+    "title": "Alimentos y Bebidas | Equipos de Laboratorio | CCV Grupo Venezuela",
+    "description": "Instrumentación analítica para inocuidad, composición y control de proceso en la industria de alimentos y bebidas."
+  },
+  "items": [
+    {
+      "name": "Lácteos y derivados",
+      "desc": "Composición, grasa, proteína y control microbiológico."
+    },
+    {
+      "name": "Bebidas",
+      "desc": "Bebidas alcohólicas y no alcohólicas, aguas y jugos."
+    },
+    {
+      "name": "Café",
+      "desc": "Humedad, perfil y control de calidad del grano."
+    },
+    {
+      "name": "Cacao y chocolate",
+      "desc": "Grasa, humedad y parámetros de calidad."
+    },
+    {
+      "name": "Azucarera",
+      "desc": "Polarimetría, color y pureza del azúcar."
+    },
+    {
+      "name": "Aceites y grasas comestibles",
+      "desc": "Índices de calidad, oxidación y perfil de ácidos grasos."
+    },
+    {
+      "name": "Pastas, harinas y cereales",
+      "desc": "Humedad, gluten y parámetros reológicos."
+    },
+    {
+      "name": "Alimentos y snacks",
+      "desc": "Análisis proximal y control de proceso."
+    },
+    {
+      "name": "Alimentos balanceados",
+      "desc": "Nutrientes y control de calidad para alimentación animal."
+    },
+    {
+      "name": "Maíz, trigo, arroz y otros",
+      "desc": "Granos: humedad, micotoxinas y calidad."
+    }
+  ],
+  "items_title": "Aplicaciones"
+}

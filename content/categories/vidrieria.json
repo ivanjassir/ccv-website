@@ -1,0 +1,21 @@
+{
+  "order": 5,
+  "slug": "vidrieria",
+  "parent": {
+    "slug": "reactivos-consumibles",
+    "name": "Reactivos y Consumibles"
+  },
+  "name": "Vidriería",
+  "eyebrow": "Reactivos y Consumibles",
+  "hero": {
+    "title": "Vidriería",
+    "lead": "Vidriería técnica y de laboratorio de uso general."
+  },
+  "intro": "Soluciones de vidriería respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Vidriería | Reactivos y Consumibles | CCV Grupo Venezuela",
+    "description": "Vidriería técnica y de laboratorio de uso general."
+  }
+}
