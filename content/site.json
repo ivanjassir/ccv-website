@@ -8,6 +8,12 @@
     "rif": "RIF J-00162138-5 · Caracas, Venezuela"
   },
   "group_url": "https://www.ccvgrupo.com",
+  "base_url": "https://www.ccv.com.ve",
+  "social": [
+    "https://www.facebook.com/ccvgrupovzla",
+    "https://www.instagram.com/ccv_vzla",
+    "https://ve.linkedin.com/company/corporacion-cientifica-venezolana"
+  ],
   "regions": [
     {
       "name": "Venezuela",
@@ -43,6 +49,7 @@
     "email_support": "atencionalcliente_ve@ccvgrupo.com",
     "email_sales": "ventas_ve@ccvgrupo.com",
     "address": "Centro Comercial Av. Libertador, Nivel Mezzanina, Caracas — Cód. Postal 1050",
-    "form_endpoint": ""
+    "form_endpoint": "",
+    "whatsapp": ""
   }
 }

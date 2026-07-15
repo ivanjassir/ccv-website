@@ -5,6 +5,31 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>{{ meta.title }}</title>
 <meta name="description" content="{{ meta.description }}" />
+<link rel="canonical" href="{{ site.base_url }}/{{ canonical_path }}" />
+<meta name="theme-color" content="#0e7d8e" />
+<link rel="icon" href="assets/images/logo.png" />
+<link rel="apple-touch-icon" href="assets/images/logo.png" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="CCV Grupo" />
+<meta property="og:locale" content="es_VE" />
+<meta property="og:title" content="{{ meta.title }}" />
+<meta property="og:description" content="{{ meta.description }}" />
+<meta property="og:url" content="{{ site.base_url }}/{{ canonical_path }}" />
+<meta property="og:image" content="{{ site.base_url }}/{{ meta.image or 'assets/images/cards/home.png' }}" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ meta.title }}" />
+<meta name="twitter:description" content="{{ meta.description }}" />
+<meta name="twitter:image" content="{{ site.base_url }}/{{ meta.image or 'assets/images/cards/home.png' }}" />
+{% autoescape false %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"{{ site.brand.name }}","legalName":"{{ site.brand.legal }}","url":"{{ site.base_url }}/","logo":"{{ site.base_url }}/assets/images/logo.png","telephone":"{{ site.contact.phone_display }}","email":"{{ site.contact.email_sales }}","address":{"@type":"PostalAddress","addressLocality":"Caracas","addressCountry":"VE","streetAddress":"{{ site.contact.address }}"},"sameAs":[{% for s in site.social %}"{{ s }}"{% if not loop.last %},{% endif %}{% endfor %}]}
+</script>
+{% if crumbs %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"{{ site.base_url }}/index.html"},{% for cr in crumbs %}{"@type":"ListItem","position":{{ loop.index + 1 }},"name":"{{ cr.name }}","item":"{{ site.base_url }}/{{ cr.slug }}.html"},{% endfor %}{"@type":"ListItem","position":{{ crumbs|length + 2 }},"name":"{{ cat.name }}","item":"{{ site.base_url }}/{{ canonical_path }}"}]}
+</script>
+{% endif %}
+{% endautoescape %}
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -17,6 +42,7 @@
 {% include 'partials/header.html' %}
 {% block main %}{% endblock %}
 {% include 'partials/footer.html' %}
+{% include 'partials/contactbar.html' %}
 <script src="assets/js/script.js"></script>
 </body>
 </html>

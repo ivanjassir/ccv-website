@@ -84,22 +84,39 @@ home_meta = {
     "title": "CCV Grupo — Corporación Científica Venezolana | Venezuela",
     "description": "CCV Grupo Venezuela: equipos, servicios y proyectos para su laboratorio. Más de 40 años de experiencia con soporte técnico local.",
 }
-write("index.html", env.get_template("home.html").render(**GLOBAL, meta=home_meta, page="home"))
+urls = []  # for sitemap
+write("index.html", env.get_template("home.html").render(**GLOBAL, meta=home_meta, page="home", canonical_path="index.html"))
+urls.append("index.html")
 for d in divisions:
-    write(
-        f"{d['slug']}.html",
-        env.get_template("division.html").render(**GLOBAL, division=d, meta=d["meta"], page="division"),
-    )
+    path = f"{d['slug']}.html"
+    write(path, env.get_template("division.html").render(**GLOBAL, division=d, meta=d["meta"], page="division", canonical_path=path))
+    urls.append(path)
 for c in categories:
-    write(
-        f"{c['slug']}.html",
-        env.get_template("category.html").render(**GLOBAL, cat=c, crumbs=crumbs_for(c), meta=c["meta"], page="category"),
-    )
+    path = f"{c['slug']}.html"
+    write(path, env.get_template("category.html").render(**GLOBAL, cat=c, crumbs=crumbs_for(c), meta=c["meta"], page="category", canonical_path=path))
+    urls.append(path)
 for pg in pages:
-    write(
-        f"{pg['slug']}.html",
-        env.get_template("page.html").render(**GLOBAL, pg=pg, meta=pg["meta"], page="page"),
-    )
+    path = f"{pg['slug']}.html"
+    write(path, env.get_template("page.html").render(**GLOBAL, pg=pg, meta=pg["meta"], page="page", canonical_path=path))
+    urls.append(path)
+
+# ---- custom 404 (not in sitemap) ----
+write("404.html", env.get_template("404.html").render(
+    **GLOBAL, meta={"title": "Página no encontrada | CCV Grupo Venezuela",
+                    "description": "La página que busca no existe o fue movida."},
+    page="404", canonical_path="404.html"))
+
+# ---- sitemap.xml + robots.txt ----
+base = site["base_url"].rstrip("/")
+today = "2026-07-15"
+sm = ['<?xml version="1.0" encoding="UTF-8"?>',
+      '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+for u in urls:
+    pr = "1.0" if u == "index.html" else "0.7"
+    sm.append(f"  <url><loc>{base}/{u}</loc><lastmod>{today}</lastmod><priority>{pr}</priority></url>")
+sm.append("</urlset>")
+write("sitemap.xml", "\n".join(sm) + "\n")
+write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {base}/sitemap.xml\n")
 
 # ---- self-contained preview.html (homepage, fully inlined) ----
 print("Building self-contained preview.html…")
@@ -125,6 +142,7 @@ def data_uri(rel: str) -> str:
 
 
 html = re.sub(r'src="(assets/images/[^"]+)"', lambda m: f'src="{data_uri(m.group(1))}"', html)
+html = re.sub(r'href="(assets/images/[^"]+)"', lambda m: f'href="{data_uri(m.group(1))}"', html)
 (ROOT / "preview.html").write_text(html, encoding="utf-8")
 leftover = re.findall(r'(?:src|href)="(assets/[^"]+)"', html)
 size_mb = (ROOT / "preview.html").stat().st_size / (1024 * 1024)

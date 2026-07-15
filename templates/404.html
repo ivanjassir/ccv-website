@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block main %}
+<main id="main">
+  <section class="dhero">
+    <div class="dhero__bg" aria-hidden="true"></div>
+    <div class="wrap">
+      <span class="pill" data-reveal>Error 404</span>
+      <h1 class="dhero__title" data-reveal>Página no encontrada</h1>
+      <p class="dhero__lead" data-reveal>La página que busca no existe o fue movida. Explore nuestras divisiones o escríbanos y le ayudamos a encontrar la solución adecuada.</p>
+      <div class="hero__cta" data-reveal>
+        <a href="index.html" class="btn btn--lg">Ir al inicio</a>
+        <a href="index.html#divisiones" class="btn btn--lg btn--ghost">Ver divisiones</a>
+        <a href="index.html#contacto" class="btn btn--lg btn--ghost">Contáctenos</a>
+      </div>
+    </div>
+  </section>
+</main>
+{% endblock %}

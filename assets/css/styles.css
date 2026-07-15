@@ -375,6 +375,17 @@ h1,h2,h3,h4{font-family:'Sora',sans-serif;font-weight:600;line-height:1.12;lette
   border-top:4px solid transparent;border-bottom:4px solid transparent;border-left:6px solid var(--brand);transition:transform .18s ease}
 .card--link:hover .card__more::after{transform:translateX(4px)}
 
+/* Sticky quick-contact FABs */
+.fab{position:fixed;right:18px;bottom:18px;z-index:70;display:flex;flex-direction:column;gap:12px}
+.fab__btn{width:54px;height:54px;border-radius:50%;display:grid;place-items:center;color:#fff;
+  box-shadow:0 10px 26px -8px rgba(13,21,38,.5);transition:transform .18s ease,box-shadow .18s ease}
+.fab__btn svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.fab__btn:hover{transform:translateY(-3px) scale(1.04);box-shadow:0 16px 32px -10px rgba(13,21,38,.6)}
+.fab__btn--wa{background:#25d366}
+.fab__btn--tel{background:var(--brand)}
+.fab__btn--cta{background:var(--brand-deep)}
+@media (max-width:640px){.fab{right:12px;bottom:12px}.fab__btn{width:50px;height:50px}}
+
 /* Brand example-products list (Marcas cards) */
 .card-products{list-style:none;margin:14px 0 0;padding:0;display:flex;flex-direction:column;gap:6px}
 .card-products li{position:relative;padding-left:18px;color:var(--muted);font-size:.9rem;line-height:1.5}
