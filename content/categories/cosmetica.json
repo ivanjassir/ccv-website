@@ -1,0 +1,21 @@
+{
+  "order": 1,
+  "slug": "cosmetica",
+  "parent": {
+    "slug": "farmaceutica-cosmetica",
+    "name": "Farmacéutica y Cosmética"
+  },
+  "name": "Cosmética",
+  "eyebrow": "Farmacéutica y Cosmética",
+  "hero": {
+    "title": "Cosmética",
+    "lead": "Control de calidad de formulaciones y producto terminado."
+  },
+  "intro": "Soluciones de cosmética para farmacéutica y cosmética, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Cosmética | Farmacéutica y Cosmética | CCV Grupo Venezuela",
+    "description": "Control de calidad de formulaciones y producto terminado."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "order": 1,
+  "slug": "refineria-y-productos-de-petroleo",
+  "parent": {
+    "slug": "petroleo-y-energia",
+    "name": "Petróleo y Energía"
+  },
+  "name": "Refinería y productos de petróleo",
+  "eyebrow": "Petróleo y Energía",
+  "hero": {
+    "title": "Refinería y productos de petróleo",
+    "lead": "Destilados, combustibles y especificaciones de producto."
+  },
+  "intro": "Soluciones de refinería y productos de petróleo para petróleo y energía, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Refinería y productos de petróleo | Petróleo y Energía | CCV Grupo Venezuela",
+    "description": "Destilados, combustibles y especificaciones de producto."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "order": 6,
+  "slug": "aceites-y-grasas-comestibles",
+  "parent": {
+    "slug": "alimentos-y-bebidas",
+    "name": "Alimentos y Bebidas"
+  },
+  "name": "Aceites y grasas comestibles",
+  "eyebrow": "Alimentos y Bebidas",
+  "hero": {
+    "title": "Aceites y grasas comestibles",
+    "lead": "Índices de calidad, oxidación y perfil de ácidos grasos."
+  },
+  "intro": "Soluciones de aceites y grasas comestibles para alimentos y bebidas, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Aceites y grasas comestibles | Alimentos y Bebidas | CCV Grupo Venezuela",
+    "description": "Índices de calidad, oxidación y perfil de ácidos grasos."
+  }
+}

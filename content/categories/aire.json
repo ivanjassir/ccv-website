@@ -1,0 +1,21 @@
+{
+  "order": 2,
+  "slug": "aire",
+  "parent": {
+    "slug": "ambiente",
+    "name": "Ambiente"
+  },
+  "name": "Aire",
+  "eyebrow": "Ambiente",
+  "hero": {
+    "title": "Aire",
+    "lead": "Calidad del aire, partículas y emisiones."
+  },
+  "intro": "Soluciones de aire para ambiente, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Aire | Ambiente | CCV Grupo Venezuela",
+    "description": "Calidad del aire, partículas y emisiones."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "order": 10,
+  "slug": "maiz-trigo-arroz-y-otros",
+  "parent": {
+    "slug": "alimentos-y-bebidas",
+    "name": "Alimentos y Bebidas"
+  },
+  "name": "Maíz, trigo, arroz y otros",
+  "eyebrow": "Alimentos y Bebidas",
+  "hero": {
+    "title": "Maíz, trigo, arroz y otros",
+    "lead": "Granos: humedad, micotoxinas y calidad."
+  },
+  "intro": "Soluciones de maíz, trigo, arroz y otros para alimentos y bebidas, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Maíz, trigo, arroz y otros | Alimentos y Bebidas | CCV Grupo Venezuela",
+    "description": "Granos: humedad, micotoxinas y calidad."
+  }
+}

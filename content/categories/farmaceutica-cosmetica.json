@@ -19,23 +19,28 @@
   "items": [
     {
       "name": "Cosmética",
-      "desc": "Control de calidad de formulaciones y producto terminado."
+      "desc": "Control de calidad de formulaciones y producto terminado.",
+      "slug": "cosmetica"
     },
     {
       "name": "Farmacéutica humana",
-      "desc": "Materias primas, producto terminado y liberación."
+      "desc": "Materias primas, producto terminado y liberación.",
+      "slug": "farmaceutica-humana"
     },
     {
       "name": "Farmacéutica veterinaria",
-      "desc": "Control de calidad de productos veterinarios."
+      "desc": "Control de calidad de productos veterinarios.",
+      "slug": "farmaceutica-veterinaria"
     },
     {
       "name": "Estabilidad de productos",
-      "desc": "Cámaras y estudios de estabilidad."
+      "desc": "Cámaras y estudios de estabilidad.",
+      "slug": "estabilidad-de-productos"
     },
     {
       "name": "Microbiología",
-      "desc": "Control microbiológico y bioburden."
+      "desc": "Control microbiológico y bioburden.",
+      "slug": "microbiologia"
     }
   ],
   "items_title": "Aplicaciones"

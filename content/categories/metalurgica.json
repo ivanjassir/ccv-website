@@ -1,0 +1,21 @@
+{
+  "order": 3,
+  "slug": "metalurgica",
+  "parent": {
+    "slug": "geologia-mineria",
+    "name": "Geología y Minería"
+  },
+  "name": "Metalúrgica",
+  "eyebrow": "Geología y Minería",
+  "hero": {
+    "title": "Metalúrgica",
+    "lead": "Control de proceso y calidad en metalurgia."
+  },
+  "intro": "Soluciones de metalúrgica para geología y minería, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Metalúrgica | Geología y Minería | CCV Grupo Venezuela",
+    "description": "Control de proceso y calidad en metalurgia."
+  }
+}

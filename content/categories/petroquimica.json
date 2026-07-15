@@ -1,0 +1,21 @@
+{
+  "order": 3,
+  "slug": "petroquimica",
+  "parent": {
+    "slug": "petroleo-y-energia",
+    "name": "Petróleo y Energía"
+  },
+  "name": "Petroquímica",
+  "eyebrow": "Petróleo y Energía",
+  "hero": {
+    "title": "Petroquímica",
+    "lead": "Monómeros, intermedios y control de proceso."
+  },
+  "intro": "Soluciones de petroquímica para petróleo y energía, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Petroquímica | Petróleo y Energía | CCV Grupo Venezuela",
+    "description": "Monómeros, intermedios y control de proceso."
+  }
+}

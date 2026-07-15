@@ -19,15 +19,18 @@
   "items": [
     {
       "name": "Cannabis medicinal",
-      "desc": "Potencia, contaminantes y control de calidad."
+      "desc": "Potencia, contaminantes y control de calidad.",
+      "slug": "cannabis-medicinal"
     },
     {
       "name": "Producción agrícola",
-      "desc": "Análisis de suelos, fertilizantes y agua de riego."
+      "desc": "Análisis de suelos, fertilizantes y agua de riego.",
+      "slug": "produccion-agricola"
     },
     {
       "name": "Alimentos balanceados",
-      "desc": "Nutrientes y control de calidad para alimentación animal."
+      "desc": "Nutrientes y control de calidad para alimentación animal.",
+      "slug": "alimentos-balanceados-2"
     }
   ],
   "items_title": "Aplicaciones"

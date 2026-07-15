@@ -1,0 +1,21 @@
+{
+  "order": 5,
+  "slug": "azucarera",
+  "parent": {
+    "slug": "alimentos-y-bebidas",
+    "name": "Alimentos y Bebidas"
+  },
+  "name": "Azucarera",
+  "eyebrow": "Alimentos y Bebidas",
+  "hero": {
+    "title": "Azucarera",
+    "lead": "Polarimetría, color y pureza del azúcar."
+  },
+  "intro": "Soluciones de azucarera para alimentos y bebidas, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Azucarera | Alimentos y Bebidas | CCV Grupo Venezuela",
+    "description": "Polarimetría, color y pureza del azúcar."
+  }
+}

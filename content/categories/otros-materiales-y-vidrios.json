@@ -1,0 +1,21 @@
+{
+  "order": 5,
+  "slug": "otros-materiales-y-vidrios",
+  "parent": {
+    "slug": "ciencia-materiales",
+    "name": "Ciencia de los Materiales"
+  },
+  "name": "Otros materiales y vidrios",
+  "eyebrow": "Ciencia de los Materiales",
+  "hero": {
+    "title": "Otros materiales y vidrios",
+    "lead": "Caracterización de materiales especiales."
+  },
+  "intro": "Soluciones de otros materiales y vidrios para ciencia de los materiales, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Otros materiales y vidrios | Ciencia de los Materiales | CCV Grupo Venezuela",
+    "description": "Caracterización de materiales especiales."
+  }
+}

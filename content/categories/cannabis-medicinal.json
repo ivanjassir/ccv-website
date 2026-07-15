@@ -1,0 +1,21 @@
+{
+  "order": 1,
+  "slug": "cannabis-medicinal",
+  "parent": {
+    "slug": "agroindustria",
+    "name": "Agroindustria"
+  },
+  "name": "Cannabis medicinal",
+  "eyebrow": "Agroindustria",
+  "hero": {
+    "title": "Cannabis medicinal",
+    "lead": "Potencia, contaminantes y control de calidad."
+  },
+  "intro": "Soluciones de cannabis medicinal para agroindustria, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Cannabis medicinal | Agroindustria | CCV Grupo Venezuela",
+    "description": "Potencia, contaminantes y control de calidad."
+  }
+}

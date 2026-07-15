@@ -1,0 +1,21 @@
+{
+  "order": 3,
+  "slug": "polimeros",
+  "parent": {
+    "slug": "ciencia-materiales",
+    "name": "Ciencia de los Materiales"
+  },
+  "name": "Polímeros",
+  "eyebrow": "Ciencia de los Materiales",
+  "hero": {
+    "title": "Polímeros",
+    "lead": "Propiedades térmicas, mecánicas y estructurales."
+  },
+  "intro": "Soluciones de polímeros para ciencia de los materiales, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Polímeros | Ciencia de los Materiales | CCV Grupo Venezuela",
+    "description": "Propiedades térmicas, mecánicas y estructurales."
+  }
+}

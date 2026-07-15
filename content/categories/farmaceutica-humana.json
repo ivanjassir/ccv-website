@@ -1,0 +1,21 @@
+{
+  "order": 2,
+  "slug": "farmaceutica-humana",
+  "parent": {
+    "slug": "farmaceutica-cosmetica",
+    "name": "Farmacéutica y Cosmética"
+  },
+  "name": "Farmacéutica humana",
+  "eyebrow": "Farmacéutica y Cosmética",
+  "hero": {
+    "title": "Farmacéutica humana",
+    "lead": "Materias primas, producto terminado y liberación."
+  },
+  "intro": "Soluciones de farmacéutica humana para farmacéutica y cosmética, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Farmacéutica humana | Farmacéutica y Cosmética | CCV Grupo Venezuela",
+    "description": "Materias primas, producto terminado y liberación."
+  }
+}

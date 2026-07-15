@@ -1,0 +1,21 @@
+{
+  "order": 2,
+  "slug": "ferrosos-y-no-ferrosos",
+  "parent": {
+    "slug": "geologia-mineria",
+    "name": "Geología y Minería"
+  },
+  "name": "Ferrosos y no ferrosos",
+  "eyebrow": "Geología y Minería",
+  "hero": {
+    "title": "Ferrosos y no ferrosos",
+    "lead": "Composición de aceros, aleaciones y metales."
+  },
+  "intro": "Soluciones de ferrosos y no ferrosos para geología y minería, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Ferrosos y no ferrosos | Geología y Minería | CCV Grupo Venezuela",
+    "description": "Composición de aceros, aleaciones y metales."
+  }
+}

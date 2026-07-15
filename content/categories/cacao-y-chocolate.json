@@ -1,0 +1,21 @@
+{
+  "order": 4,
+  "slug": "cacao-y-chocolate",
+  "parent": {
+    "slug": "alimentos-y-bebidas",
+    "name": "Alimentos y Bebidas"
+  },
+  "name": "Cacao y chocolate",
+  "eyebrow": "Alimentos y Bebidas",
+  "hero": {
+    "title": "Cacao y chocolate",
+    "lead": "Grasa, humedad y parámetros de calidad."
+  },
+  "intro": "Soluciones de cacao y chocolate para alimentos y bebidas, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Cacao y chocolate | Alimentos y Bebidas | CCV Grupo Venezuela",
+    "description": "Grasa, humedad y parámetros de calidad."
+  }
+}

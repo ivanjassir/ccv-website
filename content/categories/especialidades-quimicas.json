@@ -1,0 +1,21 @@
+{
+  "order": 4,
+  "slug": "especialidades-quimicas",
+  "parent": {
+    "slug": "industria-quimica",
+    "name": "Industria Química"
+  },
+  "name": "Especialidades químicas",
+  "eyebrow": "Industria Química",
+  "hero": {
+    "title": "Especialidades químicas",
+    "lead": "Formulaciones y productos de alto valor."
+  },
+  "intro": "Soluciones de especialidades químicas para industria química, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Especialidades químicas | Industria Química | CCV Grupo Venezuela",
+    "description": "Formulaciones y productos de alto valor."
+  }
+}

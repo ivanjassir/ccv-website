@@ -1,0 +1,21 @@
+{
+  "order": 4,
+  "slug": "estabilidad-de-productos",
+  "parent": {
+    "slug": "farmaceutica-cosmetica",
+    "name": "Farmacéutica y Cosmética"
+  },
+  "name": "Estabilidad de productos",
+  "eyebrow": "Farmacéutica y Cosmética",
+  "hero": {
+    "title": "Estabilidad de productos",
+    "lead": "Cámaras y estudios de estabilidad."
+  },
+  "intro": "Soluciones de estabilidad de productos para farmacéutica y cosmética, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Estabilidad de productos | Farmacéutica y Cosmética | CCV Grupo Venezuela",
+    "description": "Cámaras y estudios de estabilidad."
+  }
+}

@@ -19,15 +19,18 @@
   "items": [
     {
       "name": "Agua",
-      "desc": "Potable, residual y de proceso: metales, nutrientes y parámetros fisicoquímicos."
+      "desc": "Potable, residual y de proceso: metales, nutrientes y parámetros fisicoquímicos.",
+      "slug": "agua"
     },
     {
       "name": "Aire",
-      "desc": "Calidad del aire, partículas y emisiones."
+      "desc": "Calidad del aire, partículas y emisiones.",
+      "slug": "aire"
     },
     {
       "name": "Suelo",
-      "desc": "Contaminantes, metales pesados y caracterización de suelos."
+      "desc": "Contaminantes, metales pesados y caracterización de suelos.",
+      "slug": "suelo"
     }
   ],
   "items_title": "Matrices"

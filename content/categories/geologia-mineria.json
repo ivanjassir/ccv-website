@@ -19,15 +19,18 @@
   "items": [
     {
       "name": "Minera",
-      "desc": "Análisis de minerales, leyes y control de planta."
+      "desc": "Análisis de minerales, leyes y control de planta.",
+      "slug": "minera"
     },
     {
       "name": "Ferrosos y no ferrosos",
-      "desc": "Composición de aceros, aleaciones y metales."
+      "desc": "Composición de aceros, aleaciones y metales.",
+      "slug": "ferrosos-y-no-ferrosos"
     },
     {
       "name": "Metalúrgica",
-      "desc": "Control de proceso y calidad en metalurgia."
+      "desc": "Control de proceso y calidad en metalurgia.",
+      "slug": "metalurgica"
     }
   ],
   "items_title": "Aplicaciones"

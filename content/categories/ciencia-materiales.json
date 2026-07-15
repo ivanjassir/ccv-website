@@ -19,27 +19,33 @@
   "items": [
     {
       "name": "Construcción",
-      "desc": "Ensayo de materiales y control de obra."
+      "desc": "Ensayo de materiales y control de obra.",
+      "slug": "construccion"
     },
     {
       "name": "Cemento y concreto",
-      "desc": "Resistencia, composición y calidad."
+      "desc": "Resistencia, composición y calidad.",
+      "slug": "cemento-y-concreto"
     },
     {
       "name": "Polímeros",
-      "desc": "Propiedades térmicas, mecánicas y estructurales."
+      "desc": "Propiedades térmicas, mecánicas y estructurales.",
+      "slug": "polimeros"
     },
     {
       "name": "Pinturas, fibras y textiles",
-      "desc": "Calidad, recubrimientos y desempeño."
+      "desc": "Calidad, recubrimientos y desempeño.",
+      "slug": "pinturas-fibras-y-textiles"
     },
     {
       "name": "Otros materiales y vidrios",
-      "desc": "Caracterización de materiales especiales."
+      "desc": "Caracterización de materiales especiales.",
+      "slug": "otros-materiales-y-vidrios"
     },
     {
       "name": "Corrosión",
-      "desc": "Estudios de corrosión y protección de materiales."
+      "desc": "Estudios de corrosión y protección de materiales.",
+      "slug": "corrosion"
     }
   ],
   "items_title": "Aplicaciones"

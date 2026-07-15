@@ -1,0 +1,21 @@
+{
+  "order": 6,
+  "slug": "corrosion",
+  "parent": {
+    "slug": "ciencia-materiales",
+    "name": "Ciencia de los Materiales"
+  },
+  "name": "Corrosión",
+  "eyebrow": "Ciencia de los Materiales",
+  "hero": {
+    "title": "Corrosión",
+    "lead": "Estudios de corrosión y protección de materiales."
+  },
+  "intro": "Soluciones de corrosión para ciencia de los materiales, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Corrosión | Ciencia de los Materiales | CCV Grupo Venezuela",
+    "description": "Estudios de corrosión y protección de materiales."
+  }
+}

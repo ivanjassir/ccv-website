@@ -39,6 +39,20 @@ categories = [
     for p in sorted(categories_dir.glob("*.json"))
 ] if categories_dir.exists() else []
 categories.sort(key=lambda c: (c.get("parent", {}).get("slug", ""), c.get("order", 99)))
+cat_by_slug = {c["slug"]: c for c in categories}
+
+
+def crumbs_for(c):
+    """Ancestor chain (division -> ... -> parent) for breadcrumbs, top-first."""
+    chain, par, seen = [], c.get("parent"), set()
+    while par and par.get("slug") not in seen:
+        seen.add(par["slug"])
+        chain.append({"slug": par["slug"], "name": par["name"]})
+        nxt = cat_by_slug.get(par["slug"])
+        par = nxt.get("parent") if nxt else None
+    chain.reverse()
+    return chain
+
 
 current_region = next(
     (r for r in site["regions"] if r.get("current")), site["regions"][0]
@@ -73,7 +87,7 @@ for d in divisions:
 for c in categories:
     write(
         f"{c['slug']}.html",
-        env.get_template("category.html").render(**GLOBAL, cat=c, meta=c["meta"], page="category"),
+        env.get_template("category.html").render(**GLOBAL, cat=c, crumbs=crumbs_for(c), meta=c["meta"], page="category"),
     )
 
 # ---- self-contained preview.html (homepage, fully inlined) ----

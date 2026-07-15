@@ -1,0 +1,21 @@
+{
+  "order": 3,
+  "slug": "producto-terminado",
+  "parent": {
+    "slug": "industria-quimica",
+    "name": "Industria Química"
+  },
+  "name": "Producto terminado",
+  "eyebrow": "Industria Química",
+  "hero": {
+    "title": "Producto terminado",
+    "lead": "Especificaciones y liberación de lote."
+  },
+  "intro": "Soluciones de producto terminado para industria química, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Producto terminado | Industria Química | CCV Grupo Venezuela",
+    "description": "Especificaciones y liberación de lote."
+  }
+}

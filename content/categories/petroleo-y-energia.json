@@ -19,23 +19,28 @@
   "items": [
     {
       "name": "Refinería y productos de petróleo",
-      "desc": "Destilados, combustibles y especificaciones de producto."
+      "desc": "Destilados, combustibles y especificaciones de producto.",
+      "slug": "refineria-y-productos-de-petroleo"
     },
     {
       "name": "Crudo",
-      "desc": "Caracterización, azufre, agua y sedimentos."
+      "desc": "Caracterización, azufre, agua y sedimentos.",
+      "slug": "crudo"
     },
     {
       "name": "Petroquímica",
-      "desc": "Monómeros, intermedios y control de proceso."
+      "desc": "Monómeros, intermedios y control de proceso.",
+      "slug": "petroquimica"
     },
     {
       "name": "Electricidad",
-      "desc": "Aceites dieléctricos y análisis de transformadores."
+      "desc": "Aceites dieléctricos y análisis de transformadores.",
+      "slug": "electricidad"
     },
     {
       "name": "Grasas y aceites lubricantes",
-      "desc": "Viscosidad, desgaste y análisis de lubricantes."
+      "desc": "Viscosidad, desgaste y análisis de lubricantes.",
+      "slug": "grasas-y-aceites-lubricantes"
     }
   ],
   "items_title": "Aplicaciones"

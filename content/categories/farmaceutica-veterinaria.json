@@ -1,0 +1,21 @@
+{
+  "order": 3,
+  "slug": "farmaceutica-veterinaria",
+  "parent": {
+    "slug": "farmaceutica-cosmetica",
+    "name": "Farmacéutica y Cosmética"
+  },
+  "name": "Farmacéutica veterinaria",
+  "eyebrow": "Farmacéutica y Cosmética",
+  "hero": {
+    "title": "Farmacéutica veterinaria",
+    "lead": "Control de calidad de productos veterinarios."
+  },
+  "intro": "Soluciones de farmacéutica veterinaria para farmacéutica y cosmética, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Farmacéutica veterinaria | Farmacéutica y Cosmética | CCV Grupo Venezuela",
+    "description": "Control de calidad de productos veterinarios."
+  }
+}

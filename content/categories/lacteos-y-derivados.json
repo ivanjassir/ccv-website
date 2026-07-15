@@ -1,0 +1,21 @@
+{
+  "order": 1,
+  "slug": "lacteos-y-derivados",
+  "parent": {
+    "slug": "alimentos-y-bebidas",
+    "name": "Alimentos y Bebidas"
+  },
+  "name": "Lácteos y derivados",
+  "eyebrow": "Alimentos y Bebidas",
+  "hero": {
+    "title": "Lácteos y derivados",
+    "lead": "Composición, grasa, proteína y control microbiológico."
+  },
+  "intro": "Soluciones de lácteos y derivados para alimentos y bebidas, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Lácteos y derivados | Alimentos y Bebidas | CCV Grupo Venezuela",
+    "description": "Composición, grasa, proteína y control microbiológico."
+  }
+}

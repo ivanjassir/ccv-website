@@ -1,0 +1,21 @@
+{
+  "order": 3,
+  "slug": "cafe",
+  "parent": {
+    "slug": "alimentos-y-bebidas",
+    "name": "Alimentos y Bebidas"
+  },
+  "name": "Café",
+  "eyebrow": "Alimentos y Bebidas",
+  "hero": {
+    "title": "Café",
+    "lead": "Humedad, perfil y control de calidad del grano."
+  },
+  "intro": "Soluciones de café para alimentos y bebidas, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Café | Alimentos y Bebidas | CCV Grupo Venezuela",
+    "description": "Humedad, perfil y control de calidad del grano."
+  }
+}

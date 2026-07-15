@@ -1,0 +1,21 @@
+{
+  "order": 4,
+  "slug": "electricidad",
+  "parent": {
+    "slug": "petroleo-y-energia",
+    "name": "Petróleo y Energía"
+  },
+  "name": "Electricidad",
+  "eyebrow": "Petróleo y Energía",
+  "hero": {
+    "title": "Electricidad",
+    "lead": "Aceites dieléctricos y análisis de transformadores."
+  },
+  "intro": "Soluciones de electricidad para petróleo y energía, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Electricidad | Petróleo y Energía | CCV Grupo Venezuela",
+    "description": "Aceites dieléctricos y análisis de transformadores."
+  }
+}

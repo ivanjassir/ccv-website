@@ -1,0 +1,21 @@
+{
+  "order": 9,
+  "slug": "alimentos-balanceados",
+  "parent": {
+    "slug": "alimentos-y-bebidas",
+    "name": "Alimentos y Bebidas"
+  },
+  "name": "Alimentos balanceados",
+  "eyebrow": "Alimentos y Bebidas",
+  "hero": {
+    "title": "Alimentos balanceados",
+    "lead": "Nutrientes y control de calidad para alimentación animal."
+  },
+  "intro": "Soluciones de alimentos balanceados para alimentos y bebidas, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Alimentos balanceados | Alimentos y Bebidas | CCV Grupo Venezuela",
+    "description": "Nutrientes y control de calidad para alimentación animal."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "order": 2,
+  "slug": "control-de-proceso",
+  "parent": {
+    "slug": "industria-quimica",
+    "name": "Industria Química"
+  },
+  "name": "Control de proceso",
+  "eyebrow": "Industria Química",
+  "hero": {
+    "title": "Control de proceso",
+    "lead": "Monitoreo en línea y de laboratorio."
+  },
+  "intro": "Soluciones de control de proceso para industria química, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Control de proceso | Industria Química | CCV Grupo Venezuela",
+    "description": "Monitoreo en línea y de laboratorio."
+  }
+}

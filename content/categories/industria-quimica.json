@@ -19,19 +19,23 @@
   "items": [
     {
       "name": "Materias primas",
-      "desc": "Identidad, pureza y conformidad de insumos."
+      "desc": "Identidad, pureza y conformidad de insumos.",
+      "slug": "materias-primas"
     },
     {
       "name": "Control de proceso",
-      "desc": "Monitoreo en línea y de laboratorio."
+      "desc": "Monitoreo en línea y de laboratorio.",
+      "slug": "control-de-proceso"
     },
     {
       "name": "Producto terminado",
-      "desc": "Especificaciones y liberación de lote."
+      "desc": "Especificaciones y liberación de lote.",
+      "slug": "producto-terminado"
     },
     {
       "name": "Especialidades químicas",
-      "desc": "Formulaciones y productos de alto valor."
+      "desc": "Formulaciones y productos de alto valor.",
+      "slug": "especialidades-quimicas"
     }
   ],
   "items_title": "Aplicaciones"

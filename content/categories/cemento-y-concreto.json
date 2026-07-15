@@ -1,0 +1,21 @@
+{
+  "order": 2,
+  "slug": "cemento-y-concreto",
+  "parent": {
+    "slug": "ciencia-materiales",
+    "name": "Ciencia de los Materiales"
+  },
+  "name": "Cemento y concreto",
+  "eyebrow": "Ciencia de los Materiales",
+  "hero": {
+    "title": "Cemento y concreto",
+    "lead": "Resistencia, composición y calidad."
+  },
+  "intro": "Soluciones de cemento y concreto para ciencia de los materiales, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Cemento y concreto | Ciencia de los Materiales | CCV Grupo Venezuela",
+    "description": "Resistencia, composición y calidad."
+  }
+}

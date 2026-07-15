@@ -1,0 +1,21 @@
+{
+  "order": 1,
+  "slug": "construccion",
+  "parent": {
+    "slug": "ciencia-materiales",
+    "name": "Ciencia de los Materiales"
+  },
+  "name": "Construcción",
+  "eyebrow": "Ciencia de los Materiales",
+  "hero": {
+    "title": "Construcción",
+    "lead": "Ensayo de materiales y control de obra."
+  },
+  "intro": "Soluciones de construcción para ciencia de los materiales, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Construcción | Ciencia de los Materiales | CCV Grupo Venezuela",
+    "description": "Ensayo de materiales y control de obra."
+  }
+}

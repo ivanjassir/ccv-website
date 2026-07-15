@@ -1,0 +1,21 @@
+{
+  "order": 1,
+  "slug": "minera",
+  "parent": {
+    "slug": "geologia-mineria",
+    "name": "Geología y Minería"
+  },
+  "name": "Minera",
+  "eyebrow": "Geología y Minería",
+  "hero": {
+    "title": "Minera",
+    "lead": "Análisis de minerales, leyes y control de planta."
+  },
+  "intro": "Soluciones de minera para geología y minería, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Minera | Geología y Minería | CCV Grupo Venezuela",
+    "description": "Análisis de minerales, leyes y control de planta."
+  }
+}

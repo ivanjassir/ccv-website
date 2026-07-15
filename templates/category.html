@@ -6,9 +6,9 @@
     <div class="dhero__bg" aria-hidden="true"></div>
     <div class="wrap">
       <nav class="crumbs" aria-label="Ruta de navegación">
-        <a href="index.html">Inicio</a> <span aria-hidden="true">/</span>
-        <a href="{{ cat.parent.slug }}.html">{{ cat.parent.name }}</a> <span aria-hidden="true">/</span>
-        <span aria-current="page">{{ cat.name }}</span>
+        <a href="index.html">Inicio</a>
+        {% for cr in crumbs %}<span aria-hidden="true">/</span> <a href="{{ cr.slug }}.html">{{ cr.name }}</a>{% endfor %}
+        <span aria-hidden="true">/</span> <span aria-current="page">{{ cat.name }}</span>
       </nav>
       <span class="pill" data-reveal>{{ cat.eyebrow }}</span>
       <h1 class="dhero__title" data-reveal>{{ cat.hero.title }}</h1>
@@ -31,10 +31,18 @@
       {% if cat["items"] %}
       <div class="cards" data-reveal>
         {% for a in cat["items"] %}
+        {% if a.slug %}
+        <a class="card card--link" href="{{ a.slug }}.html" data-stagger data-tilt data-spot>
+          <h3>{{ a.name }}</h3>
+          <p>{{ a.desc }}</p>
+          <span class="card__more">Ver más</span>
+        </a>
+        {% else %}
         <article class="card" data-stagger data-tilt data-spot>
           <h3>{{ a.name }}</h3>
           <p>{{ a.desc }}</p>
         </article>
+        {% endif %}
         {% endfor %}
       </div>
       {% endif %}

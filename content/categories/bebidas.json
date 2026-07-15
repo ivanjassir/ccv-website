@@ -1,0 +1,21 @@
+{
+  "order": 2,
+  "slug": "bebidas",
+  "parent": {
+    "slug": "alimentos-y-bebidas",
+    "name": "Alimentos y Bebidas"
+  },
+  "name": "Bebidas",
+  "eyebrow": "Alimentos y Bebidas",
+  "hero": {
+    "title": "Bebidas",
+    "lead": "Bebidas alcohólicas y no alcohólicas, aguas y jugos."
+  },
+  "intro": "Soluciones de bebidas para alimentos y bebidas, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Bebidas | Alimentos y Bebidas | CCV Grupo Venezuela",
+    "description": "Bebidas alcohólicas y no alcohólicas, aguas y jugos."
+  }
+}

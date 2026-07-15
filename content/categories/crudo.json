@@ -1,0 +1,21 @@
+{
+  "order": 2,
+  "slug": "crudo",
+  "parent": {
+    "slug": "petroleo-y-energia",
+    "name": "Petróleo y Energía"
+  },
+  "name": "Crudo",
+  "eyebrow": "Petróleo y Energía",
+  "hero": {
+    "title": "Crudo",
+    "lead": "Caracterización, azufre, agua y sedimentos."
+  },
+  "intro": "Soluciones de crudo para petróleo y energía, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Crudo | Petróleo y Energía | CCV Grupo Venezuela",
+    "description": "Caracterización, azufre, agua y sedimentos."
+  }
+}

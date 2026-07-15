@@ -1,0 +1,21 @@
+{
+  "order": 4,
+  "slug": "pinturas-fibras-y-textiles",
+  "parent": {
+    "slug": "ciencia-materiales",
+    "name": "Ciencia de los Materiales"
+  },
+  "name": "Pinturas, fibras y textiles",
+  "eyebrow": "Ciencia de los Materiales",
+  "hero": {
+    "title": "Pinturas, fibras y textiles",
+    "lead": "Calidad, recubrimientos y desempeño."
+  },
+  "intro": "Soluciones de pinturas, fibras y textiles para ciencia de los materiales, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Pinturas, fibras y textiles | Ciencia de los Materiales | CCV Grupo Venezuela",
+    "description": "Calidad, recubrimientos y desempeño."
+  }
+}

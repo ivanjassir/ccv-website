@@ -1,0 +1,21 @@
+{
+  "order": 7,
+  "slug": "pastas-harinas-y-cereales",
+  "parent": {
+    "slug": "alimentos-y-bebidas",
+    "name": "Alimentos y Bebidas"
+  },
+  "name": "Pastas, harinas y cereales",
+  "eyebrow": "Alimentos y Bebidas",
+  "hero": {
+    "title": "Pastas, harinas y cereales",
+    "lead": "Humedad, gluten y parámetros reológicos."
+  },
+  "intro": "Soluciones de pastas, harinas y cereales para alimentos y bebidas, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
+  "items_title": "Soluciones",
+  "items": [],
+  "meta": {
+    "title": "Pastas, harinas y cereales | Alimentos y Bebidas | CCV Grupo Venezuela",
+    "description": "Humedad, gluten y parámetros reológicos."
+  }
+}

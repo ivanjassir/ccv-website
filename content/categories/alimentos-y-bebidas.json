@@ -19,43 +19,53 @@
   "items": [
     {
       "name": "Lácteos y derivados",
-      "desc": "Composición, grasa, proteína y control microbiológico."
+      "desc": "Composición, grasa, proteína y control microbiológico.",
+      "slug": "lacteos-y-derivados"
     },
     {
       "name": "Bebidas",
-      "desc": "Bebidas alcohólicas y no alcohólicas, aguas y jugos."
+      "desc": "Bebidas alcohólicas y no alcohólicas, aguas y jugos.",
+      "slug": "bebidas"
     },
     {
       "name": "Café",
-      "desc": "Humedad, perfil y control de calidad del grano."
+      "desc": "Humedad, perfil y control de calidad del grano.",
+      "slug": "cafe"
     },
     {
       "name": "Cacao y chocolate",
-      "desc": "Grasa, humedad y parámetros de calidad."
+      "desc": "Grasa, humedad y parámetros de calidad.",
+      "slug": "cacao-y-chocolate"
     },
     {
       "name": "Azucarera",
-      "desc": "Polarimetría, color y pureza del azúcar."
+      "desc": "Polarimetría, color y pureza del azúcar.",
+      "slug": "azucarera"
     },
     {
       "name": "Aceites y grasas comestibles",
-      "desc": "Índices de calidad, oxidación y perfil de ácidos grasos."
+      "desc": "Índices de calidad, oxidación y perfil de ácidos grasos.",
+      "slug": "aceites-y-grasas-comestibles"
     },
     {
       "name": "Pastas, harinas y cereales",
-      "desc": "Humedad, gluten y parámetros reológicos."
+      "desc": "Humedad, gluten y parámetros reológicos.",
+      "slug": "pastas-harinas-y-cereales"
     },
     {
       "name": "Alimentos y snacks",
-      "desc": "Análisis proximal y control de proceso."
+      "desc": "Análisis proximal y control de proceso.",
+      "slug": "alimentos-y-snacks"
     },
     {
       "name": "Alimentos balanceados",
-      "desc": "Nutrientes y control de calidad para alimentación animal."
+      "desc": "Nutrientes y control de calidad para alimentación animal.",
+      "slug": "alimentos-balanceados"
     },
     {
       "name": "Maíz, trigo, arroz y otros",
-      "desc": "Granos: humedad, micotoxinas y calidad."
+      "desc": "Granos: humedad, micotoxinas y calidad.",
+      "slug": "maiz-trigo-arroz-y-otros"
     }
   ],
   "items_title": "Aplicaciones"
