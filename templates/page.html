@@ -34,12 +34,14 @@
         <a class="card card--link" href="{{ a.slug }}.html" data-stagger data-tilt data-spot>
           <h3>{{ a.name }}</h3>
           <p>{{ a.desc }}</p>
+          {% if a.products %}<ul class="card-products">{% for pr in a.products %}<li>{{ pr }}</li>{% endfor %}</ul>{% endif %}
           <span class="card__more">Ver más</span>
         </a>
         {% else %}
         <article class="card" data-stagger data-tilt data-spot>
           <h3>{{ a.name }}</h3>
           <p>{{ a.desc }}</p>
+          {% if a.products %}<ul class="card-products">{% for pr in a.products %}<li>{{ pr }}</li>{% endfor %}</ul>{% endif %}
         </article>
         {% endif %}
         {% endfor %}

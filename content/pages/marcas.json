@@ -3,26 +3,32 @@
   "name": "Marcas",
   "eyebrow": "Aliados tecnológicos",
   "hero": {
-    "title": "Tecnología de referencia mundial",
-    "lead": "Representamos a fabricantes líderes para llevar a Venezuela instrumentación y sistemas de primer nivel, respaldados por soporte técnico local."
+    "title": "Marcas de referencia mundial que representamos",
+    "lead": "Trabajamos con fabricantes líderes para llevar a Venezuela instrumentación y sistemas de primer nivel, respaldados por ingeniería y servicio técnico local."
   },
-  "items_title": "Tecnología que representamos",
-  "intro": "Combinamos marcas de referencia internacional con ingeniería y servicio propios, cubriendo análisis, farma, life science, ciencia forense e informática de laboratorio.",
+  "items_title": "Marcas que representamos",
+  "intro": "Nuestro portafolio combina marcas líderes internacionales en análisis, farma, life science, informática de laboratorio y equipamiento, con soporte técnico entrenado en fábrica.",
   "items": [
-    { "name": "PerkinElmer", "desc": "Instrumentación analítica de referencia mundial.", "slug": "perkin-elmer" },
-    { "name": "Analítica", "desc": "Cromatografía, espectroscopía y análisis elemental." },
-    { "name": "Farma", "desc": "Esterilización, liofilización y agua de proceso." },
-    { "name": "Life Science", "desc": "PCR, secuenciación de ADN y microscopía." },
-    { "name": "Forense", "desc": "Plataformas dedicadas a criminalística." },
-    { "name": "Informática · LIMS", "desc": "Gestión e informática de laboratorio." }
+    { "name": "PerkinElmer", "desc": "Instrumentación analítica de referencia mundial.", "slug": "perkin-elmer", "products": ["Cromatografía GC y LC", "Espectroscopía UV-Vis, FTIR, ICP-OES/MS y absorción atómica", "Análisis térmico DSC y TGA"] },
+    { "name": "Applied Biosystems · Thermo Fisher", "desc": "Biología molecular y genética.", "products": ["qPCR QuantStudio, StepOne y serie 7500", "Termocicladores Veriti y ProFlex", "Secuenciación Ion GeneStudio S5 (NGS) y SeqStudio (Sanger)"] },
+    { "name": "Autoscribe Informatics", "desc": "Software de gestión de laboratorio (LIMS).", "products": ["Matrix Gemini LIMS", "Matrix Express", "Matrix Tracker"] },
+    { "name": "Telstar · azbil group", "desc": "Ingeniería y equipos farmacéuticos GMP.", "products": ["Esterilizadores SteriDelta", "Liofilizadores GMP y GLP", "Salas blancas y cabinas de flujo laminar"] },
+    { "name": "Pronova", "desc": "Agua farmacéutica y vapor puro.", "products": ["Agua purificada (PW) y para inyección (WFI)", "Generadores de vapor puro", "Destiladores y sistemas de distribución"] },
+    { "name": "Hitachi", "desc": "Microscopía y análisis.", "products": ["Soluciones de microscopía"] },
+    { "name": "Trespa (TopLab)", "desc": "Superficies técnicas de laboratorio.", "products": ["Encimeras de resina fenólica"] },
+    { "name": "Durcon", "desc": "Superficies de trabajo.", "products": ["Encimeras de resina epoxi maciza"] },
+    { "name": "VWR · Avantor", "desc": "Consumibles y equipamiento general de laboratorio.", "products": ["Consumibles y material de laboratorio", "Campanas y accesorios"] },
+    { "name": "Chicago Faucets", "desc": "Griferías de laboratorio.", "products": ["Griferías técnicas y de emergencia"] },
+    { "name": "Gerber Instruments", "desc": "Análisis de lácteos y derivados.", "products": ["Analizadores para leche y derivados"] },
+    { "name": "Binder", "desc": "Simulación ambiental para laboratorio.", "products": ["Cámaras climáticas", "Estufas de secado", "Incubadoras"] }
   ],
   "benefits": [
     { "title": "Representación oficial", "desc": "Acceso al portafolio y al respaldo de los fabricantes que representamos." },
-    { "title": "Soporte local", "desc": "Instalación, calibración y repuestos con respuesta en toda Venezuela." },
+    { "title": "Servicio entrenado en fábrica", "desc": "Instalación, calibración y repuestos con respuesta en toda Venezuela." },
     { "title": "Asesoría experta", "desc": "Le ayudamos a elegir la marca y el modelo exactos para su aplicación." }
   ],
   "meta": {
     "title": "Marcas | CCV Grupo Venezuela",
-    "description": "Representamos marcas líderes mundiales en instrumentación analítica, farma, life science e informática de laboratorio, con soporte técnico local."
+    "description": "Representamos marcas líderes mundiales: PerkinElmer, Applied Biosystems (Thermo Fisher), Autoscribe (LIMS), Telstar, Pronova, Hitachi, Trespa, Durcon, VWR, Chicago Faucets, Gerber y Binder."
   }
 }
