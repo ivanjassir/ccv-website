@@ -8,10 +8,10 @@
   "name": "Agua PW & WFI y Vapor Puro",
   "eyebrow": "Soluciones Farma",
   "hero": {
-    "title": "Agua PW & WFI y Vapor Puro",
-    "lead": "Generación, almacenamiento y distribución de agua de proceso."
+    "title": "Agua PW & WFI y vapor puro",
+    "lead": "El agua es el producto más utilizado en la industria farmacéutica. Generamos, almacenamos y distribuimos agua purificada (PW), agua para inyección (WFI) y vapor puro."
   },
-  "intro": "Generación, almacenamiento y distribución de agua purificada (PW), agua para inyección (WFI) y vapor puro para su planta.",
+  "intro": "Distinguimos entre vapor limpio y vapor puro según la calidad del condensado frente a los estándares de agua inyectable de las farmacopeas, con equipos de tratamiento, destiladores y generadores de vapor.",
   "items_title": "Soluciones",
   "items": [
     {
@@ -66,6 +66,11 @@
       "icon": "support",
       "title": "Soporte",
       "desc": "Mantenimiento, repuestos y calibración."
+    }
+  ],
+  "brands": [
+    {
+      "name": "Pronova"
     }
   ]
 }

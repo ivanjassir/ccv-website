@@ -8,8 +8,8 @@
   "name": "Salas Blancas y Equipos Asociados",
   "eyebrow": "Soluciones Farma",
   "hero": {
-    "title": "Salas Blancas y Equipos Asociados",
-    "lead": "Componentes, SAS de paso, duchas de aire y biodescontaminación."
+    "title": "Salas blancas y equipos asociados",
+    "lead": "Con 30 años de experiencia en diseño de salas blancas, ofrecemos instalaciones que cumplen estándares internacionales de calidad."
   },
   "intro": "Componentes y equipos para salas blancas que aseguran las condiciones de limpieza y bioseguridad de su proceso.",
   "items_title": "Soluciones",
@@ -66,6 +66,11 @@
       "icon": "support",
       "title": "Soporte",
       "desc": "Mantenimiento, repuestos y calibración."
+    }
+  ],
+  "brands": [
+    {
+      "name": "Telstar · azbil group"
     }
   ]
 }

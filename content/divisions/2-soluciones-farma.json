@@ -33,7 +33,8 @@
     "title": "Del concepto a la validación, en un solo aliado",
     "body": [
       "Acompañamos a laboratorios y plantas farmacéuticas, veterinarias y cosméticas en cada etapa del proyecto: desde el diseño conceptual y la selección de tecnología hasta el montaje, la puesta en marcha y la calificación.",
-      "Integramos las mejores marcas del mundo con ingeniería y soporte técnico local, para que cada sistema cumpla con las buenas prácticas de manufactura y con las exigencias de su producto."
+      "Integramos las mejores marcas del mundo con ingeniería y soporte técnico local, para que cada sistema cumpla con las buenas prácticas de manufactura y con las exigencias de su producto.",
+      "Trabajamos con Telstar —parte de azbil group—, con plantas de producción en España, China e Inglaterra e inversión sostenida en I+D+i, para soluciones de alta complejidad tecnológica en Ciencias de la Vida."
     ],
     "points": [
       "Cumplimiento de GMP y guías internacionales",
@@ -103,7 +104,7 @@
     },
     {
       "title": "Marcas de referencia",
-      "desc": "Representamos a fabricantes líderes en esterilización, liofilización y agua de proceso."
+      "desc": "Representamos a Telstar (azbil group) en esterilización, liofilización, agua de proceso y salas blancas, y a Pronova en agua farmacéutica."
     }
   ],
   "approach_title": "De la idea a la operación",
@@ -147,6 +148,14 @@
       "icon": "support",
       "title": "Soporte y mantenimiento",
       "desc": "Mantenimiento, repuestos y calibración."
+    }
+  ],
+  "brands": [
+    {
+      "name": "Telstar · azbil group"
+    },
+    {
+      "name": "Pronova"
     }
   ]
 }

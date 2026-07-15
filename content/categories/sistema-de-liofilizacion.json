@@ -8,8 +8,8 @@
   "name": "Sistema de Liofilización",
   "eyebrow": "Soluciones Farma",
   "hero": {
-    "title": "Sistema de Liofilización",
-    "lead": "Liofilizadores GMP de producción y de laboratorio."
+    "title": "Sistemas de liofilización",
+    "lead": "Con más de 50 años de experiencia, Telstar diseña y fabrica liofilizadores GMP para producción y GLP para laboratorio, con control de proceso, esterilidad y automatización de carga y descarga."
   },
   "intro": "Liofilizadores para escala de laboratorio y producción GMP, con control preciso de proceso y opciones de carga y descarga automática.",
   "items_title": "Soluciones",
@@ -62,6 +62,11 @@
       "icon": "support",
       "title": "Soporte",
       "desc": "Mantenimiento, repuestos y calibración."
+    }
+  ],
+  "brands": [
+    {
+      "name": "Telstar · azbil group"
     }
   ]
 }

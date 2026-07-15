@@ -67,5 +67,10 @@
       "title": "Soporte",
       "desc": "Mantenimiento, repuestos y calibración."
     }
+  ],
+  "brands": [
+    {
+      "name": "Telstar · azbil group"
+    }
   ]
 }

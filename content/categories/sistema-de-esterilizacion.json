@@ -8,8 +8,8 @@
   "name": "Sistema de Esterilización",
   "eyebrow": "Soluciones Farma",
   "hero": {
-    "title": "Sistema de Esterilización",
-    "lead": "Calor seco, calor húmedo y agentes químicos."
+    "title": "Sistemas de esterilización",
+    "lead": "Esterilizadores Telstar con larga experiencia en la industria farmacéutica y de dispositivos médicos, para calor húmedo, calor seco y agentes químicos."
   },
   "intro": "Sistemas de esterilización para producto, material y componentes, seleccionados según el ciclo y la carga de su proceso.",
   "items_title": "Soluciones",
@@ -62,6 +62,11 @@
       "icon": "support",
       "title": "Soporte",
       "desc": "Mantenimiento, repuestos y calibración."
+    }
+  ],
+  "brands": [
+    {
+      "name": "Telstar · azbil group"
     }
   ]
 }
