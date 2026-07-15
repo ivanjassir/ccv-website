@@ -8,10 +8,10 @@
   "name": "Laboratorios Modulares",
   "eyebrow": "Proyectos de Laboratorio",
   "hero": {
-    "title": "Laboratorios Modulares",
-    "lead": "Espacios prefabricados y salas de flujo laminar."
+    "title": "Laboratorios modulares y flujo laminar",
+    "lead": "Espacios prefabricados y cabinas de flujo laminar y seguridad biológica para ambientes controlados."
   },
-  "intro": "Soluciones de laboratorios modulares respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "intro": "Integramos laboratorios modulares y sistemas de flujo laminar (Telstar) para áreas que requieren control ambiental y bioseguridad.",
   "items_title": "Soluciones",
   "items": [],
   "meta": {
@@ -39,6 +39,23 @@
       "icon": "support",
       "title": "Entrega",
       "desc": "Puesta en marcha y soporte."
+    }
+  ],
+  "brands": [
+    {
+      "name": "Trespa"
+    },
+    {
+      "name": "Durcon"
+    },
+    {
+      "name": "Telstar"
+    },
+    {
+      "name": "VWR"
+    },
+    {
+      "name": "Chicago Faucets"
     }
   ]
 }

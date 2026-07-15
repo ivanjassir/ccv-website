@@ -8,10 +8,10 @@
   "tagline": "Diseño y ejecución de proyectos llave en mano.",
   "hero": {
     "eyebrow": "Proyectos de Laboratorio",
-    "title": "Proyectos de laboratorio llave en mano",
-    "lead": "Diseñamos, construimos y equipamos laboratorios completos: mobiliario técnico, extracción de gases, superficies de trabajo y laboratorios modulares."
+    "title": "Diseñamos y equipamos su laboratorio",
+    "lead": "Soluciones integrales en la planificación, integración y suministro de mobiliario especializado: espacios eficientes, seguros y funcionales, totalmente personalizados según los requerimientos de cada cliente."
   },
-  "intro": "Acompañamos cada proyecto desde el anteproyecto hasta la puesta en marcha, integrando infraestructura, seguridad y ergonomía en espacios diseñados para el trabajo científico.",
+  "intro": "Del anteproyecto a la puesta en marcha: mobiliario, superficies, extracción de gases, laboratorios modulares y accesorios de seguridad.",
   "children_title": "Alcance de proyectos",
   "children": [
     {
@@ -58,19 +58,19 @@
       "label": "Extracción y protección integradas"
     }
   ],
-  "benefits_title": "Lo que nos diferencia",
+  "benefits_title": "Por qué elegir nuestra división",
   "benefits": [
     {
-      "title": "Diseño funcional",
-      "desc": "Laboratorios ergonómicos y eficientes, pensados para el trabajo científico."
+      "title": "Marcas líderes en mobiliario",
+      "desc": "Representamos a Trespa (TopLab), Durcon, Telstar, VWR y Chicago Faucets."
     },
     {
-      "title": "Materiales técnicos",
-      "desc": "Superficies y mobiliario resistentes a químicos y agentes agresivos."
+      "title": "Personalización total",
+      "desc": "Espacios diseñados a la medida de su flujo de trabajo y normativa."
     },
     {
-      "title": "Un solo responsable",
-      "desc": "Coordinamos ingeniería, obra y equipamiento de principio a fin."
+      "title": "Seguridad y cumplimiento",
+      "desc": "Extracción, contención y equipos de emergencia según la normativa vigente."
     }
   ],
   "process_title": "Cómo ejecutamos su proyecto",
@@ -95,6 +95,37 @@
       "icon": "support",
       "title": "Entrega y soporte",
       "desc": "Puesta en marcha y mantenimiento."
+    }
+  ],
+  "overview": {
+    "title": "Espacios de laboratorio llave en mano",
+    "body": [
+      "Ofrecemos soluciones integrales en la planificación, integración y suministro de mobiliario especializado para áreas de laboratorio, con productos de alta calidad que garantizan máxima productividad y seguridad.",
+      "Diseñamos espacios funcionales y eficientes a la medida de cada cliente, e integramos superficies, extracción de gases, equipos de emergencia y laboratorios modulares."
+    ],
+    "points": [
+      "Mobiliario técnico y superficies resistentes a químicos",
+      "Campanas de extracción de gases y equipos de seguridad",
+      "Laboratorios modulares y accesorios"
+    ],
+    "stat": "Llave en mano",
+    "stat_label": "Diseño, obra y equipamiento"
+  },
+  "brands": [
+    {
+      "name": "Trespa"
+    },
+    {
+      "name": "Durcon"
+    },
+    {
+      "name": "Telstar"
+    },
+    {
+      "name": "VWR"
+    },
+    {
+      "name": "Chicago Faucets"
     }
   ]
 }

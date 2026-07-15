@@ -8,12 +8,29 @@
   "name": "Griferías y Duchas de Seguridad",
   "eyebrow": "Proyectos de Laboratorio",
   "hero": {
-    "title": "Griferías y Duchas de Seguridad",
-    "lead": "Accesorios, griferías técnicas y duchas de emergencia."
+    "title": "Griferías y duchas de seguridad",
+    "lead": "Duchas de emergencia, lavaojos y accesorios para responder ante derrames, salpicaduras y conatos de incendio."
   },
-  "intro": "Soluciones de griferías y duchas de seguridad respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Los equipos de emergencia deben ubicarse a no más de 8 a 10 m de los puestos de trabajo, para permitir una respuesta en unos 15 segundos, con un programa permanente de control y mantenimiento.",
+  "items_title": "Equipos y accesorios",
+  "items": [
+    {
+      "name": "Duchas de emergencia y lavaojos",
+      "desc": "Unidades de sobremesa, dobles y de piso."
+    },
+    {
+      "name": "Griferías técnicas",
+      "desc": "Grifos de dos salidas y fregaderos de laboratorio."
+    },
+    {
+      "name": "Gabinetes de almacenamiento",
+      "desc": "Para químicos, corrosivos y líquidos inflamables."
+    },
+    {
+      "name": "Mesas antivibración",
+      "desc": "Para instrumentación sensible."
+    }
+  ],
   "meta": {
     "title": "Griferías y Duchas de Seguridad | Proyectos de Laboratorio | CCV Grupo Venezuela",
     "description": "Accesorios, griferías técnicas y duchas de emergencia."
@@ -39,6 +56,23 @@
       "icon": "support",
       "title": "Entrega",
       "desc": "Puesta en marcha y soporte."
+    }
+  ],
+  "brands": [
+    {
+      "name": "Trespa"
+    },
+    {
+      "name": "Durcon"
+    },
+    {
+      "name": "Telstar"
+    },
+    {
+      "name": "VWR"
+    },
+    {
+      "name": "Chicago Faucets"
     }
   ]
 }

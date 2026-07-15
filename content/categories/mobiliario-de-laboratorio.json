@@ -8,12 +8,29 @@
   "name": "Mobiliario de Laboratorio",
   "eyebrow": "Proyectos de Laboratorio",
   "hero": {
-    "title": "Mobiliario de Laboratorio",
-    "lead": "Diseño y ejecución de obras con mobiliario técnico."
+    "title": "Mobiliario de laboratorio",
+    "lead": "Suministro e instalación de mobiliario para laboratorio: planificación, integración y equipamiento especializado, personalizado a los requerimientos de cada cliente."
   },
-  "intro": "Soluciones de mobiliario de laboratorio respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Garantizamos espacios eficientes, seguros y funcionales, con productos de alta calidad y opciones de configuración adaptadas a cada área.",
+  "items_title": "Alcance",
+  "items": [
+    {
+      "name": "Superficies de trabajo",
+      "desc": "Encimeras de resina fenólica y epoxi resistentes a químicos."
+    },
+    {
+      "name": "Gabinetes",
+      "desc": "Configuraciones de puertas y gavetas, y de almacenamiento especializado."
+    },
+    {
+      "name": "Distribución a la medida",
+      "desc": "Superficies en L y con área de lavado según el espacio."
+    },
+    {
+      "name": "Instalación llave en mano",
+      "desc": "Planificación, integración e instalación completas."
+    }
+  ],
   "meta": {
     "title": "Mobiliario de Laboratorio | Proyectos de Laboratorio | CCV Grupo Venezuela",
     "description": "Diseño y ejecución de obras con mobiliario técnico."
@@ -39,6 +56,23 @@
       "icon": "support",
       "title": "Entrega",
       "desc": "Puesta en marcha y soporte."
+    }
+  ],
+  "brands": [
+    {
+      "name": "Trespa"
+    },
+    {
+      "name": "Durcon"
+    },
+    {
+      "name": "Telstar"
+    },
+    {
+      "name": "VWR"
+    },
+    {
+      "name": "Chicago Faucets"
     }
   ]
 }

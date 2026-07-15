@@ -8,12 +8,29 @@
   "name": "Campanas de Extracción de Gases",
   "eyebrow": "Proyectos de Laboratorio",
   "hero": {
-    "title": "Campanas de Extracción de Gases",
-    "lead": "Contención y extracción segura de vapores y gases."
+    "title": "Campanas de extracción de gases",
+    "lead": "Protegen al usuario de la inhalación de vapores tóxicos o peligrosos, actuando como barrera de contención y asegurando un ambiente de trabajo seguro."
   },
-  "intro": "Soluciones de campanas de extracción de gases respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Su correcto funcionamiento requiere un diseño adecuado con sistemas de extracción, motores, ductería, sistema eléctrico y mecanismos de seguridad; en muchos laboratorios su uso es un requisito para cumplir con las normativas de seguridad y salud laboral.",
+  "items_title": "Componentes y consideraciones",
+  "items": [
+    {
+      "name": "Sistema de extracción",
+      "desc": "Extracción y renovación de aire para evitar la acumulación de gases."
+    },
+    {
+      "name": "Motores y ductería",
+      "desc": "Dimensionados según el tipo de proceso y sustancias."
+    },
+    {
+      "name": "Mecanismos de seguridad",
+      "desc": "Barrera de contención y protección del personal y el ambiente."
+    },
+    {
+      "name": "Cumplimiento normativo",
+      "desc": "Diseño alineado a las normas de seguridad y salud laboral."
+    }
+  ],
   "meta": {
     "title": "Campanas de Extracción de Gases | Proyectos de Laboratorio | CCV Grupo Venezuela",
     "description": "Contención y extracción segura de vapores y gases."
@@ -39,6 +56,23 @@
       "icon": "support",
       "title": "Entrega",
       "desc": "Puesta en marcha y soporte."
+    }
+  ],
+  "brands": [
+    {
+      "name": "Trespa"
+    },
+    {
+      "name": "Durcon"
+    },
+    {
+      "name": "Telstar"
+    },
+    {
+      "name": "VWR"
+    },
+    {
+      "name": "Chicago Faucets"
     }
   ]
 }

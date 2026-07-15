@@ -8,12 +8,21 @@
   "name": "Superficies de Trabajo",
   "eyebrow": "Proyectos de Laboratorio",
   "hero": {
-    "title": "Superficies de Trabajo",
-    "lead": "Encimeras resistentes a químicos y agentes agresivos."
+    "title": "Superficies de trabajo resistentes a químicos",
+    "lead": "Encimeras de laboratorio de resina fenólica y de resina epoxi maciza, seleccionadas según la aplicación."
   },
-  "intro": "Soluciones de superficies de trabajo respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Ofrecemos superficies con excelente resistencia química y mecánica, con opciones para post-procesamiento y ajustes en sitio.",
+  "items_title": "Tipos de encimera",
+  "items": [
+    {
+      "name": "Resina fenólica",
+      "desc": "Papel kraft multicapa y resina fenólica; buena resistencia química, color estable y fácil post-procesamiento (buen desempeño en ensayos SEFA)."
+    },
+    {
+      "name": "Resina epoxi maciza",
+      "desc": "Resina epoxi y arena de cuarzo, procesada al vacío y horneada (~200°C); resiste alta temperatura y se puede lijar y reacondicionar."
+    }
+  ],
   "meta": {
     "title": "Superficies de Trabajo | Proyectos de Laboratorio | CCV Grupo Venezuela",
     "description": "Encimeras resistentes a químicos y agentes agresivos."
@@ -39,6 +48,23 @@
       "icon": "support",
       "title": "Entrega",
       "desc": "Puesta en marcha y soporte."
+    }
+  ],
+  "brands": [
+    {
+      "name": "Trespa"
+    },
+    {
+      "name": "Durcon"
+    },
+    {
+      "name": "Telstar"
+    },
+    {
+      "name": "VWR"
+    },
+    {
+      "name": "Chicago Faucets"
     }
   ]
 }
