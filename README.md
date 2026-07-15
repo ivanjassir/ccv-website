@@ -50,6 +50,31 @@ python3 -m http.server 8031     # abrir http://localhost:8031
 
 O con la extensión **Live Server** de VS Code sobre `index.html`.
 
+## Administrador de contenido (`/admin`)
+
+Editor visual (Decap CMS) para actualizar el contenido de cualquier página sin
+tocar código. Vive en `admin/` y edita los archivos de `content/`; al guardar,
+el sitio se reconstruye y publica automáticamente (en producción, vía Netlify).
+
+**Probar en local (antes del lanzamiento):**
+
+```bash
+npx decap-server               # 1) proxy local para leer/escribir content/
+python3 -m http.server 8031    # 2) servir el sitio
+# abrir http://localhost:8031/admin/  (usa el backend local; no requiere login)
+```
+
+**En producción (al lanzar, tras aprobación):**
+
+1. Desplegar en Netlify (build: `python3 build.py`, publish: raíz — ver `netlify.toml`).
+2. Activar **Netlify Identity** + **Git Gateway** e invitar a los editores.
+3. Los editores entran en `www.ccv.com.ve/admin/`, editan y guardan → se
+   reconstruye y publica solo.
+
+Colecciones editables: **Configuración del sitio** (marca, contacto, WhatsApp,
+regiones, proceso de portada), **Divisiones**, **Soluciones** (sectores y
+aplicaciones) y **Páginas** (Marcas, Seminarios).
+
 ## Añadir una división
 
 1. Crea `content/divisions/N-slug.json` (usa uno existente como plantilla:

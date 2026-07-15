@@ -1,0 +1,272 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Local testing (pre-launch): run `npx decap-server` then open /admin/ on the site.
+local_backend: true
+
+media_folder: "assets/images/uploads"
+public_folder: "assets/images/uploads"
+
+site_url: https://www.ccv.com.ve
+display_url: https://www.ccv.com.ve
+logo_url: /assets/images/logo.png
+
+collections:
+  # ---- Global site settings ----
+  - name: site
+    label: "Configuración del sitio"
+    files:
+      - name: general
+        label: "Ajustes generales"
+        file: "content/site.json"
+        format: json
+        fields:
+          - { label: "URL base", name: base_url, widget: string }
+          - { label: "URL del grupo", name: group_url, widget: string }
+          - label: "Marca"
+            name: brand
+            widget: object
+            fields:
+              - { label: Nombre, name: name, widget: string }
+              - { label: Razón social, name: legal, widget: string }
+              - { label: Localidad, name: locator, widget: string }
+              - { label: Logo (ruta), name: logo, widget: string }
+              - { label: Tagline, name: tagline, widget: string }
+              - { label: RIF, name: rif, widget: string }
+          - label: "Contacto"
+            name: contact
+            widget: object
+            fields:
+              - { label: Teléfono (mostrar), name: phone_display, widget: string }
+              - { label: Teléfono (enlace), name: phone_href, widget: string }
+              - { label: Email atención al cliente, name: email_support, widget: string }
+              - { label: Email ventas, name: email_sales, widget: string }
+              - { label: Dirección, name: address, widget: string }
+              - { label: "WhatsApp (solo dígitos, con código país)", name: whatsapp, widget: string, required: false }
+              - { label: "Endpoint del formulario (Formspree/Web3Forms)", name: form_endpoint, widget: string, required: false }
+          - label: "Proceso en portada"
+            name: home_process
+            widget: list
+            fields:
+              - { label: Ícono, name: icon, widget: select, options: [compass, layers, install, train, deliver, support, cog, shield, target, cpu, report, vial, prep, analyze, wave, droplet, box, flask, microscope, dna] }
+              - { label: Título, name: title, widget: string }
+              - { label: Descripción, name: desc, widget: text }
+          - label: "Regiones (selector CCV Grupo)"
+            name: regions
+            widget: list
+            fields:
+              - { label: Nombre, name: name, widget: string }
+              - { label: Código, name: code, widget: string }
+              - { label: URL, name: url, widget: string }
+              - { label: Sitio, name: site, widget: string }
+              - { label: Rol, name: role, widget: string }
+              - { label: Nota, name: note, widget: string }
+              - { label: Actual, name: current, widget: boolean, default: false }
+          - label: "Redes sociales"
+            name: social
+            widget: list
+            field: { label: URL, name: url, widget: string }
+
+  # ---- Divisions (7) ----
+  - name: divisions
+    label: "Divisiones"
+    label_singular: "División"
+    folder: "content/divisions"
+    extension: json
+    format: json
+    identifier_field: name
+    create: true
+    slug: "{{fields.order}}-{{slug}}"
+    summary: "{{name}}"
+    fields:
+      - { label: Orden, name: order, widget: number, value_type: int }
+      - { label: Slug (URL), name: slug, widget: string }
+      - { label: Nombre, name: name, widget: string }
+      - { label: Nombre en menú, name: nav_name, widget: string }
+      - { label: Imagen de tarjeta (base), name: card_image, widget: string, required: false }
+      - { label: Alt de la tarjeta, name: card_alt, widget: string, required: false }
+      - { label: Tagline, name: tagline, widget: string, required: false }
+      - label: Hero
+        name: hero
+        widget: object
+        fields:
+          - { label: Eyebrow, name: eyebrow, widget: string, required: false }
+          - { label: Título, name: title, widget: string }
+          - { label: Lead, name: lead, widget: text }
+      - { label: Intro, name: intro, widget: text, required: false }
+      - { label: Título de la sección de hijos, name: children_title, widget: string, required: false }
+      - label: "Hijos (sub-secciones)"
+        name: children
+        widget: list
+        required: false
+        fields:
+          - { label: Nombre, name: name, widget: string }
+          - { label: Slug (opcional), name: slug, widget: string, required: false }
+          - { label: Descripción, name: desc, widget: text }
+      - label: "Highlights (cifras)"
+        name: highlights
+        widget: list
+        required: false
+        fields:
+          - { label: Valor, name: value, widget: string }
+          - { label: Etiqueta, name: label, widget: string }
+      - label: Overview
+        name: overview
+        widget: object
+        required: false
+        fields:
+          - { label: Título, name: title, widget: string, required: false }
+          - { label: Párrafos, name: body, widget: list, required: false, field: { label: Párrafo, name: p, widget: text } }
+          - { label: Puntos, name: points, widget: list, required: false, field: { label: Punto, name: pt, widget: string } }
+          - { label: Cifra, name: stat, widget: string, required: false }
+          - { label: Etiqueta de la cifra, name: stat_label, widget: string, required: false }
+      - { label: Título de beneficios, name: benefits_title, widget: string, required: false }
+      - label: Beneficios
+        name: benefits
+        widget: list
+        required: false
+        fields:
+          - { label: Título, name: title, widget: string }
+          - { label: Descripción, name: desc, widget: text }
+      - { label: Título del proceso, name: process_title, widget: string, required: false }
+      - { label: Intro del proceso, name: process_intro, widget: text, required: false }
+      - label: Proceso
+        name: process
+        widget: list
+        required: false
+        fields:
+          - { label: Ícono, name: icon, widget: select, options: [compass, layers, install, train, deliver, support, cog, shield, target, cpu, report, vial, prep, analyze, wave, droplet, box, flask, microscope, dna] }
+          - { label: Título, name: title, widget: string }
+          - { label: Descripción, name: desc, widget: text }
+      - label: Marcas relacionadas
+        name: brands
+        widget: list
+        required: false
+        fields:
+          - { label: Nombre, name: name, widget: string }
+          - { label: Slug (opcional), name: slug, widget: string, required: false }
+      - label: SEO
+        name: meta
+        widget: object
+        fields:
+          - { label: Título, name: title, widget: string }
+          - { label: Descripción, name: description, widget: text }
+
+  # ---- Solution / category pages ----
+  - name: categories
+    label: "Soluciones (categorías, sectores, aplicaciones)"
+    label_singular: "Página de solución"
+    folder: "content/categories"
+    extension: json
+    format: json
+    identifier_field: name
+    create: true
+    slug: "{{slug}}"
+    summary: "{{name}}"
+    fields:
+      - { label: Orden, name: order, widget: number, value_type: int, required: false }
+      - { label: Slug (URL), name: slug, widget: string }
+      - label: "Padre (a qué página pertenece)"
+        name: parent
+        widget: object
+        fields:
+          - { label: Slug del padre, name: slug, widget: string }
+          - { label: Nombre del padre, name: name, widget: string }
+      - { label: Nombre, name: name, widget: string }
+      - { label: Eyebrow, name: eyebrow, widget: string, required: false }
+      - label: Hero
+        name: hero
+        widget: object
+        fields:
+          - { label: Título, name: title, widget: string }
+          - { label: Lead, name: lead, widget: text }
+      - { label: Intro, name: intro, widget: text, required: false }
+      - { label: Título de ítems, name: items_title, widget: string, required: false }
+      - label: "Ítems (análisis, equipos, sub-áreas)"
+        name: items
+        widget: list
+        required: false
+        fields:
+          - { label: Nombre, name: name, widget: string }
+          - { label: Descripción, name: desc, widget: text }
+          - { label: Slug (opcional, si es una página), name: slug, widget: string, required: false }
+      - label: Beneficios
+        name: benefits
+        widget: list
+        required: false
+        fields:
+          - { label: Título, name: title, widget: string }
+          - { label: Descripción, name: desc, widget: text }
+      - label: Marcas relacionadas
+        name: brands
+        widget: list
+        required: false
+        fields:
+          - { label: Nombre, name: name, widget: string }
+          - { label: Slug (opcional), name: slug, widget: string, required: false }
+      - { label: "Catálogo (ruta al PDF)", name: catalog_pdf, widget: string, required: false }
+      - { label: Título del proceso, name: process_title, widget: string, required: false }
+      - { label: Intro del proceso, name: process_intro, widget: text, required: false }
+      - label: Proceso
+        name: process
+        widget: list
+        required: false
+        fields:
+          - { label: Ícono, name: icon, widget: select, options: [compass, layers, install, train, deliver, support, cog, shield, target, cpu, report, vial, prep, analyze, wave, droplet, box, flask, microscope, dna] }
+          - { label: Título, name: title, widget: string }
+          - { label: Descripción, name: desc, widget: text }
+      - label: SEO
+        name: meta
+        widget: object
+        fields:
+          - { label: Título, name: title, widget: string }
+          - { label: Descripción, name: description, widget: text }
+
+  # ---- Top-level pages (Marcas, Seminarios) ----
+  - name: pages
+    label: "Páginas (Marcas, Seminarios)"
+    label_singular: "Página"
+    folder: "content/pages"
+    extension: json
+    format: json
+    identifier_field: name
+    create: true
+    slug: "{{slug}}"
+    summary: "{{name}}"
+    fields:
+      - { label: Slug (URL), name: slug, widget: string }
+      - { label: Nombre, name: name, widget: string }
+      - { label: Eyebrow, name: eyebrow, widget: string, required: false }
+      - label: Hero
+        name: hero
+        widget: object
+        fields:
+          - { label: Título, name: title, widget: string }
+          - { label: Lead, name: lead, widget: text }
+      - { label: Intro, name: intro, widget: text, required: false }
+      - { label: Título de ítems, name: items_title, widget: string, required: false }
+      - label: "Ítems (marcas / programas)"
+        name: items
+        widget: list
+        required: false
+        fields:
+          - { label: Nombre, name: name, widget: string }
+          - { label: Descripción, name: desc, widget: text }
+          - { label: Slug (opcional), name: slug, widget: string, required: false }
+          - { label: Productos de ejemplo, name: products, widget: list, required: false, field: { label: Producto, name: p, widget: string } }
+      - label: Beneficios
+        name: benefits
+        widget: list
+        required: false
+        fields:
+          - { label: Título, name: title, widget: string }
+          - { label: Descripción, name: desc, widget: text }
+      - { label: Etiqueta del botón CTA, name: cta_label, widget: string, required: false }
+      - { label: "Catálogo (ruta al PDF)", name: catalog_pdf, widget: string, required: false }
+      - label: SEO
+        name: meta
+        widget: object
+        fields:
+          - { label: Título, name: title, widget: string }
+          - { label: Descripción, name: description, widget: text }

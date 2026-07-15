@@ -1,0 +1,18 @@
+# Netlify deploy config (used when the site is launched — pending CEO approval).
+# On every content change (via /admin or git), Netlify runs the generator and
+# republishes the static site.
+
+[build]
+  command = "pip3 install --quiet jinja2 && python3 build.py"
+  publish = "."
+
+[build.environment]
+  PYTHON_VERSION = "3.11"
+
+# Keep the content editor out of search results.
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+
+# Redirect map (old Wix URLs -> new pages) will be added here at launch.
