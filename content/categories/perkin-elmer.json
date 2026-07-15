@@ -4,6 +4,8 @@
   "parent": { "slug": "marcas", "name": "Marcas" },
   "name": "PerkinElmer",
   "eyebrow": "Marca representada",
+  "catalog_url": "https://www.perkinelmer.com",
+  "catalog_label": "Ver catálogo PerkinElmer",
   "hero": {
     "title": "PerkinElmer — instrumentación analítica de referencia",
     "lead": "Somos representantes de PerkinElmer, líder mundial en instrumentación para análisis químico, ambiental, alimentario y de materiales."
