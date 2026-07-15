@@ -40,5 +40,28 @@
       "title": "Escalabilidad",
       "desc": "Del laboratorio a la producción con la misma tecnología."
     }
+  ],
+  "process_title": "Cómo lo implementamos",
+  "process": [
+    {
+      "icon": "compass",
+      "title": "Diseño",
+      "desc": "Dimensionamos la solución según su proceso y capacidad."
+    },
+    {
+      "icon": "cog",
+      "title": "Suministro e integración",
+      "desc": "Fabricación, montaje y conexión con utilidades."
+    },
+    {
+      "icon": "shield",
+      "title": "Calificación",
+      "desc": "IQ/OQ/PQ y documentación GMP."
+    },
+    {
+      "icon": "support",
+      "title": "Soporte",
+      "desc": "Mantenimiento, repuestos y calibración."
+    }
   ]
 }

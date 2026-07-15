@@ -17,5 +17,28 @@
   "meta": {
     "title": "Vidriería | Reactivos y Consumibles | CCV Grupo Venezuela",
     "description": "Vidriería técnica y de laboratorio de uso general."
-  }
+  },
+  "process_title": "Cómo lo gestionamos",
+  "process": [
+    {
+      "icon": "target",
+      "title": "Requerimiento",
+      "desc": "Identificamos lo compatible con su instrumentación."
+    },
+    {
+      "icon": "box",
+      "title": "Suministro",
+      "desc": "Disponibilidad y logística oportuna."
+    },
+    {
+      "icon": "report",
+      "title": "Trazabilidad",
+      "desc": "Certificados y control de lotes."
+    },
+    {
+      "icon": "support",
+      "title": "Reposición",
+      "desc": "Programas de reposición continua."
+    }
+  ]
 }

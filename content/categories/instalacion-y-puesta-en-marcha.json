@@ -17,5 +17,28 @@
   "meta": {
     "title": "Instalación y Puesta en Marcha | Servicio Técnico | CCV Grupo Venezuela",
     "description": "Comisionamiento profesional con validación de desempeño."
-  }
+  },
+  "process_title": "Nuestro servicio, paso a paso",
+  "process": [
+    {
+      "icon": "cog",
+      "title": "Puesta en marcha",
+      "desc": "Comisionamiento con validación."
+    },
+    {
+      "icon": "target",
+      "title": "Calibración",
+      "desc": "Calibración trazable y documentada."
+    },
+    {
+      "icon": "shield",
+      "title": "Mantenimiento",
+      "desc": "Planes preventivos y correctivos."
+    },
+    {
+      "icon": "support",
+      "title": "Repuestos",
+      "desc": "Partes originales y mejoras."
+    }
+  ]
 }

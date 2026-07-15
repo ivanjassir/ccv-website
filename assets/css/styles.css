@@ -375,6 +375,50 @@ h1,h2,h3,h4{font-family:'Sora',sans-serif;font-weight:600;line-height:1.12;lette
   border-top:4px solid transparent;border-bottom:4px solid transparent;border-left:6px solid var(--brand);transition:transform .18s ease}
 .card--link:hover .card__more::after{transform:translateX(4px)}
 
+/* ===== Next-gen animated process band ===== */
+.proc-section{position:relative;overflow:hidden;background:var(--hero);color:#fff}
+.proc-section .s-head h2{color:#fff}
+.s-head--light p{color:rgba(255,255,255,.72)}
+.s-tag--light{color:#2dd4bf}
+.proc-section__glow{position:absolute;inset:0;pointer-events:none;opacity:.9;
+  background:radial-gradient(55% 120% at 12% 0%,rgba(14,125,142,.55),transparent 60%),
+             radial-gradient(50% 120% at 92% 100%,rgba(45,212,191,.32),transparent 60%);
+  animation:procGlow 15s ease-in-out infinite alternate}
+@keyframes procGlow{to{transform:translate3d(0,-4%,0) scale(1.06)}}
+.proc-section__grid{position:absolute;inset:0;pointer-events:none;opacity:.5;
+  background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);
+  background-size:56px 56px;mask-image:radial-gradient(80% 80% at 50% 28%,#000,transparent)}
+.proc-section .wrap{position:relative;z-index:1}
+.proc{position:relative;display:grid;grid-auto-flow:column;grid-auto-columns:1fr;gap:22px;margin-top:12px}
+.proc__track{position:absolute;left:10%;right:10%;top:44px;height:2px;background:rgba(255,255,255,.14);border-radius:2px;overflow:hidden}
+.proc__fill{position:absolute;inset:0;transform:scaleX(0);transform-origin:left;border-radius:2px;
+  background:linear-gradient(90deg,#12aebd,#2dd4bf);transition:transform 1.4s cubic-bezier(.4,0,.1,1) .2s}
+.proc.in .proc__fill{transform:scaleX(1)}
+.proc__step{position:relative;text-align:center;padding:0 6px}
+.proc__node{position:relative;width:88px;height:88px;margin:0 auto 18px;border-radius:50%;display:grid;place-items:center;color:#8ff0e6;
+  background:radial-gradient(circle at 35% 30%,rgba(45,212,191,.28),rgba(7,42,50,.65));
+  border:1px solid rgba(45,212,191,.4);box-shadow:0 0 0 8px rgba(14,125,142,.08),0 18px 40px -16px rgba(0,0,0,.6);
+  transition:transform .25s ease,box-shadow .25s ease}
+.proc__node .pico{width:34px;height:34px}
+.proc__ring{position:absolute;inset:-1px;border-radius:50%;border:1.5px solid transparent;
+  border-top-color:rgba(45,212,191,.85);border-right-color:rgba(45,212,191,.35);opacity:0}
+.proc.in .proc__ring{opacity:1;animation:procSpin 3.6s linear infinite}
+@keyframes procSpin{to{transform:rotate(360deg)}}
+.proc__step:hover .proc__node{transform:translateY(-4px);box-shadow:0 0 0 8px rgba(45,212,191,.13),0 22px 46px -16px rgba(0,0,0,.72)}
+.proc__num{display:inline-block;font-family:'Sora',sans-serif;font-weight:700;font-size:.8rem;letter-spacing:.12em;color:#2dd4bf;margin-bottom:6px}
+.proc__step h3{font-size:1.12rem;color:#fff;margin-bottom:8px}
+.proc__step p{color:rgba(255,255,255,.7);font-size:.95rem;line-height:1.6;margin:0}
+@media (max-width:900px){
+  .proc{grid-auto-flow:row;grid-auto-columns:auto;gap:26px}
+  .proc__track{display:none}
+  .proc__step{display:grid;grid-template-columns:64px 1fr;column-gap:16px;row-gap:2px;text-align:left}
+  .proc__node{grid-column:1;grid-row:1 / 4;width:64px;height:64px;margin:0}
+  .proc__node .pico{width:26px;height:26px}
+  .proc__num{grid-column:2;grid-row:1}
+  .proc__step h3{grid-column:2;grid-row:2}
+  .proc__step p{grid-column:2;grid-row:3}
+}
+
 /* Feature / benefit cards (icon accent) */
 .card__ico{display:inline-grid;place-items:center;width:42px;height:42px;border-radius:12px;
   background:rgba(14,125,142,.1);color:var(--brand);font-size:1rem;margin-bottom:16px}

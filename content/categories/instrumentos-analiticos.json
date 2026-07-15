@@ -17,5 +17,28 @@
   "meta": {
     "title": "Instrumentos Analíticos | Life Science & Forense | CCV Grupo Venezuela",
     "description": "Equipamiento para análisis de biología molecular."
-  }
+  },
+  "process_title": "Cómo lo implementamos",
+  "process": [
+    {
+      "icon": "target",
+      "title": "Definición",
+      "desc": "Elegimos la técnica adecuada para su aplicación."
+    },
+    {
+      "icon": "cog",
+      "title": "Implementación",
+      "desc": "Instalación y configuración de la plataforma."
+    },
+    {
+      "icon": "dna",
+      "title": "Capacitación",
+      "desc": "Entrenamiento en protocolos y análisis."
+    },
+    {
+      "icon": "support",
+      "title": "Soporte",
+      "desc": "Consumibles, servicio y actualización."
+    }
+  ]
 }

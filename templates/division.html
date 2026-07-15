@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% import "partials/process.html" as proc %}
 {% block main %}
 <main id="main">
   <!-- DIVISION HERO -->
@@ -102,30 +103,12 @@
   </section>
   {% endif %}
 
-  {% if division.approach %}
-  <!-- APPROACH -->
-  <section class="section section--soft">
-    <div class="wrap">
-      <header class="s-head" data-reveal>
-        <span class="s-tag">Cómo trabajamos</span>
-        <h2>{{ division.approach_title or "Nuestro enfoque" }}</h2>
-      </header>
-      <div class="timeline cards--3" data-reveal>
-        <span class="timeline__line" aria-hidden="true"></span>
-        {% for s in division.approach %}
-        <article class="card card--plain tstep" data-stagger data-tilt data-spot>
-          <span class="tstep__dot">0{{ loop.index }}</span>
-          <h3>{{ s.title }}</h3>
-          <p>{{ s.desc }}</p>
-        </article>
-        {% endfor %}
-      </div>
-    </div>
-  </section>
+  {% if division.process %}
+  {{ proc.process_section(division.process, division.process_title or "Cómo trabajamos", division.process_intro or "") }}
   {% endif %}
 
   <!-- OTHER DIVISIONS -->
-  <section class="section{% if division.approach %}{% else %} section--soft{% endif %}">
+  <section class="section section--soft">
     <div class="wrap">
       <header class="s-head" data-reveal>
         <span class="s-tag">Divisiones</span>

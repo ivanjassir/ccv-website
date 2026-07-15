@@ -17,5 +17,28 @@
   "meta": {
     "title": "Repuestos y Consumibles | Servicio Técnico | CCV Grupo Venezuela",
     "description": "Suministro oportuno de partes originales certificadas."
-  }
+  },
+  "process_title": "Nuestro servicio, paso a paso",
+  "process": [
+    {
+      "icon": "cog",
+      "title": "Puesta en marcha",
+      "desc": "Comisionamiento con validación."
+    },
+    {
+      "icon": "target",
+      "title": "Calibración",
+      "desc": "Calibración trazable y documentada."
+    },
+    {
+      "icon": "shield",
+      "title": "Mantenimiento",
+      "desc": "Planes preventivos y correctivos."
+    },
+    {
+      "icon": "support",
+      "title": "Repuestos",
+      "desc": "Partes originales y mejoras."
+    }
+  ]
 }

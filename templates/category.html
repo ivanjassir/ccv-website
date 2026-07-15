@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% import "partials/process.html" as proc %}
 {% block main %}
 <main id="main">
   <!-- CATEGORY HERO -->
@@ -115,6 +116,10 @@
       {% endif %}
     </div>
   </section>
+
+  {% if cat.process %}
+  {{ proc.process_section(cat.process, cat.process_title or "De la muestra al resultado", cat.process_intro or "") }}
+  {% endif %}
 
   {% if cat.brands %}
   <!-- RELATED BRANDS -->

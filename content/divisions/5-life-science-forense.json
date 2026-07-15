@@ -77,5 +77,29 @@
       "title": "Puesta en marcha",
       "desc": "Instalación, capacitación y soporte para operar con confianza."
     }
+  ],
+  "process_title": "Cómo lo implementamos",
+  "process_intro": "De la técnica adecuada al soporte especializado.",
+  "process": [
+    {
+      "icon": "target",
+      "title": "Definición de la aplicación",
+      "desc": "Identificamos la técnica: PCR, secuenciación o microscopía."
+    },
+    {
+      "icon": "cog",
+      "title": "Implementación",
+      "desc": "Instalación y configuración de la plataforma."
+    },
+    {
+      "icon": "dna",
+      "title": "Capacitación",
+      "desc": "Entrenamiento en protocolos y análisis."
+    },
+    {
+      "icon": "support",
+      "title": "Soporte especializado",
+      "desc": "Consumibles, servicio y actualización."
+    }
   ]
 }

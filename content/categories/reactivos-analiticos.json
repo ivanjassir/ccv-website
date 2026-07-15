@@ -17,5 +17,28 @@
   "meta": {
     "title": "Reactivos Analíticos | Reactivos y Consumibles | CCV Grupo Venezuela",
     "description": "Reactivos de alta pureza para análisis y control de calidad."
-  }
+  },
+  "process_title": "Cómo lo gestionamos",
+  "process": [
+    {
+      "icon": "target",
+      "title": "Requerimiento",
+      "desc": "Identificamos lo compatible con su instrumentación."
+    },
+    {
+      "icon": "box",
+      "title": "Suministro",
+      "desc": "Disponibilidad y logística oportuna."
+    },
+    {
+      "icon": "report",
+      "title": "Trazabilidad",
+      "desc": "Certificados y control de lotes."
+    },
+    {
+      "icon": "support",
+      "title": "Reposición",
+      "desc": "Programas de reposición continua."
+    }
+  ]
 }

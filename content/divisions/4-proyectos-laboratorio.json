@@ -72,5 +72,29 @@
       "title": "Un solo responsable",
       "desc": "Coordinamos ingeniería, obra y equipamiento de principio a fin."
     }
+  ],
+  "process_title": "Cómo ejecutamos su proyecto",
+  "process_intro": "Un solo responsable, del anteproyecto a la entrega.",
+  "process": [
+    {
+      "icon": "compass",
+      "title": "Anteproyecto",
+      "desc": "Definimos layout, flujos y requerimientos."
+    },
+    {
+      "icon": "layers",
+      "title": "Ingeniería de detalle",
+      "desc": "Especificamos mobiliario, extracción y utilidades."
+    },
+    {
+      "icon": "cog",
+      "title": "Ejecución de obra",
+      "desc": "Construimos e instalamos llave en mano."
+    },
+    {
+      "icon": "support",
+      "title": "Entrega y soporte",
+      "desc": "Puesta en marcha y mantenimiento."
+    }
   ]
 }

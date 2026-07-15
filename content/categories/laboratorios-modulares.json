@@ -17,5 +17,28 @@
   "meta": {
     "title": "Laboratorios Modulares | Proyectos de Laboratorio | CCV Grupo Venezuela",
     "description": "Espacios prefabricados y salas de flujo laminar."
-  }
+  },
+  "process_title": "Cómo ejecutamos su proyecto",
+  "process": [
+    {
+      "icon": "compass",
+      "title": "Anteproyecto",
+      "desc": "Layout, flujos y requerimientos."
+    },
+    {
+      "icon": "layers",
+      "title": "Ingeniería",
+      "desc": "Especificación técnica de la solución."
+    },
+    {
+      "icon": "cog",
+      "title": "Ejecución",
+      "desc": "Instalación llave en mano."
+    },
+    {
+      "icon": "support",
+      "title": "Entrega",
+      "desc": "Puesta en marcha y soporte."
+    }
+  ]
 }

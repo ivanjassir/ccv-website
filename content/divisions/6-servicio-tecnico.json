@@ -87,5 +87,29 @@
       "title": "Repuestos y mejoras",
       "desc": "Partes originales y actualizaciones a lo largo de la vida útil."
     }
+  ],
+  "process_title": "Nuestro servicio, paso a paso",
+  "process_intro": "Maximizamos la disponibilidad y vida útil de sus equipos.",
+  "process": [
+    {
+      "icon": "cog",
+      "title": "Instalación y puesta en marcha",
+      "desc": "Comisionamiento con validación de desempeño."
+    },
+    {
+      "icon": "target",
+      "title": "Calibración",
+      "desc": "Calibración trazable y documentada."
+    },
+    {
+      "icon": "shield",
+      "title": "Mantenimiento",
+      "desc": "Planes preventivos y correctivos a la medida."
+    },
+    {
+      "icon": "support",
+      "title": "Repuestos y mejoras",
+      "desc": "Partes originales y actualizaciones."
+    }
   ]
 }

@@ -87,5 +87,29 @@
       "title": "Soporte de por vida",
       "desc": "Instalación, calibración, repuestos y capacitación con respuesta local."
     }
+  ],
+  "process_title": "Cómo trabajamos",
+  "process_intro": "Un método probado para que cada laboratorio obtenga resultados confiables.",
+  "process": [
+    {
+      "icon": "target",
+      "title": "Diagnóstico",
+      "desc": "Analizamos su matriz, normativa y volumen de muestras."
+    },
+    {
+      "icon": "layers",
+      "title": "Selección",
+      "desc": "Recomendamos la instrumentación y el método adecuados."
+    },
+    {
+      "icon": "cog",
+      "title": "Instalación y capacitación",
+      "desc": "Puesta en marcha, validación y entrenamiento del equipo."
+    },
+    {
+      "icon": "support",
+      "title": "Soporte continuo",
+      "desc": "Calibración, repuestos y servicio técnico local."
+    }
   ]
 }

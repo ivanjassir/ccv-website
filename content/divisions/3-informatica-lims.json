@@ -72,5 +72,29 @@
       "title": "Cumplimiento",
       "desc": "Apoya los requisitos regulatorios y de acreditación de su laboratorio."
     }
+  ],
+  "process_title": "Cómo lo implementamos",
+  "process_intro": "Digitalizamos su laboratorio con una puesta en marcha ordenada.",
+  "process": [
+    {
+      "icon": "target",
+      "title": "Relevamiento",
+      "desc": "Mapeamos flujos de trabajo, equipos y requisitos."
+    },
+    {
+      "icon": "cog",
+      "title": "Configuración",
+      "desc": "Parametrizamos el LIMS y las integraciones."
+    },
+    {
+      "icon": "cpu",
+      "title": "Integración de equipos",
+      "desc": "Conectamos instrumentos para captura automática."
+    },
+    {
+      "icon": "support",
+      "title": "Go-live y soporte",
+      "desc": "Capacitación, validación y soporte continuo."
+    }
   ]
 }

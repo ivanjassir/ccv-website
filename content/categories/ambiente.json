@@ -33,5 +33,28 @@
       "slug": "suelo"
     }
   ],
-  "items_title": "Matrices"
+  "items_title": "Matrices",
+  "process_title": "De la muestra al resultado",
+  "process": [
+    {
+      "icon": "vial",
+      "title": "Muestreo y recepción",
+      "desc": "Recepción, registro e identificación de muestras de ambiente."
+    },
+    {
+      "icon": "prep",
+      "title": "Preparación de muestra",
+      "desc": "Digestión, extracción o acondicionamiento según el método normalizado."
+    },
+    {
+      "icon": "analyze",
+      "title": "Análisis instrumental",
+      "desc": "Medición con la técnica adecuada y control de calidad de los datos."
+    },
+    {
+      "icon": "report",
+      "title": "Resultados e informe",
+      "desc": "Validación, reporte de resultados y asesoría técnica."
+    }
+  ]
 }

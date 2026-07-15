@@ -17,5 +17,28 @@
   "meta": {
     "title": "Cumplimiento y Trazabilidad | Informática · LIMS | CCV Grupo Venezuela",
     "description": "Auditoría, firmas electrónicas y trazabilidad de resultados."
-  }
+  },
+  "process_title": "Cómo lo implementamos",
+  "process": [
+    {
+      "icon": "target",
+      "title": "Relevamiento",
+      "desc": "Mapeamos flujos, equipos y requisitos."
+    },
+    {
+      "icon": "cog",
+      "title": "Configuración",
+      "desc": "Parametrización e integraciones."
+    },
+    {
+      "icon": "cpu",
+      "title": "Integración",
+      "desc": "Captura automática desde los instrumentos."
+    },
+    {
+      "icon": "support",
+      "title": "Soporte",
+      "desc": "Capacitación y soporte continuo."
+    }
+  ]
 }

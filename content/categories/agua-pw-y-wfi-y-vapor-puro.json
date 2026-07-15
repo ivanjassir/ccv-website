@@ -44,5 +44,28 @@
       "title": "Diseño sanitario",
       "desc": "Lazos de distribución sin puntos muertos."
     }
+  ],
+  "process_title": "Cómo lo implementamos",
+  "process": [
+    {
+      "icon": "compass",
+      "title": "Diseño",
+      "desc": "Dimensionamos la solución según su proceso y capacidad."
+    },
+    {
+      "icon": "cog",
+      "title": "Suministro e integración",
+      "desc": "Fabricación, montaje y conexión con utilidades."
+    },
+    {
+      "icon": "shield",
+      "title": "Calificación",
+      "desc": "IQ/OQ/PQ y documentación GMP."
+    },
+    {
+      "icon": "support",
+      "title": "Soporte",
+      "desc": "Mantenimiento, repuestos y calibración."
+    }
   ]
 }
