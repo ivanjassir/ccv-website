@@ -118,7 +118,7 @@
       <div class="cards cards--banners" data-reveal>
         {% for d in divisions if d.slug != division.slug %}
         <a class="banner-card" href="{{ d.slug }}.html" data-stagger data-tilt aria-label="{{ d.name }}">
-          <img src="assets/images/cards/{{ d.card_image }}.png" srcset="assets/images/cards/{{ d.card_image }}@2x.png 2x" width="760" height="206" alt="{{ d.card_alt }}" loading="lazy" />
+          <img src="assets/images/cards/{{ d.card_image }}.webp" srcset="assets/images/cards/{{ d.card_image }}@2x.webp 2x" width="760" height="206" alt="{{ d.card_alt }}" loading="lazy" />
           <div class="banner-card__text">
             <h3>{{ d.name }}</h3>
             <p>{{ d.tagline }}</p>

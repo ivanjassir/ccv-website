@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% import "partials/process.html" as proc %}
 {% block main %}
 <main id="main">
   <!-- HERO -->
@@ -55,7 +56,7 @@
       <div class="cards cards--banners" data-reveal>
         {% for d in divisions %}
         <a class="banner-card" href="{{ d.slug }}.html" data-stagger data-tilt aria-label="{{ d.name }}">
-          <img src="assets/images/cards/{{ d.card_image }}.png" srcset="assets/images/cards/{{ d.card_image }}@2x.png 2x" width="760" height="206" alt="{{ d.card_alt }}" loading="lazy" />
+          <img src="assets/images/cards/{{ d.card_image }}.webp" srcset="assets/images/cards/{{ d.card_image }}@2x.webp 2x" width="760" height="206" alt="{{ d.card_alt }}" loading="lazy" />
           <div class="banner-card__text">
             <h3>{{ d.name }}</h3>
             <p>{{ d.tagline }}</p>
@@ -102,6 +103,8 @@
       </div>
     </div>
   </section>
+
+  {{ proc.process_section(site.home_process, "Nuestro proceso integral", "Del concepto a la operación continua: así acompañamos su laboratorio o planta de principio a fin.") }}
 
   {% include "partials/regiones.html" %}
 
@@ -162,23 +165,23 @@
     </div>
     <div class="client-strip" data-reveal aria-label="Clientes de CCV">
       <div class="client-strip__track">
-        <img src="assets/images/clients/monaca.png" alt="MONACA — Molinos Nacionales" loading="lazy" />
-        <img src="assets/images/clients/electricidad-caracas.png" alt="La Electricidad de Caracas" loading="lazy" />
+        <img src="assets/images/clients/monaca.webp" alt="MONACA — Molinos Nacionales" loading="lazy" />
+        <img src="assets/images/clients/electricidad-caracas.webp" alt="La Electricidad de Caracas" loading="lazy" />
         <img src="assets/images/clients/polar.svg" alt="Empresas Polar" loading="lazy" />
-        <img src="assets/images/clients/cvg.png" alt="CVG — Corporación Venezolana de Guayana" loading="lazy" />
+        <img src="assets/images/clients/cvg.webp" alt="CVG — Corporación Venezolana de Guayana" loading="lazy" />
         <img src="assets/images/clients/bayer.svg" alt="Bayer" loading="lazy" />
         <img src="assets/images/clients/coca-cola.svg" alt="Coca-Cola" loading="lazy" />
         <img src="assets/images/clients/plumrose.svg" alt="Plumrose" loading="lazy" />
-        <img src="assets/images/clients/la-sante.png" alt="La Santé" loading="lazy" />
+        <img src="assets/images/clients/la-sante.webp" alt="La Santé" loading="lazy" />
         <img src="assets/images/clients/nestle.svg" alt="Nestlé" loading="lazy" />
-        <img src="assets/images/clients/monaca.png" alt="" aria-hidden="true" loading="lazy" />
-        <img src="assets/images/clients/electricidad-caracas.png" alt="" aria-hidden="true" loading="lazy" />
+        <img src="assets/images/clients/monaca.webp" alt="" aria-hidden="true" loading="lazy" />
+        <img src="assets/images/clients/electricidad-caracas.webp" alt="" aria-hidden="true" loading="lazy" />
         <img src="assets/images/clients/polar.svg" alt="" aria-hidden="true" loading="lazy" />
-        <img src="assets/images/clients/cvg.png" alt="" aria-hidden="true" loading="lazy" />
+        <img src="assets/images/clients/cvg.webp" alt="" aria-hidden="true" loading="lazy" />
         <img src="assets/images/clients/bayer.svg" alt="" aria-hidden="true" loading="lazy" />
         <img src="assets/images/clients/coca-cola.svg" alt="" aria-hidden="true" loading="lazy" />
         <img src="assets/images/clients/plumrose.svg" alt="" aria-hidden="true" loading="lazy" />
-        <img src="assets/images/clients/la-sante.png" alt="" aria-hidden="true" loading="lazy" />
+        <img src="assets/images/clients/la-sante.webp" alt="" aria-hidden="true" loading="lazy" />
         <img src="assets/images/clients/nestle.svg" alt="" aria-hidden="true" loading="lazy" />
       </div>
     </div>

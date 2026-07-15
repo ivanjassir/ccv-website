@@ -9,6 +9,14 @@
   },
   "group_url": "https://www.ccvgrupo.com",
   "base_url": "https://www.ccv.com.ve",
+  "home_process": [
+    { "icon": "compass", "title": "Diseño", "desc": "Analizamos su necesidad y diseñamos la solución técnica adecuada." },
+    { "icon": "layers", "title": "Construcción", "desc": "Ingeniería y fabricación de equipos y sistemas a la medida." },
+    { "icon": "install", "title": "Instalación", "desc": "Montaje y puesta en marcha con validación de desempeño." },
+    { "icon": "train", "title": "Capacitación", "desc": "Entrenamos a su equipo en la operación y las buenas prácticas." },
+    { "icon": "deliver", "title": "Entrega", "desc": "Entrega llave en mano, lista para operar." },
+    { "icon": "support", "title": "Mantenimiento", "desc": "Servicio, calibración y repuestos durante toda la vida útil." }
+  ],
   "social": [
     "https://www.facebook.com/ccvgrupovzla",
     "https://www.instagram.com/ccv_vzla",

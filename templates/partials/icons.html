@@ -18,7 +18,10 @@
   "microscope": '<path d="M6 21h11"/><path d="M9.5 21 8 17h4l-1.5 4"/><path d="M10.5 6 13 3.5 15.5 6 13 8.5Z"/><path d="M8.5 12a4.5 4.5 0 0 0 7 0"/><path d="M11 8.5 14 11.5"/>',
   "dna": '<path d="M7 3c0 4.5 10 4.5 10 9s-10 4.5-10 9"/><path d="M17 3c0 4.5-10 4.5-10 9s10 4.5 10 9"/><path d="M8.5 6h7M8.5 18h7M10 12h4"/>',
   "compass": '<circle cx="12" cy="12" r="9"/><path d="M15.5 8.5 13 13l-4.5 2.5L11 11Z"/>',
-  "leaf": '<path d="M5 19c0-8 6-14 14-14 0 8-6 14-14 14Z"/><path d="M5 19C9 15 13 11 17 8"/>'
+  "leaf": '<path d="M5 19c0-8 6-14 14-14 0 8-6 14-14 14Z"/><path d="M5 19C9 15 13 11 17 8"/>',
+  "install": '<path d="M12 3v10m0 0 4-4m-4 4-4-4"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/>',
+  "train": '<path d="M12 4 2 9l10 5 10-5-10-5Z"/><path d="M6 11v4c0 1.4 2.7 2.6 6 2.6s6-1.2 6-2.6v-4"/>',
+  "deliver": '<path d="M3 6h11v9H3z"/><path d="M14 9h4l3 3v3h-7z"/><circle cx="7" cy="18.5" r="1.5"/><circle cx="17" cy="18.5" r="1.5"/>'
 } -%}
 <svg class="pico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">{{ paths.get(name, paths["flask"]) | safe }}</svg>
 {%- endmacro %}

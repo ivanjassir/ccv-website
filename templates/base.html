@@ -15,11 +15,11 @@
 <meta property="og:title" content="{{ meta.title }}" />
 <meta property="og:description" content="{{ meta.description }}" />
 <meta property="og:url" content="{{ site.base_url }}/{{ canonical_path }}" />
-<meta property="og:image" content="{{ site.base_url }}/{{ meta.image or 'assets/images/cards/home.png' }}" />
+<meta property="og:image" content="{{ site.base_url }}/{{ meta.image or 'assets/images/logo.png' }}" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="{{ meta.title }}" />
 <meta name="twitter:description" content="{{ meta.description }}" />
-<meta name="twitter:image" content="{{ site.base_url }}/{{ meta.image or 'assets/images/cards/home.png' }}" />
+<meta name="twitter:image" content="{{ site.base_url }}/{{ meta.image or 'assets/images/logo.png' }}" />
 {% autoescape false %}
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Organization","name":"{{ site.brand.name }}","legalName":"{{ site.brand.legal }}","url":"{{ site.base_url }}/","logo":"{{ site.base_url }}/assets/images/logo.png","telephone":"{{ site.contact.phone_display }}","email":"{{ site.contact.email_sales }}","address":{"@type":"PostalAddress","addressLocality":"Caracas","addressCountry":"VE","streetAddress":"{{ site.contact.address }}"},"sameAs":[{% for s in site.social %}"{{ s }}"{% if not loop.last %},{% endif %}{% endfor %}]}

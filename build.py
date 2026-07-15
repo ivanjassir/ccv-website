@@ -17,6 +17,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 ROOT = Path(__file__).parent
 YEAR = 2026
+mimetypes.add_type("image/webp", ".webp")  # ensure correct data-URI mime in preview
 
 env = Environment(
     loader=FileSystemLoader(str(ROOT / "templates")),
