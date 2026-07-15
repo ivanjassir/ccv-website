@@ -1,0 +1,66 @@
+<header class="nav" id="top">
+  <div class="wrap nav__inner">
+    <a class="brand" href="index.html" aria-label="{{ site.brand.name }} — Inicio">
+      <img class="brand__logo" src="{{ site.brand.logo }}" alt="{{ site.brand.name }}" />
+      <span class="brand__meta">
+        <span class="brand__grupo">Grupo</span>
+        <span class="brand__locator">{{ site.brand.locator }}</span>
+      </span>
+    </a>
+
+    <nav class="nav__links" aria-label="Principal">
+      <div class="nav__item has-sub">
+        <a href="index.html#divisiones">Divisiones</a>
+        <div class="nav__sub">
+          {% for d in divisions %}
+          <a href="{{ d.slug }}.html">{{ d.nav_name }}</a>
+          {% endfor %}
+        </div>
+      </div>
+      <a href="index.html#nosotros">Nosotros</a>
+      <a href="index.html#servicio">Servicio</a>
+      <a href="index.html#marcas">Marcas</a>
+    </nav>
+
+    <div class="nav__right">
+      <div class="region">
+        <button class="region__btn" aria-haspopup="true" aria-expanded="false">
+          <span class="region__flag">{{ current_region.flag }}</span>
+          <span>{{ current_region.name }}</span>
+          <span class="region__caret" aria-hidden="true">▾</span>
+        </button>
+        <div class="region__menu">
+          <span class="region__label">CCV Grupo</span>
+          {% for r in site.regions %}
+          <a href="{{ r.url }}"{% if r.current %} class="is-current" aria-current="true"{% else %} target="_blank" rel="noopener"{% endif %}>
+            <span class="region__flag">{{ r.flag }}</span>
+            <span>{{ r.name }}</span>
+            <small>{{ r.site }}</small>
+          </a>
+          {% endfor %}
+          <a class="region__all" href="{{ site.group_url }}" target="_blank" rel="noopener">Ver CCV Grupo →</a>
+        </div>
+      </div>
+      <a href="index.html#contacto" class="btn btn--sm nav__cta">Contáctenos</a>
+      <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <nav class="nav__mobile" aria-label="Móvil">
+    <span class="nav__mobile-label">Divisiones</span>
+    {% for d in divisions %}
+    <a href="{{ d.slug }}.html">{{ d.nav_name }}</a>
+    {% endfor %}
+    <span class="nav__mobile-label">Compañía</span>
+    <a href="index.html#nosotros">Nosotros</a>
+    <a href="index.html#servicio">Servicio Técnico</a>
+    <a href="index.html#marcas">Marcas</a>
+    <a href="index.html#contacto">Contáctenos</a>
+    <span class="nav__mobile-label">CCV Grupo</span>
+    {% for r in site.regions %}
+    <a href="{{ r.url }}"{% if not r.current %} target="_blank" rel="noopener"{% endif %}>{{ r.flag }} {{ r.name }} · {{ r.site }}</a>
+    {% endfor %}
+  </nav>
+</header>

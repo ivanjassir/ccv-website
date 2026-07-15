@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block main %}
+<main id="main">
+  <!-- DIVISION HERO -->
+  <section class="dhero">
+    <div class="dhero__bg" aria-hidden="true"></div>
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Ruta de navegación">
+        <a href="index.html">Inicio</a> <span aria-hidden="true">/</span>
+        <a href="index.html#divisiones">Divisiones</a> <span aria-hidden="true">/</span>
+        <span aria-current="page">{{ division.name }}</span>
+      </nav>
+      <span class="pill" data-reveal>{{ division.hero.eyebrow }}</span>
+      <h1 class="dhero__title" data-reveal>{{ division.hero.title }}</h1>
+      <p class="dhero__lead" data-reveal>{{ division.hero.lead }}</p>
+      <div class="hero__cta" data-reveal>
+        <a href="index.html#contacto" class="btn btn--lg">Solicitar asesoría</a>
+        <a href="index.html#divisiones" class="btn btn--lg btn--ghost">Ver todas las divisiones</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CAPABILITIES / CHILDREN -->
+  <section class="section">
+    <div class="wrap">
+      <header class="s-head" data-reveal>
+        <span class="s-tag">{{ division.name }}</span>
+        <h2>{{ division.children_title }}</h2>
+        <p>{{ division.intro }}</p>
+      </header>
+      <div class="cards" data-reveal>
+        {% for c in division.children %}
+        <article class="card" data-stagger data-tilt data-spot>
+          <h3>{{ c.name }}</h3>
+          <p>{{ c.desc }}</p>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- OTHER DIVISIONS -->
+  <section class="section section--soft">
+    <div class="wrap">
+      <header class="s-head" data-reveal>
+        <span class="s-tag">Divisiones</span>
+        <h2>Explore otras divisiones</h2>
+      </header>
+      <div class="cards cards--banners" data-reveal>
+        {% for d in divisions if d.slug != division.slug %}
+        <a class="banner-card" href="{{ d.slug }}.html" data-stagger data-tilt aria-label="{{ d.name }}">
+          <img src="assets/images/cards/{{ d.card_image }}.png" srcset="assets/images/cards/{{ d.card_image }}@2x.png 2x" width="760" height="206" alt="{{ d.card_alt }}" loading="lazy" />
+          <div class="banner-card__text">
+            <h3>{{ d.name }}</h3>
+            <p>{{ d.tagline }}</p>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <section class="cta-band">
+    <div class="wrap cta-band__inner" data-reveal>
+      <h2>¿Listo para su próximo proyecto?</h2>
+      <p>Nuestro equipo de asesores está listo para ayudarle a encontrar la solución adecuada para su laboratorio o industria.</p>
+      <a href="index.html#contacto" class="btn btn--lg">Contáctenos</a>
+    </div>
+  </section>
+</main>
+{% endblock %}

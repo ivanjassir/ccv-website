@@ -125,6 +125,20 @@ Once Phase 0 lands, per-page cost is minutes (content entry), not hours.
 4. **Contact form / seminars backend** — *still open* (Phase 5): static mailto
    (current) vs. a real submission endpoint. Not blocking Phase 0.
 
+### Progress log
+
+- **2026-07-15 — Phase 0 + Phase 1 delivered.** Stood up the data-driven
+  generator (`build.py`, Jinja2) with `content/` (site.json + 7 division JSON),
+  `templates/` (base + division + home) and `partials/` (header, footer,
+  regiones). Rebranded to **CCV Grupo** (header brand lockup + Venezuela
+  locator + VE/CO/PE region switcher; rebuilt footer). Added the **Presencia
+  regional** countries component to the homepage + footer. Generated the
+  homepage + **7 division landing pages**; homepage is now generated too (single
+  source of truth). `preview.html` auto-regenerated (self-contained). QA passed
+  (no broken links/assets, alt text, no-JS reveal gating). Localhost + git synced.
+  *Next:* Phase 2 sector pages (sector template + 8 sector JSON), then wire
+  division→sector links.
+
 ### Immediate next step — Phase 0 kickoff
 
 Deliverables when we start: (a) shared component library (extract homepage

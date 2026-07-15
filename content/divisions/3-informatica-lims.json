@@ -1,0 +1,27 @@
+{
+  "order": 3,
+  "slug": "informatica-lims",
+  "name": "Informática · LIMS",
+  "nav_name": "Informática · LIMS",
+  "card_image": "informatica_lims",
+  "card_alt": "Sistemas LIMS y gestión digital de laboratorio",
+  "tagline": "Gestión digital y trazabilidad total de su laboratorio.",
+  "hero": {
+    "eyebrow": "Informática · LIMS",
+    "title": "Digitalice y controle todo su laboratorio",
+    "lead": "Implementamos sistemas LIMS y software especializado que integran instrumentos, automatizan flujos de trabajo y garantizan la trazabilidad de cada resultado."
+  },
+  "intro": "Conectamos personas, equipos y datos en una sola plataforma para reducir errores, acelerar la toma de decisiones y asegurar el cumplimiento normativo.",
+  "children_title": "Capacidades",
+  "children": [
+    { "name": "LIMS", "desc": "Sistema de gestión de información de laboratorio de extremo a extremo." },
+    { "name": "Software Especializado", "desc": "Aplicaciones para adquisición, análisis y reporte de datos." },
+    { "name": "Integración de Instrumentos", "desc": "Captura automática de datos directamente desde los equipos." },
+    { "name": "Gestión de Muestras", "desc": "Registro, seguimiento y control del ciclo de vida de la muestra." },
+    { "name": "Cumplimiento y Trazabilidad", "desc": "Auditoría, firmas electrónicas y trazabilidad de resultados." }
+  ],
+  "meta": {
+    "title": "Informática y LIMS | CCV Grupo Venezuela",
+    "description": "Sistemas LIMS y software especializado que integran instrumentos, automatizan flujos de trabajo y garantizan la trazabilidad de cada resultado."
+  }
+}

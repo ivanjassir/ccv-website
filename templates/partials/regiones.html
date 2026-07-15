@@ -1,0 +1,21 @@
+<!-- PRESENCIA REGIONAL (countries served) -->
+<section class="section section--soft" id="presencia">
+  <div class="wrap">
+    <header class="s-head" data-reveal>
+      <span class="s-tag">CCV Grupo</span>
+      <h2>Presencia regional</h2>
+      <p>Somos parte de CCV Grupo, con operaciones y representación técnica en la región andina.</p>
+    </header>
+    <div class="regions" data-reveal aria-label="Países donde opera CCV Grupo">
+      {% for r in site.regions %}
+      <a class="region-card{% if r.current %} region-card--current{% endif %}" href="{{ r.url }}"{% if not r.current %} target="_blank" rel="noopener"{% endif %} data-stagger data-tilt>
+        <span class="region-card__flag" aria-hidden="true">{{ r.flag }}</span>
+        <h3>{{ r.name }}{% if r.current %} <span class="region-card__badge">Estás aquí</span>{% endif %}</h3>
+        <p class="region-card__role">{{ r.role }}</p>
+        <p class="region-card__note">{{ r.note }}</p>
+        <span class="region-card__site">{{ r.site }} →</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

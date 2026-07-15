@@ -1,0 +1,30 @@
+{
+  "order": 2,
+  "slug": "soluciones-farma",
+  "name": "Soluciones Farma",
+  "nav_name": "Soluciones Farma",
+  "card_image": "soluciones_farma",
+  "card_alt": "Línea farmacéutica de llenado de viales",
+  "tagline": "Ingeniería y equipamiento para la industria farmacéutica.",
+  "hero": {
+    "eyebrow": "Soluciones Farma",
+    "title": "Ingeniería farmacéutica de principio a fin",
+    "lead": "Diseñamos e implementamos sistemas para producción farmacéutica bajo estándares GMP: esterilización, liofilización, agua de proceso, contención y salas blancas."
+  },
+  "intro": "Integramos ingeniería, equipamiento y validación para plantas farmacéuticas, cosméticas y veterinarias, cumpliendo las buenas prácticas de manufactura en cada etapa.",
+  "children_title": "Sistemas y equipos",
+  "children": [
+    { "name": "Ingeniería Farmacéutica", "desc": "Diseño y ejecución de proyectos de producción bajo GMP." },
+    { "name": "Sistema de Contención", "desc": "Barreras y aisladores para el manejo de activos potentes." },
+    { "name": "Sistema de Esterilización", "desc": "Calor seco, calor húmedo y agentes químicos." },
+    { "name": "Sistema de Liofilización", "desc": "Liofilizadores GMP de producción y de laboratorio." },
+    { "name": "Agua PW & WFI y Vapor Puro", "desc": "Generación, almacenamiento y distribución de agua de proceso." },
+    { "name": "Salas Blancas y Equipos Asociados", "desc": "Componentes, SAS de paso, duchas de aire y biodescontaminación." },
+    { "name": "Cabinas de Flujo Laminar", "desc": "Seguridad biológica y flujo laminar para procesos críticos." },
+    { "name": "Maquinarias de Producción", "desc": "Equipos de llenado, dosificación y acondicionamiento." }
+  ],
+  "meta": {
+    "title": "Soluciones Farma | CCV Grupo Venezuela",
+    "description": "Ingeniería y equipamiento GMP para la industria farmacéutica: esterilización, liofilización, agua de proceso, contención y salas blancas."
+  }
+}

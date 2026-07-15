@@ -1,0 +1,47 @@
+{
+  "brand": {
+    "name": "CCV Grupo",
+    "legal": "Corporación Científica Venezolana, C.A.",
+    "locator": "Venezuela",
+    "logo": "assets/images/logo.png",
+    "tagline": "Ciencia que impulsa. Soluciones que transforman.",
+    "rif": "RIF J-00162138-5 · Caracas, Venezuela"
+  },
+  "group_url": "https://www.ccvgrupo.com",
+  "regions": [
+    {
+      "name": "Venezuela",
+      "flag": "🇻🇪",
+      "url": "index.html",
+      "site": "ccv.com.ve",
+      "role": "Sede principal",
+      "note": "Cobertura nacional en toda Venezuela",
+      "current": true
+    },
+    {
+      "name": "Colombia",
+      "flag": "🇨🇴",
+      "url": "https://www.ccvgrupo.com.co",
+      "site": "ccvgrupo.com.co",
+      "role": "CCV de Colombia",
+      "note": "Soluciones analíticas para la región andina",
+      "current": false
+    },
+    {
+      "name": "Perú",
+      "flag": "🇵🇪",
+      "url": "https://www.ccvgrupo.com",
+      "site": "ccvgrupo.com",
+      "role": "Presencia regional",
+      "note": "Representación y soporte técnico",
+      "current": false
+    }
+  ],
+  "contact": {
+    "phone_display": "(+58) 212 761.4757",
+    "phone_href": "+582127614757",
+    "email_support": "atencionalcliente_ve@ccvgrupo.com",
+    "email_sales": "ventas_ve@ccvgrupo.com",
+    "address": "Centro Comercial Av. Libertador, Nivel Mezzanina, Caracas — Cód. Postal 1050"
+  }
+}

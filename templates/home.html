@@ -1,0 +1,224 @@
+{% extends "base.html" %}
+{% block main %}
+<main id="main">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="hero__orb hero__orb--1" aria-hidden="true"></div>
+    <div class="hero__orb hero__orb--2" aria-hidden="true"></div>
+    <div class="wrap hero__inner">
+      <span class="pill" data-reveal>Ciencia que impulsa · Soluciones que transforman</span>
+      <h1 class="hero__title" data-split>Soluciones que construyen el futuro</h1>
+      <p class="hero__lead" data-reveal>
+        Más de 40 años ofreciendo soluciones integrales para laboratorios e industria,
+        con excelencia, compromiso y visión sostenible en toda Venezuela.
+      </p>
+      <div class="hero__cta" data-reveal>
+        <a href="#divisiones" class="btn btn--lg">Explorar divisiones</a>
+        <a href="#contacto" class="btn btn--lg btn--ghost">Solicitar asesoría</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Alimentos y Bebidas</span><i>◇</i><span>Petróleo y Energía</span><i>◇</i><span>Ambiente</span><i>◇</i><span>Geología y Minería</span><i>◇</i><span>Agroindustria</span><i>◇</i><span>Ciencia de Materiales</span><i>◇</i><span>Industria Química</span><i>◇</i><span>Farmacéutica y Cosmética</span><i>◇</i>
+      <span>Alimentos y Bebidas</span><i>◇</i><span>Petróleo y Energía</span><i>◇</i><span>Ambiente</span><i>◇</i><span>Geología y Minería</span><i>◇</i><span>Agroindustria</span><i>◇</i><span>Ciencia de Materiales</span><i>◇</i><span>Industria Química</span><i>◇</i><span>Farmacéutica y Cosmética</span><i>◇</i>
+    </div>
+  </div>
+
+  <!-- TRUST STRIP -->
+  <section class="wrap trust" data-reveal aria-label="Por qué CCV">
+    <div class="trust__item" data-stagger><span class="trust__hex">◆</span><b>Desde 1982</b><span>Trayectoria comprobada</span></div>
+    <div class="trust__item" data-stagger><span class="trust__hex">◆</span><b>Equipo Especializado</b><span>Ingeniería y soporte propios</span></div>
+    <div class="trust__item" data-stagger><span class="trust__hex">◆</span><b>Presencia Nacional</b><span>Cobertura en toda Venezuela</span></div>
+    <div class="trust__item" data-stagger><span class="trust__hex">◆</span><b>Aliados Estratégicos</b><span>Marcas líderes mundiales</span></div>
+  </section>
+
+  <!-- STATS -->
+  <section class="wrap stats" data-reveal>
+    <div class="stat" data-stagger><b data-count="40" data-suffix="+">40+</b><span>Años de experiencia</span></div>
+    <div class="stat" data-stagger><b data-count="7">7</b><span>Divisiones especializadas</span></div>
+    <div class="stat" data-stagger><b data-count="8">8</b><span>Industrias atendidas</span></div>
+    <div class="stat" data-stagger><b data-count="100" data-suffix="%">100%</b><span>Soporte técnico local</span></div>
+  </section>
+
+  <!-- DIVISIONES -->
+  <section class="section" id="divisiones">
+    <div class="wrap">
+      <header class="s-head" data-reveal>
+        <span class="s-tag">Divisiones</span>
+        <h2>Soluciones para cada industria</h2>
+        <p>Un portafolio completo, desde el equipamiento analítico hasta la ingeniería farmacéutica y los proyectos de laboratorio llave en mano.</p>
+      </header>
+      <div class="cards cards--banners" data-reveal>
+        {% for d in divisions %}
+        <a class="banner-card" href="{{ d.slug }}.html" data-stagger data-tilt aria-label="{{ d.name }}">
+          <img src="assets/images/cards/{{ d.card_image }}.png" srcset="assets/images/cards/{{ d.card_image }}@2x.png 2x" width="760" height="206" alt="{{ d.card_alt }}" loading="lazy" />
+          <div class="banner-card__text">
+            <h3>{{ d.name }}</h3>
+            <p>{{ d.tagline }}</p>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section class="section section--soft" id="nosotros">
+    <div class="wrap two-col">
+      <div class="two-col__text" data-reveal>
+        <span class="s-tag">Nosotros</span>
+        <h2>Cuatro décadas al servicio de la ciencia</h2>
+        <p>
+          Acompañamos a laboratorios, plantas de producción, universidades y centros de
+          investigación con una estructura organizada y un profundo compromiso con la
+          atención al cliente.
+        </p>
+        <p>
+          Combinamos las mejores marcas del mundo con soporte técnico local, para que cada
+          proyecto se traduzca en resultados confiables y trazables.
+        </p>
+        <ul class="checklist">
+          <li>Representación de marcas líderes internacionales</li>
+          <li>Servicio técnico e ingeniería propios</li>
+          <li>Asesoría especializada por industria</li>
+        </ul>
+        <div class="values">
+          <div class="value" data-stagger><span>◆</span>Innovación</div>
+          <div class="value" data-stagger><span>◆</span>Compromiso</div>
+          <div class="value" data-stagger><span>◆</span>Calidad</div>
+          <div class="value" data-stagger><span>◆</span>Sostenibilidad</div>
+        </div>
+      </div>
+      <div class="two-col__panel" data-reveal aria-hidden="true">
+        <div class="badge">
+          <span class="badge__since">Desde</span>
+          <b>1982</b>
+          <span>Al servicio de Venezuela</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {% include "partials/regiones.html" %}
+
+  <!-- SERVICIO -->
+  <section class="section" id="servicio">
+    <div class="wrap">
+      <header class="s-head" data-reveal>
+        <span class="s-tag">Servicio Técnico</span>
+        <h2>Soporte durante todo el ciclo de vida</h2>
+      </header>
+      <div class="timeline cards--3" data-reveal>
+        <span class="timeline__line" aria-hidden="true"></span>
+        <article class="card card--plain tstep" data-stagger data-tilt data-spot>
+          <span class="tstep__dot">01</span>
+          <h3>Instalación y puesta en marcha</h3>
+          <p>Comisionamiento profesional de su equipamiento con validación de desempeño.</p>
+        </article>
+        <article class="card card--plain tstep" data-stagger data-tilt data-spot>
+          <span class="tstep__dot">02</span>
+          <h3>Calibración y mantenimiento</h3>
+          <p>Programas preventivos y correctivos que aseguran la continuidad operativa.</p>
+        </article>
+        <article class="card card--plain tstep" data-stagger data-tilt data-spot>
+          <span class="tstep__dot">03</span>
+          <h3>Repuestos y consumibles</h3>
+          <p>Suministro oportuno de partes originales y consumibles certificados.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARCAS -->
+  <section class="section section--soft" id="marcas">
+    <div class="wrap">
+      <header class="s-head" data-reveal>
+        <span class="s-tag">Marcas</span>
+        <h2>Tecnología de referencia mundial</h2>
+      </header>
+      <div class="logos" data-reveal>
+        <span data-stagger>PerkinElmer</span>
+        <span data-stagger>Analítica</span>
+        <span data-stagger>Pharma</span>
+        <span data-stagger>Life Science</span>
+        <span data-stagger>Forense</span>
+        <span data-stagger>LIMS</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLIENTES -->
+  <section class="section" id="clientes">
+    <div class="wrap">
+      <header class="s-head" data-reveal>
+        <span class="s-tag">Clientes</span>
+        <h2>Confían en nosotros</h2>
+        <p>Laboratorios, industrias, universidades y organismos públicos en toda Venezuela respaldan su operación con CCV.</p>
+      </header>
+    </div>
+    <div class="client-strip" data-reveal aria-label="Clientes de CCV">
+      <div class="client-strip__track">
+        <img src="assets/images/clients/monaca.png" alt="MONACA — Molinos Nacionales" loading="lazy" />
+        <img src="assets/images/clients/electricidad-caracas.png" alt="La Electricidad de Caracas" loading="lazy" />
+        <img src="assets/images/clients/polar.svg" alt="Empresas Polar" loading="lazy" />
+        <img src="assets/images/clients/cvg.png" alt="CVG — Corporación Venezolana de Guayana" loading="lazy" />
+        <img src="assets/images/clients/bayer.svg" alt="Bayer" loading="lazy" />
+        <img src="assets/images/clients/coca-cola.svg" alt="Coca-Cola" loading="lazy" />
+        <img src="assets/images/clients/plumrose.svg" alt="Plumrose" loading="lazy" />
+        <img src="assets/images/clients/la-sante.png" alt="La Santé" loading="lazy" />
+        <img src="assets/images/clients/nestle.svg" alt="Nestlé" loading="lazy" />
+        <img src="assets/images/clients/monaca.png" alt="" aria-hidden="true" loading="lazy" />
+        <img src="assets/images/clients/electricidad-caracas.png" alt="" aria-hidden="true" loading="lazy" />
+        <img src="assets/images/clients/polar.svg" alt="" aria-hidden="true" loading="lazy" />
+        <img src="assets/images/clients/cvg.png" alt="" aria-hidden="true" loading="lazy" />
+        <img src="assets/images/clients/bayer.svg" alt="" aria-hidden="true" loading="lazy" />
+        <img src="assets/images/clients/coca-cola.svg" alt="" aria-hidden="true" loading="lazy" />
+        <img src="assets/images/clients/plumrose.svg" alt="" aria-hidden="true" loading="lazy" />
+        <img src="assets/images/clients/la-sante.png" alt="" aria-hidden="true" loading="lazy" />
+        <img src="assets/images/clients/nestle.svg" alt="" aria-hidden="true" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section" id="contacto">
+    <div class="wrap contact" data-reveal>
+      <div class="contact__info">
+        <span class="s-tag">Contacto</span>
+        <h2>Hablemos de su próximo proyecto</h2>
+        <p class="contact__lead">Nuestro equipo de asesores está listo para ayudarle a encontrar la solución adecuada.</p>
+        <ul class="contact-list">
+          <li><span>Teléfonos</span><a href="tel:{{ site.contact.phone_href }}">{{ site.contact.phone_display }}</a></li>
+          <li><span>Atención al cliente</span><a href="mailto:{{ site.contact.email_support }}">{{ site.contact.email_support }}</a></li>
+          <li><span>Ventas</span><a href="mailto:{{ site.contact.email_sales }}">{{ site.contact.email_sales }}</a></li>
+          <li><span>Dirección</span><p>{{ site.contact.address }}</p></li>
+        </ul>
+      </div>
+      <form class="contact-form" onsubmit="return CCV.submit(event)">
+        <div class="field">
+          <label for="nombre">Nombre</label>
+          <input id="nombre" name="nombre" type="text" required autocomplete="name" />
+        </div>
+        <div class="field">
+          <label for="correo">Correo electrónico</label>
+          <input id="correo" name="correo" type="email" required autocomplete="email" />
+        </div>
+        <div class="field">
+          <label for="empresa">Empresa / Institución</label>
+          <input id="empresa" name="empresa" type="text" autocomplete="organization" />
+        </div>
+        <div class="field">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn--lg btn--full">Enviar consulta</button>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+{% endblock %}

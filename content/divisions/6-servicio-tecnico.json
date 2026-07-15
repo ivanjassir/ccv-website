@@ -1,0 +1,27 @@
+{
+  "order": 6,
+  "slug": "servicio-tecnico",
+  "name": "Servicio Técnico",
+  "nav_name": "Servicio Técnico",
+  "card_image": "servicio_tecnico",
+  "card_alt": "Servicio técnico especializado de instrumentación",
+  "tagline": "Soporte especializado durante todo el ciclo de vida.",
+  "hero": {
+    "eyebrow": "Servicio Técnico",
+    "title": "Soporte durante todo el ciclo de vida",
+    "lead": "Nuestro equipo de ingeniería propio acompaña su equipamiento desde la instalación hasta el mantenimiento, con repuestos originales y tiempos de respuesta locales."
+  },
+  "intro": "Maximizamos la disponibilidad y la vida útil de sus equipos con programas preventivos y correctivos, calibración trazable y disponibilidad de partes originales.",
+  "children_title": "Servicios",
+  "children": [
+    { "name": "Instalación y Puesta en Marcha", "desc": "Comisionamiento profesional con validación de desempeño." },
+    { "name": "Calibración y Mantenimiento", "desc": "Programas preventivos y correctivos que aseguran la continuidad." },
+    { "name": "Repuestos y Consumibles", "desc": "Suministro oportuno de partes originales certificadas." },
+    { "name": "Consultoría", "desc": "Asesoría técnica y optimización de operaciones de laboratorio." },
+    { "name": "Ingeniería", "desc": "Soluciones de ingeniería a la medida de cada proyecto." }
+  ],
+  "meta": {
+    "title": "Servicio Técnico | CCV Grupo Venezuela",
+    "description": "Soporte especializado durante todo el ciclo de vida: instalación, calibración, mantenimiento, repuestos originales e ingeniería, con respuesta local."
+  }
+}

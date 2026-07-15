@@ -1,0 +1,28 @@
+{
+  "order": 5,
+  "slug": "life-science-forense",
+  "name": "Life Science & Forense",
+  "nav_name": "Life Science & Forense",
+  "card_image": "life_science_forense",
+  "card_alt": "Life Science, microscopía y análisis forense",
+  "tagline": "Soluciones para biología molecular y análisis forense.",
+  "hero": {
+    "eyebrow": "Life Science & Forense",
+    "title": "Biología molecular y ciencia forense",
+    "lead": "Tecnología para investigación en ciencias de la vida y análisis forense: PCR, secuenciación de ADN, microscopía, lectores de placas e instrumentos analíticos."
+  },
+  "intro": "Habilitamos laboratorios de investigación, diagnóstico y criminalística con plataformas de última generación y el soporte técnico para operarlas con confianza.",
+  "children_title": "Plataformas y aplicaciones",
+  "children": [
+    { "name": "PCR y qPCR", "desc": "Amplificación y detección de ácidos nucleicos en tiempo real." },
+    { "name": "Secuenciación de ADN", "desc": "Secuenciadores para genómica e identificación genética." },
+    { "name": "Microscopía", "desc": "Microscopía óptica y digital para investigación y patología." },
+    { "name": "Lectores de Placas", "desc": "Detección multimodal para ensayos de alto rendimiento." },
+    { "name": "Instrumentos Analíticos", "desc": "Equipamiento para análisis de biología molecular." },
+    { "name": "Análisis Forense", "desc": "PCR, microscopía y lectores dedicados a criminalística." }
+  ],
+  "meta": {
+    "title": "Life Science y Forense | CCV Grupo Venezuela",
+    "description": "Plataformas para biología molecular y análisis forense: PCR, secuenciación de ADN, microscopía, lectores de placas e instrumentos analíticos."
+  }
+}

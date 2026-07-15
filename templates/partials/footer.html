@@ -1,0 +1,38 @@
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <div class="footer__brand">
+      <div class="footer__logo">
+        <img class="brand__logo brand__logo--footer" src="{{ site.brand.logo }}" alt="{{ site.brand.name }}" />
+        <span class="footer__locator">{{ site.brand.locator }}</span>
+      </div>
+      <p>{{ site.brand.name }} · {{ site.brand.legal }}</p>
+      <p class="muted">{{ site.brand.tagline }}</p>
+    </div>
+    <div class="footer__cols">
+      <div>
+        <h4>Divisiones</h4>
+        {% for d in divisions %}
+        <a href="{{ d.slug }}.html">{{ d.nav_name }}</a>
+        {% endfor %}
+      </div>
+      <div>
+        <h4>Compañía</h4>
+        <a href="index.html#nosotros">Nosotros</a>
+        <a href="index.html#servicio">Servicio Técnico</a>
+        <a href="index.html#marcas">Marcas</a>
+        <a href="index.html#contacto">Contacto</a>
+      </div>
+      <div>
+        <h4>CCV Grupo</h4>
+        {% for r in site.regions %}
+        <a href="{{ r.url }}"{% if not r.current %} target="_blank" rel="noopener"{% endif %}>{{ r.flag }} {{ r.name }}</a>
+        {% endfor %}
+        <a href="{{ site.group_url }}" target="_blank" rel="noopener">ccvgrupo.com</a>
+      </div>
+    </div>
+  </div>
+  <div class="wrap footer__bottom">
+    <span>&copy; <span id="year">{{ year }}</span> {{ site.brand.legal }}</span>
+    <span class="muted">{{ site.brand.rif }}</span>
+  </div>
+</footer>
