@@ -1,11 +1,12 @@
 {
   "order": 1,
   "slug": "perkin-elmer",
-  "parent": { "slug": "marcas", "name": "Marcas" },
+  "parent": {
+    "slug": "marcas",
+    "name": "Marcas"
+  },
   "name": "PerkinElmer",
   "eyebrow": "Marca representada",
-  "catalog_url": "https://www.perkinelmer.com",
-  "catalog_label": "Ver catálogo PerkinElmer",
   "hero": {
     "title": "PerkinElmer — instrumentación analítica de referencia",
     "lead": "Somos representantes de PerkinElmer, líder mundial en instrumentación para análisis químico, ambiental, alimentario y de materiales."
@@ -13,15 +14,36 @@
   "intro": "Ofrecemos el portafolio PerkinElmer con instalación, capacitación, calibración y repuestos, respaldados por el servicio técnico local de CCV Grupo Venezuela.",
   "items_title": "Líneas de producto",
   "items": [
-    { "name": "Cromatografía", "desc": "GC, LC y accesorios para separación y cuantificación." },
-    { "name": "Espectroscopía", "desc": "UV-Vis, FTIR, ICP-OES/MS y absorción atómica." },
-    { "name": "Análisis térmico", "desc": "DSC, TGA y análisis dinámico-mecánico." },
-    { "name": "Consumibles y soporte", "desc": "Columnas, repuestos y servicio técnico especializado." }
+    {
+      "name": "Cromatografía",
+      "desc": "GC, LC y accesorios para separación y cuantificación."
+    },
+    {
+      "name": "Espectroscopía",
+      "desc": "UV-Vis, FTIR, ICP-OES/MS y absorción atómica."
+    },
+    {
+      "name": "Análisis térmico",
+      "desc": "DSC, TGA y análisis dinámico-mecánico."
+    },
+    {
+      "name": "Consumibles y soporte",
+      "desc": "Columnas, repuestos y servicio técnico especializado."
+    }
   ],
   "benefits": [
-    { "title": "Representación oficial", "desc": "Acceso al portafolio y al respaldo del fabricante." },
-    { "title": "Soporte local", "desc": "Instalación, calibración y repuestos en Venezuela." },
-    { "title": "Aplicaciones por industria", "desc": "Métodos y configuraciones para su sector específico." }
+    {
+      "title": "Representación oficial",
+      "desc": "Acceso al portafolio y al respaldo del fabricante."
+    },
+    {
+      "title": "Soporte local",
+      "desc": "Instalación, calibración y repuestos en Venezuela."
+    },
+    {
+      "title": "Aplicaciones por industria",
+      "desc": "Métodos y configuraciones para su sector específico."
+    }
   ],
   "meta": {
     "title": "PerkinElmer | Marcas | CCV Grupo Venezuela",

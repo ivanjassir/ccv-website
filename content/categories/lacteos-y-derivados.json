@@ -67,5 +67,6 @@
       "title": "Resultados e informe",
       "desc": "Validación, reporte de resultados y asesoría técnica."
     }
-  ]
+  ],
+  "catalog_pdf": "assets/catalogs/lacteos-y-derivados.pdf"
 }

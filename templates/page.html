@@ -14,8 +14,7 @@
       <p class="dhero__lead" data-reveal>{{ pg.hero.lead }}</p>
       <div class="hero__cta" data-reveal>
         <a href="index.html#contacto" class="btn btn--lg">{{ pg.cta_label or "Contáctenos" }}</a>
-        {% set catalog = pg.catalog_url or site.catalog_url %}
-        {% if catalog %}<a href="{{ catalog }}" target="_blank" rel="noopener" class="btn btn--lg btn--ghost">{{ pg.catalog_label or site.catalog_label }}</a>{% endif %}
+        {% if pg.catalog_pdf %}<a href="#catalogo" class="btn btn--lg btn--ghost">Ver catálogo</a>{% endif %}
       </div>
     </div>
   </section>
