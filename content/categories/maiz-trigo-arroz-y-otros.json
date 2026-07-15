@@ -11,11 +11,38 @@
     "title": "Maíz, trigo, arroz y otros",
     "lead": "Granos: humedad, micotoxinas y calidad."
   },
-  "intro": "Soluciones de maíz, trigo, arroz y otros para alimentos y bebidas, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Calidad e inocuidad de granos y cereales.",
+  "items_title": "Análisis y parámetros típicos",
+  "items": [
+    {
+      "name": "Humedad",
+      "desc": "Recepción y almacenamiento de granos."
+    },
+    {
+      "name": "Micotoxinas",
+      "desc": "Aflatoxinas y DON por HPLC/LC-MS."
+    },
+    {
+      "name": "Proteína y gluten",
+      "desc": "Calidad y clasificación."
+    },
+    {
+      "name": "Metales pesados",
+      "desc": "Contaminantes por ICP-MS."
+    },
+    {
+      "name": "Peso hectolítrico",
+      "desc": "Parámetro físico de calidad."
+    }
+  ],
   "meta": {
     "title": "Maíz, trigo, arroz y otros | Alimentos y Bebidas | CCV Grupo Venezuela",
     "description": "Granos: humedad, micotoxinas y calidad."
-  }
+  },
+  "brands": [
+    {
+      "name": "PerkinElmer",
+      "slug": "perkin-elmer"
+    }
+  ]
 }

@@ -11,11 +11,38 @@
     "title": "Otros materiales y vidrios",
     "lead": "Caracterización de materiales especiales."
   },
-  "intro": "Soluciones de otros materiales y vidrios para ciencia de los materiales, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Caracterización de vidrios y materiales especiales.",
+  "items_title": "Análisis y parámetros típicos",
+  "items": [
+    {
+      "name": "Composición (FRX / ICP)",
+      "desc": "Óxidos y elementos traza."
+    },
+    {
+      "name": "Análisis térmico (DSC / TGA)",
+      "desc": "Transiciones y estabilidad."
+    },
+    {
+      "name": "Propiedades ópticas",
+      "desc": "Transmitancia y color."
+    },
+    {
+      "name": "Dureza",
+      "desc": "Resistencia superficial."
+    },
+    {
+      "name": "Microscopía",
+      "desc": "Defectos e inclusiones."
+    }
+  ],
   "meta": {
     "title": "Otros materiales y vidrios | Ciencia de los Materiales | CCV Grupo Venezuela",
     "description": "Caracterización de materiales especiales."
-  }
+  },
+  "brands": [
+    {
+      "name": "PerkinElmer",
+      "slug": "perkin-elmer"
+    }
+  ]
 }

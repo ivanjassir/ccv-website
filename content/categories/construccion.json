@@ -11,11 +11,38 @@
     "title": "Construcción",
     "lead": "Ensayo de materiales y control de obra."
   },
-  "intro": "Soluciones de construcción para ciencia de los materiales, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Ensayo de materiales de construcción y control de obra.",
+  "items_title": "Análisis y parámetros típicos",
+  "items": [
+    {
+      "name": "Ensayos mecánicos",
+      "desc": "Resistencia de materiales."
+    },
+    {
+      "name": "Granulometría de agregados",
+      "desc": "Distribución de tamaños."
+    },
+    {
+      "name": "Humedad y densidad",
+      "desc": "Control de compactación."
+    },
+    {
+      "name": "Composición (FRX)",
+      "desc": "Caracterización de materiales."
+    },
+    {
+      "name": "Durabilidad",
+      "desc": "Ensayos de envejecimiento."
+    }
+  ],
   "meta": {
     "title": "Construcción | Ciencia de los Materiales | CCV Grupo Venezuela",
     "description": "Ensayo de materiales y control de obra."
-  }
+  },
+  "brands": [
+    {
+      "name": "PerkinElmer",
+      "slug": "perkin-elmer"
+    }
+  ]
 }

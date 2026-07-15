@@ -11,11 +11,38 @@
     "title": "Especialidades químicas",
     "lead": "Formulaciones y productos de alto valor."
   },
-  "intro": "Soluciones de especialidades químicas para industria química, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Control de calidad de productos químicos de alto valor.",
+  "items_title": "Análisis y parámetros típicos",
+  "items": [
+    {
+      "name": "Pureza (HPLC / GC)",
+      "desc": "Especificación de producto."
+    },
+    {
+      "name": "Identificación (FTIR)",
+      "desc": "Confirmación de identidad."
+    },
+    {
+      "name": "Trazas metálicas (ICP-MS)",
+      "desc": "Control de contaminantes."
+    },
+    {
+      "name": "Contenido de agua",
+      "desc": "Humedad por Karl Fischer."
+    },
+    {
+      "name": "Punto de fusión",
+      "desc": "Pureza e identidad."
+    }
+  ],
   "meta": {
     "title": "Especialidades químicas | Industria Química | CCV Grupo Venezuela",
     "description": "Formulaciones y productos de alto valor."
-  }
+  },
+  "brands": [
+    {
+      "name": "PerkinElmer",
+      "slug": "perkin-elmer"
+    }
+  ]
 }

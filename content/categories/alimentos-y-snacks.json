@@ -11,11 +11,38 @@
     "title": "Alimentos y snacks",
     "lead": "Análisis proximal y control de proceso."
   },
-  "intro": "Soluciones de alimentos y snacks para alimentos y bebidas, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Composición, inocuidad y vida útil en alimentos procesados y snacks.",
+  "items_title": "Análisis y parámetros típicos",
+  "items": [
+    {
+      "name": "Análisis proximal",
+      "desc": "Composición nutricional del producto."
+    },
+    {
+      "name": "Grasa y sodio",
+      "desc": "Etiquetado nutricional y control de formulación."
+    },
+    {
+      "name": "Acrilamida",
+      "desc": "Contaminante de proceso por LC-MS/MS."
+    },
+    {
+      "name": "Vida útil / rancidez",
+      "desc": "Estabilidad oxidativa del producto."
+    },
+    {
+      "name": "Microbiología",
+      "desc": "Inocuidad del producto terminado."
+    }
+  ],
   "meta": {
     "title": "Alimentos y snacks | Alimentos y Bebidas | CCV Grupo Venezuela",
     "description": "Análisis proximal y control de proceso."
-  }
+  },
+  "brands": [
+    {
+      "name": "PerkinElmer",
+      "slug": "perkin-elmer"
+    }
+  ]
 }

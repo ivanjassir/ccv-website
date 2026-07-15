@@ -11,11 +11,38 @@
     "title": "Lácteos y derivados",
     "lead": "Composición, grasa, proteína y control microbiológico."
   },
-  "intro": "Soluciones de lácteos y derivados para alimentos y bebidas, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Análisis de leche y productos lácteos: composición, inocuidad y adulteración.",
+  "items_title": "Análisis y parámetros típicos",
+  "items": [
+    {
+      "name": "Grasa, proteína y sólidos",
+      "desc": "Composición y pago por calidad."
+    },
+    {
+      "name": "Aflatoxina M1",
+      "desc": "Micotoxina regulada por HPLC/LC-MS."
+    },
+    {
+      "name": "Antibióticos y residuos",
+      "desc": "Detección de residuos veterinarios."
+    },
+    {
+      "name": "Metales (ICP)",
+      "desc": "Trazas y contaminantes."
+    },
+    {
+      "name": "Microbiología",
+      "desc": "Recuentos y patógenos."
+    }
+  ],
   "meta": {
     "title": "Lácteos y derivados | Alimentos y Bebidas | CCV Grupo Venezuela",
     "description": "Composición, grasa, proteína y control microbiológico."
-  }
+  },
+  "brands": [
+    {
+      "name": "PerkinElmer",
+      "slug": "perkin-elmer"
+    }
+  ]
 }

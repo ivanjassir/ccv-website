@@ -11,11 +11,38 @@
     "title": "Farmacéutica veterinaria",
     "lead": "Control de calidad de productos veterinarios."
   },
-  "intro": "Soluciones de farmacéutica veterinaria para farmacéutica y cosmética, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Análisis de productos farmacéuticos de uso veterinario.",
+  "items_title": "Análisis y parámetros típicos",
+  "items": [
+    {
+      "name": "Valoración (HPLC)",
+      "desc": "Cuantificación del activo."
+    },
+    {
+      "name": "Impurezas",
+      "desc": "Perfil de degradación."
+    },
+    {
+      "name": "Disolución",
+      "desc": "Liberación del producto."
+    },
+    {
+      "name": "Metales (ICP-MS)",
+      "desc": "Seguridad elemental."
+    },
+    {
+      "name": "Microbiología",
+      "desc": "Control microbiológico."
+    }
+  ],
   "meta": {
     "title": "Farmacéutica veterinaria | Farmacéutica y Cosmética | CCV Grupo Venezuela",
     "description": "Control de calidad de productos veterinarios."
-  }
+  },
+  "brands": [
+    {
+      "name": "PerkinElmer",
+      "slug": "perkin-elmer"
+    }
+  ]
 }

@@ -11,11 +11,42 @@
     "title": "Petroquímica",
     "lead": "Monómeros, intermedios y control de proceso."
   },
-  "intro": "Soluciones de petroquímica para petróleo y energía, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Control analítico de monómeros, intermedios y productos petroquímicos.",
+  "items_title": "Análisis y parámetros típicos",
+  "items": [
+    {
+      "name": "Pureza por cromatografía de gases (GC)",
+      "desc": "Composición y control de proceso."
+    },
+    {
+      "name": "Azufre y cloro",
+      "desc": "Contaminantes por debajo de trazas."
+    },
+    {
+      "name": "Contenido de agua (Karl Fischer)",
+      "desc": "Especificación de producto."
+    },
+    {
+      "name": "Índice de bromo / yodo",
+      "desc": "Grado de insaturación."
+    },
+    {
+      "name": "Trazas metálicas (ICP-MS)",
+      "desc": "Envenenamiento de catalizadores."
+    },
+    {
+      "name": "Composición por GC-MS",
+      "desc": "Identificación de impurezas."
+    }
+  ],
   "meta": {
     "title": "Petroquímica | Petróleo y Energía | CCV Grupo Venezuela",
     "description": "Monómeros, intermedios y control de proceso."
-  }
+  },
+  "brands": [
+    {
+      "name": "PerkinElmer",
+      "slug": "perkin-elmer"
+    }
+  ]
 }

@@ -11,11 +11,38 @@
     "title": "Ferrosos y no ferrosos",
     "lead": "Composición de aceros, aleaciones y metales."
   },
-  "intro": "Soluciones de ferrosos y no ferrosos para geología y minería, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Análisis de composición de metales ferrosos y no ferrosos.",
+  "items_title": "Análisis y parámetros típicos",
+  "items": [
+    {
+      "name": "Espectrometría de emisión óptica (OES)",
+      "desc": "Composición de aleaciones."
+    },
+    {
+      "name": "Fluorescencia de rayos X (FRX)",
+      "desc": "Análisis elemental rápido."
+    },
+    {
+      "name": "Carbono y azufre",
+      "desc": "Analizadores por combustión."
+    },
+    {
+      "name": "ICP-OES",
+      "desc": "Elementos traza y menores."
+    },
+    {
+      "name": "Metalografía",
+      "desc": "Microestructura del metal."
+    }
+  ],
   "meta": {
     "title": "Ferrosos y no ferrosos | Geología y Minería | CCV Grupo Venezuela",
     "description": "Composición de aceros, aleaciones y metales."
-  }
+  },
+  "brands": [
+    {
+      "name": "PerkinElmer",
+      "slug": "perkin-elmer"
+    }
+  ]
 }

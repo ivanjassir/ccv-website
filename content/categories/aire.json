@@ -11,11 +11,38 @@
     "title": "Aire",
     "lead": "Calidad del aire, partículas y emisiones."
   },
-  "intro": "Soluciones de aire para ambiente, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Monitoreo de calidad del aire y emisiones.",
+  "items_title": "Análisis y parámetros típicos",
+  "items": [
+    {
+      "name": "Material particulado (PM)",
+      "desc": "PM10 y PM2.5."
+    },
+    {
+      "name": "Metales en partículas (ICP-MS)",
+      "desc": "Metales en aire ambiente."
+    },
+    {
+      "name": "Compuestos orgánicos volátiles (GC-MS)",
+      "desc": "COV y contaminantes."
+    },
+    {
+      "name": "Gases de combustión",
+      "desc": "Monitoreo de emisiones."
+    },
+    {
+      "name": "Muestreo isocinético",
+      "desc": "Emisiones en fuentes fijas."
+    }
+  ],
   "meta": {
     "title": "Aire | Ambiente | CCV Grupo Venezuela",
     "description": "Calidad del aire, partículas y emisiones."
-  }
+  },
+  "brands": [
+    {
+      "name": "PerkinElmer",
+      "slug": "perkin-elmer"
+    }
+  ]
 }

@@ -11,11 +11,38 @@
     "title": "Electricidad",
     "lead": "Aceites dieléctricos y análisis de transformadores."
   },
-  "intro": "Soluciones de electricidad para petróleo y energía, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Análisis de aceites dieléctricos y diagnóstico de transformadores.",
+  "items_title": "Análisis y parámetros típicos",
+  "items": [
+    {
+      "name": "Rigidez dieléctrica",
+      "desc": "Aislamiento del aceite."
+    },
+    {
+      "name": "Gases disueltos (DGA)",
+      "desc": "Diagnóstico de fallas por GC."
+    },
+    {
+      "name": "Humedad (Karl Fischer)",
+      "desc": "Contenido de agua en el aceite."
+    },
+    {
+      "name": "Acidez",
+      "desc": "Envejecimiento del aceite."
+    },
+    {
+      "name": "Furanos y PCB",
+      "desc": "Degradación y contaminantes."
+    }
+  ],
   "meta": {
     "title": "Electricidad | Petróleo y Energía | CCV Grupo Venezuela",
     "description": "Aceites dieléctricos y análisis de transformadores."
-  }
+  },
+  "brands": [
+    {
+      "name": "PerkinElmer",
+      "slug": "perkin-elmer"
+    }
+  ]
 }

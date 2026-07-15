@@ -11,11 +11,42 @@
     "title": "Agua",
     "lead": "Potable, residual y de proceso: metales, nutrientes y parámetros fisicoquímicos."
   },
-  "intro": "Soluciones de agua para ambiente, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Análisis de agua potable, residual y de proceso.",
+  "items_title": "Análisis y parámetros típicos",
+  "items": [
+    {
+      "name": "Metales (ICP-MS)",
+      "desc": "Metales pesados a nivel de trazas."
+    },
+    {
+      "name": "Nutrientes (N, P)",
+      "desc": "Nitrógeno y fósforo."
+    },
+    {
+      "name": "DQO / DBO",
+      "desc": "Carga orgánica del agua."
+    },
+    {
+      "name": "pH, conductividad y turbidez",
+      "desc": "Parámetros fisicoquímicos."
+    },
+    {
+      "name": "Orgánicos (GC-MS)",
+      "desc": "Compuestos orgánicos y plaguicidas."
+    },
+    {
+      "name": "Microbiología",
+      "desc": "Coliformes y patógenos."
+    }
+  ],
   "meta": {
     "title": "Agua | Ambiente | CCV Grupo Venezuela",
     "description": "Potable, residual y de proceso: metales, nutrientes y parámetros fisicoquímicos."
-  }
+  },
+  "brands": [
+    {
+      "name": "PerkinElmer",
+      "slug": "perkin-elmer"
+    }
+  ]
 }

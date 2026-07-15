@@ -11,11 +11,38 @@
     "title": "Producción agrícola",
     "lead": "Análisis de suelos, fertilizantes y agua de riego."
   },
-  "intro": "Soluciones de producción agrícola para agroindustria, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Análisis de suelos, aguas y fertilizantes para producción agrícola.",
+  "items_title": "Análisis y parámetros típicos",
+  "items": [
+    {
+      "name": "Fertilidad de suelos",
+      "desc": "pH, materia orgánica y CIC."
+    },
+    {
+      "name": "Nutrientes (N-P-K)",
+      "desc": "Recomendación de fertilización."
+    },
+    {
+      "name": "Metales (ICP)",
+      "desc": "Micronutrientes y contaminantes."
+    },
+    {
+      "name": "Pesticidas",
+      "desc": "Residuos por GC-MS / LC-MS."
+    },
+    {
+      "name": "Calidad de agua de riego",
+      "desc": "Sales y metales."
+    }
+  ],
   "meta": {
     "title": "Producción agrícola | Agroindustria | CCV Grupo Venezuela",
     "description": "Análisis de suelos, fertilizantes y agua de riego."
-  }
+  },
+  "brands": [
+    {
+      "name": "PerkinElmer",
+      "slug": "perkin-elmer"
+    }
+  ]
 }

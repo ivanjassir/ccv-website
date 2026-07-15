@@ -11,11 +11,38 @@
     "title": "Minera",
     "lead": "Análisis de minerales, leyes y control de planta."
   },
-  "intro": "Soluciones de minera para geología y minería, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Análisis de minerales y control de planta de beneficio.",
+  "items_title": "Análisis y parámetros típicos",
+  "items": [
+    {
+      "name": "Leyes de mineral (FRX / ICP)",
+      "desc": "Contenido metálico del mineral."
+    },
+    {
+      "name": "Oro (ensayo al fuego / AAS)",
+      "desc": "Determinación de oro y plata."
+    },
+    {
+      "name": "Humedad",
+      "desc": "Control de humedad del mineral."
+    },
+    {
+      "name": "Granulometría",
+      "desc": "Distribución de tamaños."
+    },
+    {
+      "name": "Carbono y azufre",
+      "desc": "Caracterización del mineral."
+    }
+  ],
   "meta": {
     "title": "Minera | Geología y Minería | CCV Grupo Venezuela",
     "description": "Análisis de minerales, leyes y control de planta."
-  }
+  },
+  "brands": [
+    {
+      "name": "PerkinElmer",
+      "slug": "perkin-elmer"
+    }
+  ]
 }

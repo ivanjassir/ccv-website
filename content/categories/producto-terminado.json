@@ -11,11 +11,38 @@
     "title": "Producto terminado",
     "lead": "Especificaciones y liberación de lote."
   },
-  "intro": "Soluciones de producto terminado para industria química, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Liberación de producto terminado según especificación.",
+  "items_title": "Análisis y parámetros típicos",
+  "items": [
+    {
+      "name": "Valoración / pureza",
+      "desc": "Cumplimiento de especificación."
+    },
+    {
+      "name": "Impurezas",
+      "desc": "Control de calidad."
+    },
+    {
+      "name": "Color y apariencia",
+      "desc": "Atributos del producto."
+    },
+    {
+      "name": "Humedad",
+      "desc": "Estabilidad del producto."
+    },
+    {
+      "name": "Metales",
+      "desc": "Seguridad elemental."
+    }
+  ],
   "meta": {
     "title": "Producto terminado | Industria Química | CCV Grupo Venezuela",
     "description": "Especificaciones y liberación de lote."
-  }
+  },
+  "brands": [
+    {
+      "name": "PerkinElmer",
+      "slug": "perkin-elmer"
+    }
+  ]
 }

@@ -11,11 +11,38 @@
     "title": "Polímeros",
     "lead": "Propiedades térmicas, mecánicas y estructurales."
   },
-  "intro": "Soluciones de polímeros para ciencia de los materiales, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Caracterización de polímeros y plásticos.",
+  "items_title": "Análisis y parámetros típicos",
+  "items": [
+    {
+      "name": "Análisis térmico (DSC / TGA)",
+      "desc": "Fusión, cristalinidad y estabilidad."
+    },
+    {
+      "name": "Peso molecular (GPC)",
+      "desc": "Distribución de masa molar."
+    },
+    {
+      "name": "Identificación (FTIR)",
+      "desc": "Tipo de polímero y aditivos."
+    },
+    {
+      "name": "Índice de fluidez (MFI)",
+      "desc": "Procesabilidad."
+    },
+    {
+      "name": "Propiedades mecánicas",
+      "desc": "Tracción e impacto."
+    }
+  ],
   "meta": {
     "title": "Polímeros | Ciencia de los Materiales | CCV Grupo Venezuela",
     "description": "Propiedades térmicas, mecánicas y estructurales."
-  }
+  },
+  "brands": [
+    {
+      "name": "PerkinElmer",
+      "slug": "perkin-elmer"
+    }
+  ]
 }

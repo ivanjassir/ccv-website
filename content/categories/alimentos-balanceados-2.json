@@ -11,11 +11,38 @@
     "title": "Alimentos balanceados",
     "lead": "Nutrientes y control de calidad para alimentación animal."
   },
-  "intro": "Soluciones de alimentos balanceados para agroindustria, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Análisis nutricional y de inocuidad para alimentos balanceados.",
+  "items_title": "Análisis y parámetros típicos",
+  "items": [
+    {
+      "name": "Análisis proximal",
+      "desc": "Composición nutricional."
+    },
+    {
+      "name": "Micotoxinas",
+      "desc": "Aflatoxinas y otras toxinas."
+    },
+    {
+      "name": "Minerales (ICP)",
+      "desc": "Macro y microminerales."
+    },
+    {
+      "name": "Aminoácidos",
+      "desc": "Perfil nutricional."
+    },
+    {
+      "name": "Contaminantes",
+      "desc": "Metales pesados y residuos."
+    }
+  ],
   "meta": {
     "title": "Alimentos balanceados | Agroindustria | CCV Grupo Venezuela",
     "description": "Nutrientes y control de calidad para alimentación animal."
-  }
+  },
+  "brands": [
+    {
+      "name": "PerkinElmer",
+      "slug": "perkin-elmer"
+    }
+  ]
 }

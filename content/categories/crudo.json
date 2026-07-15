@@ -11,11 +11,42 @@
     "title": "Crudo",
     "lead": "Caracterización, azufre, agua y sedimentos."
   },
-  "intro": "Soluciones de crudo para petróleo y energía, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Caracterización de crudos para valoración y control de proceso.",
+  "items_title": "Análisis y parámetros típicos",
+  "items": [
+    {
+      "name": "Gravedad API / densidad",
+      "desc": "Clasificación y valoración del crudo."
+    },
+    {
+      "name": "Azufre total",
+      "desc": "Especificación y corrosividad (XRF/UV)."
+    },
+    {
+      "name": "Agua y sedimentos (BSW)",
+      "desc": "Calidad y transferencia de custodia."
+    },
+    {
+      "name": "Destilación (TBP / ASTM D86)",
+      "desc": "Rendimiento de cortes."
+    },
+    {
+      "name": "Metales Ni y V (ICP)",
+      "desc": "Contaminantes de refinación."
+    },
+    {
+      "name": "Sales y viscosidad",
+      "desc": "Parámetros de proceso."
+    }
+  ],
   "meta": {
     "title": "Crudo | Petróleo y Energía | CCV Grupo Venezuela",
     "description": "Caracterización, azufre, agua y sedimentos."
-  }
+  },
+  "brands": [
+    {
+      "name": "PerkinElmer",
+      "slug": "perkin-elmer"
+    }
+  ]
 }

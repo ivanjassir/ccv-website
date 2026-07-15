@@ -11,11 +11,38 @@
     "title": "Cosmética",
     "lead": "Control de calidad de formulaciones y producto terminado."
   },
-  "intro": "Soluciones de cosmética para farmacéutica y cosmética, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Control de calidad de materias primas y producto terminado cosmético.",
+  "items_title": "Análisis y parámetros típicos",
+  "items": [
+    {
+      "name": "Identificación (FTIR)",
+      "desc": "Confirmación de materias primas."
+    },
+    {
+      "name": "Metales pesados (ICP-MS)",
+      "desc": "Seguridad del producto."
+    },
+    {
+      "name": "Conservantes (HPLC)",
+      "desc": "Contenido y cumplimiento."
+    },
+    {
+      "name": "Microbiología",
+      "desc": "Recuentos y patógenos."
+    },
+    {
+      "name": "pH y viscosidad",
+      "desc": "Estabilidad de la formulación."
+    }
+  ],
   "meta": {
     "title": "Cosmética | Farmacéutica y Cosmética | CCV Grupo Venezuela",
     "description": "Control de calidad de formulaciones y producto terminado."
-  }
+  },
+  "brands": [
+    {
+      "name": "PerkinElmer",
+      "slug": "perkin-elmer"
+    }
+  ]
 }

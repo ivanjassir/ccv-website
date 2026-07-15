@@ -11,11 +11,38 @@
     "title": "Corrosión",
     "lead": "Estudios de corrosión y protección de materiales."
   },
-  "intro": "Soluciones de corrosión para ciencia de los materiales, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Estudios de corrosión y protección de materiales.",
+  "items_title": "Análisis y parámetros típicos",
+  "items": [
+    {
+      "name": "Ensayos electroquímicos",
+      "desc": "Velocidad de corrosión."
+    },
+    {
+      "name": "Cámara de niebla salina",
+      "desc": "Resistencia de recubrimientos."
+    },
+    {
+      "name": "Espesor de recubrimiento",
+      "desc": "Control de capa protectora."
+    },
+    {
+      "name": "Análisis de superficie",
+      "desc": "Morfología y productos de corrosión."
+    },
+    {
+      "name": "Pérdida de masa",
+      "desc": "Cuantificación del deterioro."
+    }
+  ],
   "meta": {
     "title": "Corrosión | Ciencia de los Materiales | CCV Grupo Venezuela",
     "description": "Estudios de corrosión y protección de materiales."
-  }
+  },
+  "brands": [
+    {
+      "name": "PerkinElmer",
+      "slug": "perkin-elmer"
+    }
+  ]
 }

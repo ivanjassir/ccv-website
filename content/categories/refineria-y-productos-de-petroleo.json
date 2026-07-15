@@ -11,11 +11,38 @@
     "title": "Refinería y productos de petróleo",
     "lead": "Destilados, combustibles y especificaciones de producto."
   },
-  "intro": "Soluciones de refinería y productos de petróleo para petróleo y energía, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Especificación de combustibles y productos refinados.",
+  "items_title": "Análisis y parámetros típicos",
+  "items": [
+    {
+      "name": "Destilación (ASTM D86)",
+      "desc": "Curva de destilación de combustibles."
+    },
+    {
+      "name": "Número de octano / cetano",
+      "desc": "Desempeño de gasolinas y diésel."
+    },
+    {
+      "name": "Azufre (UV / XRF)",
+      "desc": "Cumplimiento ambiental."
+    },
+    {
+      "name": "Presión de vapor (RVP)",
+      "desc": "Volatilidad de gasolinas."
+    },
+    {
+      "name": "Punto de inflamación",
+      "desc": "Seguridad del producto."
+    }
+  ],
   "meta": {
     "title": "Refinería y productos de petróleo | Petróleo y Energía | CCV Grupo Venezuela",
     "description": "Destilados, combustibles y especificaciones de producto."
-  }
+  },
+  "brands": [
+    {
+      "name": "PerkinElmer",
+      "slug": "perkin-elmer"
+    }
+  ]
 }

@@ -11,11 +11,38 @@
     "title": "Estabilidad de productos",
     "lead": "Cámaras y estudios de estabilidad."
   },
-  "intro": "Soluciones de estabilidad de productos para farmacéutica y cosmética, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Estudios de estabilidad en cámaras climáticas bajo condiciones ICH.",
+  "items_title": "Análisis y parámetros típicos",
+  "items": [
+    {
+      "name": "Cámaras ICH",
+      "desc": "Condiciones controladas de temperatura y humedad."
+    },
+    {
+      "name": "Fotostabilidad",
+      "desc": "Exposición a luz según ICH Q1B."
+    },
+    {
+      "name": "Impurezas y degradación (HPLC)",
+      "desc": "Perfil a lo largo del tiempo."
+    },
+    {
+      "name": "Contenido / potencia",
+      "desc": "Valoración del principio activo."
+    },
+    {
+      "name": "Disolución",
+      "desc": "Comportamiento de liberación."
+    }
+  ],
   "meta": {
     "title": "Estabilidad de productos | Farmacéutica y Cosmética | CCV Grupo Venezuela",
     "description": "Cámaras y estudios de estabilidad."
-  }
+  },
+  "brands": [
+    {
+      "name": "PerkinElmer",
+      "slug": "perkin-elmer"
+    }
+  ]
 }

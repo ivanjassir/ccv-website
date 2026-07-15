@@ -11,11 +11,38 @@
     "title": "Cemento y concreto",
     "lead": "Resistencia, composición y calidad."
   },
-  "intro": "Soluciones de cemento y concreto para ciencia de los materiales, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Ensayo de cemento, concreto y agregados.",
+  "items_title": "Análisis y parámetros típicos",
+  "items": [
+    {
+      "name": "Composición (FRX)",
+      "desc": "Óxidos y control de clinker."
+    },
+    {
+      "name": "Resistencia a compresión",
+      "desc": "Desempeño mecánico."
+    },
+    {
+      "name": "Finura Blaine",
+      "desc": "Superficie específica del cemento."
+    },
+    {
+      "name": "Cloruros y sulfatos",
+      "desc": "Durabilidad del concreto."
+    },
+    {
+      "name": "Tiempo de fraguado",
+      "desc": "Control de proceso."
+    }
+  ],
   "meta": {
     "title": "Cemento y concreto | Ciencia de los Materiales | CCV Grupo Venezuela",
     "description": "Resistencia, composición y calidad."
-  }
+  },
+  "brands": [
+    {
+      "name": "PerkinElmer",
+      "slug": "perkin-elmer"
+    }
+  ]
 }

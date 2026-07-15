@@ -11,11 +11,38 @@
     "title": "Bebidas",
     "lead": "Bebidas alcohólicas y no alcohólicas, aguas y jugos."
   },
-  "intro": "Soluciones de bebidas para alimentos y bebidas, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Análisis para bebidas alcohólicas y no alcohólicas, aguas y jugos.",
+  "items_title": "Análisis y parámetros típicos",
+  "items": [
+    {
+      "name": "Grado alcohólico",
+      "desc": "Contenido de etanol."
+    },
+    {
+      "name": "Azúcares y edulcorantes (HPLC)",
+      "desc": "Perfil de azúcares y aditivos."
+    },
+    {
+      "name": "Acidez, pH y Brix",
+      "desc": "Sólidos solubles y control de sabor."
+    },
+    {
+      "name": "Metales (ICP)",
+      "desc": "Trazas metálicas y cumplimiento."
+    },
+    {
+      "name": "Microbiología",
+      "desc": "Estabilidad e inocuidad."
+    }
+  ],
   "meta": {
     "title": "Bebidas | Alimentos y Bebidas | CCV Grupo Venezuela",
     "description": "Bebidas alcohólicas y no alcohólicas, aguas y jugos."
-  }
+  },
+  "brands": [
+    {
+      "name": "PerkinElmer",
+      "slug": "perkin-elmer"
+    }
+  ]
 }

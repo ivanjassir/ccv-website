@@ -184,12 +184,13 @@ h1,h2,h3,h4{font-family:'Sora',sans-serif;font-weight:600;line-height:1.12;lette
 
 /* LOGOS */
 .logos{display:grid;grid-template-columns:repeat(6,1fr);gap:16px}
-.logos span{
-  display:grid;place-items:center;padding:26px 14px;background:#fff;border:1px solid var(--line);
+.logos span,.logos a{
+  display:grid;place-items:center;text-align:center;padding:26px 14px;background:#fff;border:1px solid var(--line);
   border-radius:14px;font-family:'Sora',sans-serif;font-weight:600;color:var(--muted);
   font-size:1.02rem;transition:color .18s,box-shadow .18s,transform .18s;
 }
-.logos span:hover{color:var(--brand);transform:translateY(-3px);box-shadow:var(--shadow-sm)}
+.logos span:hover,.logos a:hover{color:var(--brand);transform:translateY(-3px);box-shadow:var(--shadow-sm)}
+.logos a{border-color:rgba(14,125,142,.25)}
 .client-strip{overflow:hidden;margin-top:44px;
   -webkit-mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);
   mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent)}

@@ -11,11 +11,38 @@
     "title": "Materias primas",
     "lead": "Identidad, pureza y conformidad de insumos."
   },
-  "intro": "Soluciones de materias primas para industria química, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Identidad, pureza y conformidad de materias primas.",
+  "items_title": "Análisis y parámetros típicos",
+  "items": [
+    {
+      "name": "Identificación (FTIR / NIR)",
+      "desc": "Verificación de identidad."
+    },
+    {
+      "name": "Pureza cromatográfica",
+      "desc": "HPLC / GC."
+    },
+    {
+      "name": "Metales (ICP)",
+      "desc": "Contaminantes elementales."
+    },
+    {
+      "name": "Humedad",
+      "desc": "Contenido de agua."
+    },
+    {
+      "name": "Punto de fusión / ebullición",
+      "desc": "Identidad y pureza."
+    }
+  ],
   "meta": {
     "title": "Materias primas | Industria Química | CCV Grupo Venezuela",
     "description": "Identidad, pureza y conformidad de insumos."
-  }
+  },
+  "brands": [
+    {
+      "name": "PerkinElmer",
+      "slug": "perkin-elmer"
+    }
+  ]
 }

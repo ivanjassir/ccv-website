@@ -11,11 +11,42 @@
     "title": "Farmacéutica humana",
     "lead": "Materias primas, producto terminado y liberación."
   },
-  "intro": "Soluciones de farmacéutica humana para farmacéutica y cosmética, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Control de calidad farmacéutico bajo farmacopea y GMP.",
+  "items_title": "Análisis y parámetros típicos",
+  "items": [
+    {
+      "name": "Valoración / potencia (HPLC)",
+      "desc": "Cuantificación del principio activo."
+    },
+    {
+      "name": "Impurezas y degradación",
+      "desc": "Seguridad del producto."
+    },
+    {
+      "name": "Disolución",
+      "desc": "Liberación del fármaco."
+    },
+    {
+      "name": "Solventes residuales (GC)",
+      "desc": "ICH Q3C por headspace."
+    },
+    {
+      "name": "Impurezas elementales (ICP-MS)",
+      "desc": "USP <232>/<233>."
+    },
+    {
+      "name": "Uniformidad de contenido",
+      "desc": "Homogeneidad de dosis."
+    }
+  ],
   "meta": {
     "title": "Farmacéutica humana | Farmacéutica y Cosmética | CCV Grupo Venezuela",
     "description": "Materias primas, producto terminado y liberación."
-  }
+  },
+  "brands": [
+    {
+      "name": "PerkinElmer",
+      "slug": "perkin-elmer"
+    }
+  ]
 }

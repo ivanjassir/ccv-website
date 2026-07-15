@@ -11,11 +11,38 @@
     "title": "Control de proceso",
     "lead": "Monitoreo en línea y de laboratorio."
   },
-  "intro": "Soluciones de control de proceso para industria química, con instrumentación de marcas líderes y soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Monitoreo analítico en línea y de laboratorio para procesos químicos.",
+  "items_title": "Análisis y parámetros típicos",
+  "items": [
+    {
+      "name": "Cromatografía de proceso",
+      "desc": "Composición en tiempo real."
+    },
+    {
+      "name": "Espectroscopía FTIR / NIR",
+      "desc": "Control de reacción y mezcla."
+    },
+    {
+      "name": "Titulación automática",
+      "desc": "Concentración y pureza."
+    },
+    {
+      "name": "Humedad (Karl Fischer)",
+      "desc": "Agua en producto y solventes."
+    },
+    {
+      "name": "Densidad y viscosidad",
+      "desc": "Parámetros de proceso."
+    }
+  ],
   "meta": {
     "title": "Control de proceso | Industria Química | CCV Grupo Venezuela",
     "description": "Monitoreo en línea y de laboratorio."
-  }
+  },
+  "brands": [
+    {
+      "name": "PerkinElmer",
+      "slug": "perkin-elmer"
+    }
+  ]
 }
