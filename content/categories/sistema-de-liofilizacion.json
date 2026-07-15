@@ -11,11 +11,34 @@
     "title": "Sistema de Liofilización",
     "lead": "Liofilizadores GMP de producción y de laboratorio."
   },
-  "intro": "Soluciones de sistema de liofilización respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "intro": "Liofilizadores para escala de laboratorio y producción GMP, con control preciso de proceso y opciones de carga y descarga automática.",
   "items_title": "Soluciones",
-  "items": [],
+  "items": [
+    {
+      "name": "Liofilizadores GMP de producción",
+      "desc": "Equipos de gran capacidad para manufactura."
+    },
+    {
+      "name": "Liofilizadores de laboratorio",
+      "desc": "Desarrollo de ciclos y lotes piloto."
+    },
+    {
+      "name": "Sistemas de carga y descarga",
+      "desc": "Automatización para procesos estériles."
+    }
+  ],
   "meta": {
     "title": "Sistema de Liofilización | Soluciones Farma | CCV Grupo Venezuela",
     "description": "Liofilizadores GMP de producción y de laboratorio."
-  }
+  },
+  "benefits": [
+    {
+      "title": "Reproducibilidad",
+      "desc": "Control preciso de temperatura y vacío."
+    },
+    {
+      "title": "Escalabilidad",
+      "desc": "Del laboratorio a la producción con la misma tecnología."
+    }
+  ]
 }

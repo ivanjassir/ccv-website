@@ -20,8 +20,42 @@
     </div>
   </section>
 
-  <!-- CAPABILITIES / CHILDREN -->
+  {% if division.highlights %}
+  <!-- HIGHLIGHTS -->
+  <section class="wrap stats" data-reveal>
+    {% for h in division.highlights %}
+    <div class="stat" data-stagger><b>{{ h.value }}</b><span>{{ h.label }}</span></div>
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  {% if division.overview %}
+  <!-- OVERVIEW -->
   <section class="section">
+    <div class="wrap two-col">
+      <div class="two-col__text" data-reveal>
+        <span class="s-tag">{{ division.name }}</span>
+        <h2>{{ division.overview.title }}</h2>
+        {% for p in division.overview.body %}<p>{{ p }}</p>{% endfor %}
+        {% if division.overview.points %}
+        <ul class="checklist">
+          {% for pt in division.overview.points %}<li>{{ pt }}</li>{% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+      <div class="two-col__panel" data-reveal aria-hidden="true">
+        <div class="badge">
+          <span class="badge__since">CCV Grupo</span>
+          <b>{{ division.overview.stat or "40+" }}</b>
+          <span>{{ division.overview.stat_label or "Años de experiencia" }}</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  <!-- CAPABILITIES / CHILDREN -->
+  <section class="section{% if not division.overview %}{% else %} section--soft{% endif %}">
     <div class="wrap">
       <header class="s-head" data-reveal>
         <span class="s-tag">{{ division.name }}</span>
@@ -47,8 +81,51 @@
     </div>
   </section>
 
-  <!-- OTHER DIVISIONS -->
+  {% if division.benefits %}
+  <!-- BENEFITS -->
+  <section class="section">
+    <div class="wrap">
+      <header class="s-head" data-reveal>
+        <span class="s-tag">Por qué CCV Grupo</span>
+        <h2>{{ division.benefits_title or "Lo que nos diferencia" }}</h2>
+      </header>
+      <div class="cards" data-reveal>
+        {% for b in division.benefits %}
+        <article class="card feature" data-stagger data-tilt data-spot>
+          <span class="card__ico" aria-hidden="true">◆</span>
+          <h3>{{ b.title }}</h3>
+          <p>{{ b.desc }}</p>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  {% if division.approach %}
+  <!-- APPROACH -->
   <section class="section section--soft">
+    <div class="wrap">
+      <header class="s-head" data-reveal>
+        <span class="s-tag">Cómo trabajamos</span>
+        <h2>{{ division.approach_title or "Nuestro enfoque" }}</h2>
+      </header>
+      <div class="timeline cards--3" data-reveal>
+        <span class="timeline__line" aria-hidden="true"></span>
+        {% for s in division.approach %}
+        <article class="card card--plain tstep" data-stagger data-tilt data-spot>
+          <span class="tstep__dot">0{{ loop.index }}</span>
+          <h3>{{ s.title }}</h3>
+          <p>{{ s.desc }}</p>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  <!-- OTHER DIVISIONS -->
+  <section class="section{% if division.approach %}{% else %} section--soft{% endif %}">
     <div class="wrap">
       <header class="s-head" data-reveal>
         <span class="s-tag">Divisiones</span>

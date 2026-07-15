@@ -43,5 +43,34 @@
   "meta": {
     "title": "Reactivos y Consumibles | CCV Grupo Venezuela",
     "description": "Reactivos analíticos, estándares de referencia, material volumétrico y consumibles certificados con trazabilidad y disponibilidad local."
-  }
+  },
+  "highlights": [
+    {
+      "value": "Certificados",
+      "label": "Trazabilidad garantizada"
+    },
+    {
+      "value": "Stock",
+      "label": "Disponibilidad para su operación"
+    },
+    {
+      "value": "Portafolio",
+      "label": "Reactivos, estándares y fungibles"
+    }
+  ],
+  "benefits_title": "Lo que nos diferencia",
+  "benefits": [
+    {
+      "title": "Calidad trazable",
+      "desc": "Reactivos y estándares de referencia con certificados y lotes documentados."
+    },
+    {
+      "title": "Suministro oportuno",
+      "desc": "Disponibilidad y logística pensadas para la continuidad de sus análisis."
+    },
+    {
+      "title": "Compatibilidad",
+      "desc": "Consumibles y columnas adecuados a su instrumentación."
+    }
+  ]
 }

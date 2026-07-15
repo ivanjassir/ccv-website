@@ -11,11 +11,38 @@
     "title": "Agua PW & WFI y Vapor Puro",
     "lead": "Generación, almacenamiento y distribución de agua de proceso."
   },
-  "intro": "Soluciones de agua pw & wfi y vapor puro respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "intro": "Generación, almacenamiento y distribución de agua purificada (PW), agua para inyección (WFI) y vapor puro para su planta.",
   "items_title": "Soluciones",
-  "items": [],
+  "items": [
+    {
+      "name": "Generadores de vapor puro",
+      "desc": "Vapor limpio para esterilización y procesos."
+    },
+    {
+      "name": "Destiladores multiefecto y simple efecto",
+      "desc": "Producción de agua para inyección (WFI)."
+    },
+    {
+      "name": "Almacenamiento y distribución",
+      "desc": "Tanques y lazos de distribución sanitarios."
+    },
+    {
+      "name": "Tratamiento y purificación",
+      "desc": "Pretratamiento, ósmosis inversa y EDI."
+    }
+  ],
   "meta": {
     "title": "Agua PW & WFI y Vapor Puro | Soluciones Farma | CCV Grupo Venezuela",
     "description": "Generación, almacenamiento y distribución de agua de proceso."
-  }
+  },
+  "benefits": [
+    {
+      "title": "Calidad farmacopeica",
+      "desc": "Cumple las especificaciones de PW y WFI."
+    },
+    {
+      "title": "Diseño sanitario",
+      "desc": "Lazos de distribución sin puntos muertos."
+    }
+  ]
 }

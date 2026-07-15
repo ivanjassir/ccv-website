@@ -11,11 +11,38 @@
     "title": "Salas Blancas y Equipos Asociados",
     "lead": "Componentes, SAS de paso, duchas de aire y biodescontaminación."
   },
-  "intro": "Soluciones de salas blancas y equipos asociados respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "intro": "Componentes y equipos para salas blancas que aseguran las condiciones de limpieza y bioseguridad de su proceso.",
   "items_title": "Soluciones",
-  "items": [],
+  "items": [
+    {
+      "name": "Componentes de salas blancas",
+      "desc": "Paneles, pisos, techos y puertas herméticas."
+    },
+    {
+      "name": "SAS de paso de materiales",
+      "desc": "Esclusas para transferencia entre clases."
+    },
+    {
+      "name": "Duchas de aire y filtración HEPA",
+      "desc": "Control de partículas al ingreso."
+    },
+    {
+      "name": "Biodescontaminación por peróxido",
+      "desc": "Descontaminación de ambientes y superficies."
+    }
+  ],
   "meta": {
     "title": "Salas Blancas y Equipos Asociados | Soluciones Farma | CCV Grupo Venezuela",
     "description": "Componentes, SAS de paso, duchas de aire y biodescontaminación."
-  }
+  },
+  "benefits": [
+    {
+      "title": "Clasificación controlada",
+      "desc": "Ambientes ISO según su proceso."
+    },
+    {
+      "title": "Bioseguridad",
+      "desc": "Barreras y flujos que protegen producto y personal."
+    }
+  ]
 }

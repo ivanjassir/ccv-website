@@ -11,11 +11,38 @@
     "title": "Sistema de Contención",
     "lead": "Barreras y aisladores para el manejo de activos potentes."
   },
-  "intro": "Soluciones de sistema de contención respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "intro": "Protegemos al operador y al producto con soluciones de contención para el manejo de activos potentes y procesos estériles.",
   "items_title": "Soluciones",
-  "items": [],
+  "items": [
+    {
+      "name": "Aisladores",
+      "desc": "Contención para procesos asépticos y de alta potencia."
+    },
+    {
+      "name": "Barreras de contención (OEB)",
+      "desc": "Manejo seguro de principios activos potentes."
+    },
+    {
+      "name": "Cabinas de pesaje",
+      "desc": "Pesaje contenido de polvos y activos."
+    },
+    {
+      "name": "Sistemas de transferencia",
+      "desc": "Válvulas y puertos para transferencia sin exposición."
+    }
+  ],
   "meta": {
     "title": "Sistema de Contención | Soluciones Farma | CCV Grupo Venezuela",
     "description": "Barreras y aisladores para el manejo de activos potentes."
-  }
+  },
+  "benefits": [
+    {
+      "title": "Seguridad del operador",
+      "desc": "Minimiza la exposición a activos peligrosos."
+    },
+    {
+      "title": "Integridad del producto",
+      "desc": "Ambientes controlados para procesos críticos."
+    }
+  ]
 }

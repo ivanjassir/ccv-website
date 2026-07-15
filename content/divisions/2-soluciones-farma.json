@@ -9,54 +9,55 @@
   "hero": {
     "eyebrow": "Soluciones Farma",
     "title": "Ingeniería farmacéutica de principio a fin",
-    "lead": "Diseñamos e implementamos sistemas para producción farmacéutica bajo estándares GMP: esterilización, liofilización, agua de proceso, contención y salas blancas."
+    "lead": "Diseñamos, suministramos y validamos sistemas para producción farmacéutica bajo estándares GMP: esterilización, liofilización, agua de proceso, contención y salas blancas."
   },
-  "intro": "Integramos ingeniería, equipamiento y validación para plantas farmacéuticas, cosméticas y veterinarias, cumpliendo las buenas prácticas de manufactura en cada etapa.",
+  "highlights": [
+    { "value": "GMP", "label": "Cumplimiento normativo" },
+    { "value": "Llave en mano", "label": "Ingeniería, montaje y validación" },
+    { "value": "40+", "label": "Años equipando la industria" },
+    { "value": "Local", "label": "Servicio técnico en Venezuela" }
+  ],
+  "overview": {
+    "title": "Del concepto a la validación, en un solo aliado",
+    "body": [
+      "Acompañamos a laboratorios y plantas farmacéuticas, veterinarias y cosméticas en cada etapa del proyecto: desde el diseño conceptual y la selección de tecnología hasta el montaje, la puesta en marcha y la calificación.",
+      "Integramos las mejores marcas del mundo con ingeniería y soporte técnico local, para que cada sistema cumpla con las buenas prácticas de manufactura y con las exigencias de su producto."
+    ],
+    "points": [
+      "Cumplimiento de GMP y guías internacionales",
+      "Calificación IQ/OQ/PQ y documentación de soporte",
+      "Ingeniería propia y representación de marcas líderes"
+    ],
+    "stat": "GMP",
+    "stat_label": "Diseñado para cumplir"
+  },
+  "intro": "Un portafolio integral para la manufactura farmacéutica: contención, esterilización, liofilización, agua de proceso, salas blancas y maquinaria de producción, con la ingeniería y el soporte para operarlos con confianza.",
   "children_title": "Sistemas y equipos",
   "children": [
-    {
-      "name": "Ingeniería Farmacéutica",
-      "desc": "Diseño y ejecución de proyectos de producción bajo GMP.",
-      "slug": "ingenieria-farmaceutica"
-    },
-    {
-      "name": "Sistema de Contención",
-      "desc": "Barreras y aisladores para el manejo de activos potentes.",
-      "slug": "sistema-de-contencion"
-    },
-    {
-      "name": "Sistema de Esterilización",
-      "desc": "Calor seco, calor húmedo y agentes químicos.",
-      "slug": "sistema-de-esterilizacion"
-    },
-    {
-      "name": "Sistema de Liofilización",
-      "desc": "Liofilizadores GMP de producción y de laboratorio.",
-      "slug": "sistema-de-liofilizacion"
-    },
-    {
-      "name": "Agua PW & WFI y Vapor Puro",
-      "desc": "Generación, almacenamiento y distribución de agua de proceso.",
-      "slug": "agua-pw-y-wfi-y-vapor-puro"
-    },
-    {
-      "name": "Salas Blancas y Equipos Asociados",
-      "desc": "Componentes, SAS de paso, duchas de aire y biodescontaminación.",
-      "slug": "salas-blancas-y-equipos-asociados"
-    },
-    {
-      "name": "Cabinas de Flujo Laminar",
-      "desc": "Seguridad biológica y flujo laminar para procesos críticos.",
-      "slug": "cabinas-de-flujo-laminar"
-    },
-    {
-      "name": "Maquinarias de Producción",
-      "desc": "Equipos de llenado, dosificación y acondicionamiento.",
-      "slug": "maquinarias-de-produccion"
-    }
+    { "name": "Ingeniería Farmacéutica", "desc": "Diseño y ejecución de proyectos de producción bajo GMP.", "slug": "ingenieria-farmaceutica" },
+    { "name": "Sistema de Contención", "desc": "Barreras y aisladores para el manejo de activos potentes.", "slug": "sistema-de-contencion" },
+    { "name": "Sistema de Esterilización", "desc": "Calor seco, calor húmedo y agentes químicos.", "slug": "sistema-de-esterilizacion" },
+    { "name": "Sistema de Liofilización", "desc": "Liofilizadores GMP de producción y de laboratorio.", "slug": "sistema-de-liofilizacion" },
+    { "name": "Agua PW & WFI y Vapor Puro", "desc": "Generación, almacenamiento y distribución de agua de proceso.", "slug": "agua-pw-y-wfi-y-vapor-puro" },
+    { "name": "Salas Blancas y Equipos Asociados", "desc": "Componentes, SAS de paso, duchas de aire y biodescontaminación.", "slug": "salas-blancas-y-equipos-asociados" },
+    { "name": "Cabinas de Flujo Laminar", "desc": "Seguridad biológica y flujo laminar para procesos críticos.", "slug": "cabinas-de-flujo-laminar" },
+    { "name": "Maquinarias de Producción", "desc": "Equipos de llenado, dosificación y acondicionamiento.", "slug": "maquinarias-de-produccion" }
+  ],
+  "benefits_title": "Por qué la industria farmacéutica confía en nosotros",
+  "benefits": [
+    { "title": "Cumplimiento GMP", "desc": "Sistemas diseñados y documentados para superar auditorías y cumplir las buenas prácticas de manufactura." },
+    { "title": "Calificación y validación", "desc": "Protocolos IQ/OQ/PQ, mapeos térmicos y documentación que respaldan la puesta en marcha." },
+    { "title": "Ingeniería propia", "desc": "Un equipo local que dimensiona, integra y da soporte a cada sistema durante toda su vida útil." },
+    { "title": "Marcas de referencia", "desc": "Representamos a fabricantes líderes en esterilización, liofilización y agua de proceso." }
+  ],
+  "approach_title": "De la idea a la operación",
+  "approach": [
+    { "title": "Diseño y dimensionamiento", "desc": "Analizamos su proceso y proponemos la tecnología y capacidad adecuadas." },
+    { "title": "Suministro e integración", "desc": "Coordinamos fabricación, montaje y conexión con sus servicios y utilidades." },
+    { "title": "Calificación y soporte", "desc": "Ejecutamos la validación y aseguramos mantenimiento, repuestos y calibración." }
   ],
   "meta": {
     "title": "Soluciones Farma | CCV Grupo Venezuela",
-    "description": "Ingeniería y equipamiento GMP para la industria farmacéutica: esterilización, liofilización, agua de proceso, contención y salas blancas."
+    "description": "Ingeniería y equipamiento GMP para la industria farmacéutica: esterilización, liofilización, agua de proceso, contención y salas blancas, con calificación y soporte local."
   }
 }

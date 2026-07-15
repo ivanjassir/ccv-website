@@ -11,11 +11,38 @@
     "title": "Ingeniería Farmacéutica",
     "lead": "Diseño y ejecución de proyectos de producción bajo GMP."
   },
-  "intro": "Soluciones de ingeniería farmacéutica respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "intro": "Diseñamos y ejecutamos proyectos de producción farmacéutica bajo GMP, desde el concepto hasta la calificación, integrando procesos, utilidades y salas limpias.",
   "items_title": "Soluciones",
-  "items": [],
+  "items": [
+    {
+      "name": "Anteproyecto y diseño",
+      "desc": "Definición de proceso, capacidad y layout de planta."
+    },
+    {
+      "name": "Ingeniería de detalle",
+      "desc": "Especificación de equipos, utilidades y flujos de material y personal."
+    },
+    {
+      "name": "Calificación y validación",
+      "desc": "Protocolos IQ/OQ/PQ y documentación de cumplimiento."
+    },
+    {
+      "name": "Puesta en marcha",
+      "desc": "Arranque asistido y transferencia a operación."
+    }
+  ],
   "meta": {
     "title": "Ingeniería Farmacéutica | Soluciones Farma | CCV Grupo Venezuela",
     "description": "Diseño y ejecución de proyectos de producción bajo GMP."
-  }
+  },
+  "benefits": [
+    {
+      "title": "Cumplimiento GMP",
+      "desc": "Diseño orientado a superar auditorías regulatorias."
+    },
+    {
+      "title": "Un solo responsable",
+      "desc": "Coordinamos ingeniería, suministro y validación de principio a fin."
+    }
+  ]
 }

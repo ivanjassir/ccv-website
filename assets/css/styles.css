@@ -374,6 +374,11 @@ h1,h2,h3,h4{font-family:'Sora',sans-serif;font-weight:600;line-height:1.12;lette
   border-top:4px solid transparent;border-bottom:4px solid transparent;border-left:6px solid var(--brand);transition:transform .18s ease}
 .card--link:hover .card__more::after{transform:translateX(4px)}
 
+/* Feature / benefit cards (icon accent) */
+.card__ico{display:inline-grid;place-items:center;width:42px;height:42px;border-radius:12px;
+  background:rgba(14,125,142,.1);color:var(--brand);font-size:1rem;margin-bottom:16px}
+.feature h3{font-size:1.18rem;margin-bottom:8px}
+
 /* Division hero + breadcrumbs */
 .dhero{position:relative;background:var(--hero);color:#fff;overflow:hidden;padding:74px 0 66px}
 .dhero__bg{position:absolute;inset:0;background:radial-gradient(70% 130% at 82% 0%,rgba(14,125,142,.55),transparent 62%)}

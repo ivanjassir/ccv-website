@@ -11,11 +11,34 @@
     "title": "Maquinarias de Producción",
     "lead": "Equipos de llenado, dosificación y acondicionamiento."
   },
-  "intro": "Soluciones de maquinarias de producción respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "intro": "Maquinaria para las etapas de llenado, dosificación y acondicionamiento de su línea de producción farmacéutica.",
   "items_title": "Soluciones",
-  "items": [],
+  "items": [
+    {
+      "name": "Llenado de viales y frascos",
+      "desc": "Dosificación estéril y precisa."
+    },
+    {
+      "name": "Dosificación de líquidos y polvos",
+      "desc": "Sistemas para diversas formas farmacéuticas."
+    },
+    {
+      "name": "Acondicionamiento y etiquetado",
+      "desc": "Codificado, etiquetado y empaque."
+    }
+  ],
   "meta": {
     "title": "Maquinarias de Producción | Soluciones Farma | CCV Grupo Venezuela",
     "description": "Equipos de llenado, dosificación y acondicionamiento."
-  }
+  },
+  "benefits": [
+    {
+      "title": "Precisión",
+      "desc": "Dosificación consistente lote a lote."
+    },
+    {
+      "title": "Flexibilidad",
+      "desc": "Formatos y velocidades según su demanda."
+    }
+  ]
 }

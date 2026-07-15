@@ -43,5 +43,34 @@
   "meta": {
     "title": "Informática y LIMS | CCV Grupo Venezuela",
     "description": "Sistemas LIMS y software especializado que integran instrumentos, automatizan flujos de trabajo y garantizan la trazabilidad de cada resultado."
-  }
+  },
+  "highlights": [
+    {
+      "value": "LIMS",
+      "label": "Gestión integral de laboratorio"
+    },
+    {
+      "value": "100%",
+      "label": "Trazabilidad de resultados"
+    },
+    {
+      "value": "Integración",
+      "label": "Conexión directa con instrumentos"
+    }
+  ],
+  "benefits_title": "Lo que nos diferencia",
+  "benefits": [
+    {
+      "title": "Trazabilidad total",
+      "desc": "Cada muestra y resultado queda registrado, auditable y firmado electrónicamente."
+    },
+    {
+      "title": "Menos errores",
+      "desc": "La captura automática desde los equipos elimina la transcripción manual."
+    },
+    {
+      "title": "Cumplimiento",
+      "desc": "Apoya los requisitos regulatorios y de acreditación de su laboratorio."
+    }
+  ]
 }

@@ -14,17 +14,78 @@
   "intro": "Desde cromatografía y espectroscopía hasta análisis elemental y preparación de muestras, ofrecemos soluciones completas por industria, con asesoría especializada en cada etapa del proceso analítico.",
   "children_title": "Soluciones por industria",
   "children": [
-    { "name": "Alimentos y Bebidas", "slug": "alimentos-y-bebidas", "desc": "Control de calidad e inocuidad para la industria de alimentos y bebidas." },
-    { "name": "Petróleo y Energía", "slug": "petroleo-y-energia", "desc": "Análisis de crudos, refinados, lubricantes y petroquímica." },
-    { "name": "Ambiente", "slug": "ambiente", "desc": "Monitoreo de agua, aire y suelo con métodos normalizados." },
-    { "name": "Geología y Minería", "slug": "geologia-mineria", "desc": "Caracterización de minerales, metalurgia y materiales ferrosos." },
-    { "name": "Agroindustria", "slug": "agroindustria", "desc": "Soluciones para producción agrícola y cannabis medicinal." },
-    { "name": "Ciencia de los Materiales", "slug": "ciencia-materiales", "desc": "Ensayo de polímeros, cemento, concreto, corrosión y textiles." },
-    { "name": "Industria Química", "slug": "industria-quimica", "desc": "Análisis y control de procesos para la industria química." },
-    { "name": "Farmacéutica y Cosmética", "slug": "farmaceutica-cosmetica", "desc": "Microbiología, estabilidad y control de producto terminado." }
+    {
+      "name": "Alimentos y Bebidas",
+      "slug": "alimentos-y-bebidas",
+      "desc": "Control de calidad e inocuidad para la industria de alimentos y bebidas."
+    },
+    {
+      "name": "Petróleo y Energía",
+      "slug": "petroleo-y-energia",
+      "desc": "Análisis de crudos, refinados, lubricantes y petroquímica."
+    },
+    {
+      "name": "Ambiente",
+      "slug": "ambiente",
+      "desc": "Monitoreo de agua, aire y suelo con métodos normalizados."
+    },
+    {
+      "name": "Geología y Minería",
+      "slug": "geologia-mineria",
+      "desc": "Caracterización de minerales, metalurgia y materiales ferrosos."
+    },
+    {
+      "name": "Agroindustria",
+      "slug": "agroindustria",
+      "desc": "Soluciones para producción agrícola y cannabis medicinal."
+    },
+    {
+      "name": "Ciencia de los Materiales",
+      "slug": "ciencia-materiales",
+      "desc": "Ensayo de polímeros, cemento, concreto, corrosión y textiles."
+    },
+    {
+      "name": "Industria Química",
+      "slug": "industria-quimica",
+      "desc": "Análisis y control de procesos para la industria química."
+    },
+    {
+      "name": "Farmacéutica y Cosmética",
+      "slug": "farmaceutica-cosmetica",
+      "desc": "Microbiología, estabilidad y control de producto terminado."
+    }
   ],
   "meta": {
     "title": "Equipos de Laboratorio | CCV Grupo Venezuela",
     "description": "Instrumentación analítica de alto desempeño para control de calidad, investigación y producción, con soporte técnico local en toda Venezuela."
-  }
+  },
+  "highlights": [
+    {
+      "value": "8",
+      "label": "Industrias atendidas"
+    },
+    {
+      "value": "Analítica",
+      "label": "Cromatografía, espectroscopía y más"
+    },
+    {
+      "value": "Local",
+      "label": "Servicio técnico en Venezuela"
+    }
+  ],
+  "benefits_title": "Lo que nos diferencia",
+  "benefits": [
+    {
+      "title": "Instrumentación de referencia",
+      "desc": "Representamos a las marcas líderes en análisis químico y físico."
+    },
+    {
+      "title": "Métodos normalizados",
+      "desc": "Soluciones alineadas con ASTM, ISO y las normativas de cada industria."
+    },
+    {
+      "title": "Soporte de por vida",
+      "desc": "Instalación, calibración, repuestos y capacitación con respuesta local."
+    }
+  ]
 }

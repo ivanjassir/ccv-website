@@ -43,5 +43,34 @@
   "meta": {
     "title": "Proyectos de Laboratorio | CCV Grupo Venezuela",
     "description": "Diseño y ejecución de laboratorios llave en mano: mobiliario técnico, extracción de gases, superficies de trabajo y laboratorios modulares."
-  }
+  },
+  "highlights": [
+    {
+      "value": "Llave en mano",
+      "label": "Diseño, obra y equipamiento"
+    },
+    {
+      "value": "A medida",
+      "label": "Espacios según su flujo de trabajo"
+    },
+    {
+      "value": "Seguridad",
+      "label": "Extracción y protección integradas"
+    }
+  ],
+  "benefits_title": "Lo que nos diferencia",
+  "benefits": [
+    {
+      "title": "Diseño funcional",
+      "desc": "Laboratorios ergonómicos y eficientes, pensados para el trabajo científico."
+    },
+    {
+      "title": "Materiales técnicos",
+      "desc": "Superficies y mobiliario resistentes a químicos y agentes agresivos."
+    },
+    {
+      "title": "Un solo responsable",
+      "desc": "Coordinamos ingeniería, obra y equipamiento de principio a fin."
+    }
+  ]
 }

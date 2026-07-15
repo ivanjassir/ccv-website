@@ -11,11 +11,34 @@
     "title": "Sistema de Esterilización",
     "lead": "Calor seco, calor húmedo y agentes químicos."
   },
-  "intro": "Soluciones de sistema de esterilización respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "intro": "Sistemas de esterilización para producto, material y componentes, seleccionados según el ciclo y la carga de su proceso.",
   "items_title": "Soluciones",
-  "items": [],
+  "items": [
+    {
+      "name": "Calor seco",
+      "desc": "Hornos y túneles de despirogenación."
+    },
+    {
+      "name": "Calor húmedo",
+      "desc": "Autoclaves de vapor para carga porosa y líquidos."
+    },
+    {
+      "name": "Agentes químicos",
+      "desc": "Esterilización por óxido de etileno u otros agentes."
+    }
+  ],
   "meta": {
     "title": "Sistema de Esterilización | Soluciones Farma | CCV Grupo Venezuela",
     "description": "Calor seco, calor húmedo y agentes químicos."
-  }
+  },
+  "benefits": [
+    {
+      "title": "Ciclos validables",
+      "desc": "Mapeos térmicos y documentación de soporte."
+    },
+    {
+      "title": "Trazabilidad",
+      "desc": "Registro y control de cada ciclo de esterilización."
+    }
+  ]
 }

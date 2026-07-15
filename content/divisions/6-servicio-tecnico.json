@@ -43,5 +43,49 @@
   "meta": {
     "title": "Servicio Técnico | CCV Grupo Venezuela",
     "description": "Soporte especializado durante todo el ciclo de vida: instalación, calibración, mantenimiento, repuestos originales e ingeniería, con respuesta local."
-  }
+  },
+  "highlights": [
+    {
+      "value": "Propio",
+      "label": "Equipo de ingeniería"
+    },
+    {
+      "value": "Preventivo",
+      "label": "Programas de mantenimiento"
+    },
+    {
+      "value": "Original",
+      "label": "Repuestos y consumibles"
+    }
+  ],
+  "benefits_title": "Lo que nos diferencia",
+  "benefits": [
+    {
+      "title": "Continuidad operativa",
+      "desc": "Mantenimiento preventivo y correctivo que reduce paradas no planificadas."
+    },
+    {
+      "title": "Calibración trazable",
+      "desc": "Aseguramos la exactitud y el cumplimiento de sus equipos."
+    },
+    {
+      "title": "Respuesta local",
+      "desc": "Cobertura nacional con tiempos de atención competitivos."
+    }
+  ],
+  "approach_title": "Nuestro servicio, paso a paso",
+  "approach": [
+    {
+      "title": "Instalación y puesta en marcha",
+      "desc": "Comisionamiento con validación de desempeño."
+    },
+    {
+      "title": "Mantenimiento y calibración",
+      "desc": "Planes preventivos y correctivos a la medida de su operación."
+    },
+    {
+      "title": "Repuestos y mejoras",
+      "desc": "Partes originales y actualizaciones a lo largo de la vida útil."
+    }
+  ]
 }

@@ -11,11 +11,34 @@
     "title": "Cabinas de Flujo Laminar",
     "lead": "Seguridad biológica y flujo laminar para procesos críticos."
   },
-  "intro": "Soluciones de cabinas de flujo laminar respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "intro": "Cabinas de flujo laminar y de seguridad biológica para proteger la muestra, el operador y el ambiente.",
   "items_title": "Soluciones",
-  "items": [],
+  "items": [
+    {
+      "name": "Cabinas de seguridad biológica",
+      "desc": "Protección de operador, producto y ambiente."
+    },
+    {
+      "name": "Flujo laminar horizontal y vertical",
+      "desc": "Ambientes limpios para manipulación."
+    },
+    {
+      "name": "Cabinas de pesaje",
+      "desc": "Contención de polvos durante el pesaje."
+    }
+  ],
   "meta": {
     "title": "Cabinas de Flujo Laminar | Soluciones Farma | CCV Grupo Venezuela",
     "description": "Seguridad biológica y flujo laminar para procesos críticos."
-  }
+  },
+  "benefits": [
+    {
+      "title": "Protección certificada",
+      "desc": "Cumple normas de bioseguridad."
+    },
+    {
+      "title": "Ergonomía",
+      "desc": "Diseño pensado para el trabajo prolongado."
+    }
+  ]
 }

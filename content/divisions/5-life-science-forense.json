@@ -48,5 +48,34 @@
   "meta": {
     "title": "Life Science y Forense | CCV Grupo Venezuela",
     "description": "Plataformas para biología molecular y análisis forense: PCR, secuenciación de ADN, microscopía, lectores de placas e instrumentos analíticos."
-  }
+  },
+  "highlights": [
+    {
+      "value": "PCR",
+      "label": "Biología molecular"
+    },
+    {
+      "value": "ADN",
+      "label": "Secuenciación e identificación"
+    },
+    {
+      "value": "Forense",
+      "label": "Soluciones para criminalística"
+    }
+  ],
+  "benefits_title": "Lo que nos diferencia",
+  "benefits": [
+    {
+      "title": "Última generación",
+      "desc": "Plataformas de investigación y diagnóstico de fabricantes líderes."
+    },
+    {
+      "title": "Aplicaciones forenses",
+      "desc": "Equipos dedicados a genética forense y criminalística."
+    },
+    {
+      "title": "Puesta en marcha",
+      "desc": "Instalación, capacitación y soporte para operar con confianza."
+    }
+  ]
 }
