@@ -8,10 +8,10 @@
   "name": "Gestión de Muestras",
   "eyebrow": "Informática · LIMS",
   "hero": {
-    "title": "Gestión de Muestras",
-    "lead": "Registro, seguimiento y control del ciclo de vida de la muestra."
+    "title": "Gestión de muestras en el LIMS",
+    "lead": "Registro, seguimiento y control del ciclo de vida de la muestra dentro de Matrix Gemini LIMS."
   },
-  "intro": "Soluciones de gestión de muestras respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "intro": "Desde la recepción hasta el resultado, el LIMS controla el estado de cada muestra, sus ensayos y su trazabilidad.",
   "items_title": "Soluciones",
   "items": [],
   "meta": {

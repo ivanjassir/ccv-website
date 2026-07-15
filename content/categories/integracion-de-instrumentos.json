@@ -8,10 +8,10 @@
   "name": "Integración de Instrumentos",
   "eyebrow": "Informática · LIMS",
   "hero": {
-    "title": "Integración de Instrumentos",
-    "lead": "Captura automática de datos directamente desde los equipos."
+    "title": "Conectividad de instrumentos",
+    "lead": "Conectamos sus instrumentos al LIMS para capturar datos automáticamente, eliminando la transcripción manual y sus errores."
   },
-  "intro": "Soluciones de integración de instrumentos respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "intro": "La conectividad de instrumentos integra sus equipos de laboratorio con Matrix Gemini LIMS, asegurando datos completos, oportunos y trazables.",
   "items_title": "Soluciones",
   "items": [],
   "meta": {

@@ -8,10 +8,10 @@
   "tagline": "Gestión digital y trazabilidad total de su laboratorio.",
   "hero": {
     "eyebrow": "Informática · LIMS",
-    "title": "Digitalice y controle todo su laboratorio",
-    "lead": "Implementamos sistemas LIMS y software especializado que integran instrumentos, automatizan flujos de trabajo y garantizan la trazabilidad de cada resultado."
+    "title": "Gestión integral de la información del laboratorio",
+    "lead": "Con más de 25 años implementando sistemas LIMS, digitalizamos su laboratorio: integramos instrumentos, automatizamos flujos de trabajo y garantizamos la trazabilidad de cada resultado."
   },
-  "intro": "Conectamos personas, equipos y datos en una sola plataforma para reducir errores, acelerar la toma de decisiones y asegurar el cumplimiento normativo.",
+  "intro": "Ofrecemos soluciones en Sistemas LIMS, conectividad de instrumentos, sistemas para estabilidad de productos, revisión anual de producto y otras aplicaciones de calidad relacionadas.",
   "children_title": "Capacidades",
   "children": [
     {
@@ -58,19 +58,19 @@
       "label": "Conexión directa con instrumentos"
     }
   ],
-  "benefits_title": "Lo que nos diferencia",
+  "benefits_title": "Por qué elegir nuestra división de informática",
   "benefits": [
     {
-      "title": "Trazabilidad total",
-      "desc": "Cada muestra y resultado queda registrado, auditable y firmado electrónicamente."
+      "title": "Más de 25 años en LIMS",
+      "desc": "Trayectoria comprobada en suministro, desarrollo e implementación de sistemas de gestión de laboratorio."
     },
     {
-      "title": "Menos errores",
-      "desc": "La captura automática desde los equipos elimina la transcripción manual."
+      "title": "Equipos + software",
+      "desc": "Conocemos tanto la instrumentación como el software, para una integración completa."
     },
     {
-      "title": "Cumplimiento",
-      "desc": "Apoya los requisitos regulatorios y de acreditación de su laboratorio."
+      "title": "Aliado Autoscribe",
+      "desc": "Representamos Matrix Gemini LIMS de Autoscribe Informatics (Inglaterra)."
     }
   ],
   "process_title": "Cómo lo implementamos",
@@ -96,5 +96,19 @@
       "title": "Go-live y soporte",
       "desc": "Capacitación, validación y soporte continuo."
     }
-  ]
+  ],
+  "overview": {
+    "title": "Especialistas en la gestión de la información del laboratorio",
+    "body": [
+      "La división de informática del Grupo CCV está dedicada a la ingeniería de software, integrada por profesionales con amplia experiencia y más de 25 años en el suministro, desarrollo e implementación de Sistemas de Gestión para Laboratorios (LIMS).",
+      "Nuestro conocimiento combinado de los equipos de laboratorio y de los sistemas LIMS nos da una visión completa e integrada para comprender mejor las necesidades de cada cliente."
+    ],
+    "points": [
+      "Sistemas LIMS Matrix Gemini de Autoscribe Informatics",
+      "Conectividad de instrumentos",
+      "Estabilidad, revisión anual de producto y aplicaciones de calidad"
+    ],
+    "stat": "25+",
+    "stat_label": "Años implementando LIMS"
+  }
 }

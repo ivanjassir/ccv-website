@@ -8,12 +8,37 @@
   "name": "Software Especializado",
   "eyebrow": "Informática · LIMS",
   "hero": {
-    "title": "Software Especializado",
-    "lead": "Aplicaciones para adquisición, análisis y reporte de datos."
+    "title": "Software especializado para la calidad del laboratorio",
+    "lead": "Más allá del LIMS, desarrollamos e implementamos aplicaciones de calidad para el laboratorio, con la experiencia de la división de informática del Grupo CCV."
   },
-  "intro": "Soluciones de software especializado respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Complementamos el LIMS con sistemas de gestión de calidad, estabilidad de productos y conectividad de instrumentos, integrados a su operación.",
+  "items_title": "Aplicaciones de calidad",
+  "items": [
+    {
+      "name": "Sistema de Estabilidad de Productos",
+      "desc": "Gestión y seguimiento de estudios de estabilidad."
+    },
+    {
+      "name": "Revisión Anual de Producto (APR)",
+      "desc": "Sistema para la revisión anual de producto."
+    },
+    {
+      "name": "Control de Documentos",
+      "desc": "Gestión documental controlada y trazable."
+    },
+    {
+      "name": "CAPA",
+      "desc": "Acciones correctivas y preventivas."
+    },
+    {
+      "name": "Gestión de Quejas",
+      "desc": "Registro y manejo de quejas y reclamos de clientes."
+    },
+    {
+      "name": "Conectividad de Instrumentos",
+      "desc": "Captura automática de datos desde los equipos."
+    }
+  ],
   "meta": {
     "title": "Software Especializado | Informática · LIMS | CCV Grupo Venezuela",
     "description": "Aplicaciones para adquisición, análisis y reporte de datos."
@@ -39,6 +64,11 @@
       "icon": "support",
       "title": "Soporte",
       "desc": "Capacitación y soporte continuo."
+    }
+  ],
+  "brands": [
+    {
+      "name": "Autoscribe Informatics"
     }
   ]
 }

@@ -8,12 +8,37 @@
   "name": "LIMS",
   "eyebrow": "Informática · LIMS",
   "hero": {
-    "title": "LIMS",
-    "lead": "Sistema de gestión de información de laboratorio de extremo a extremo."
+    "title": "Matrix Gemini LIMS — gestión de la información del laboratorio",
+    "lead": "Suministramos e implementamos Matrix Gemini LIMS de Autoscribe Informatics: un sistema totalmente configurable, sin necesidad de programación, aplicable a una amplia variedad de industrias."
   },
-  "intro": "Soluciones de lims respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Como líder en configuración de sistemas, Matrix se ajusta a los requerimientos de su laboratorio y a su expansión futura sin desarrollar código, resultando en sistemas de larga vida útil, menor costo y mejor retorno de la inversión.",
+  "items_title": "Capacidades de Matrix Gemini LIMS",
+  "items": [
+    {
+      "name": "Configuración sin código",
+      "desc": "Configuración punto y clic; cada pantalla del flujo de trabajo se adapta sin programar."
+    },
+    {
+      "name": "Interfaz de escritorio y web",
+      "desc": "Misma experiencia de usuario en Windows y en navegador."
+    },
+    {
+      "name": "Cumplimiento normativo",
+      "desc": "Soporta ISO 9001, ISO 17025, GMP, GLP y FDA 21 CFR Part 11."
+    },
+    {
+      "name": "Módulo de estabilidad",
+      "desc": "Estudios de estabilidad integrados en el sistema."
+    },
+    {
+      "name": "Escalabilidad",
+      "desc": "Desde un único usuario hasta uso global, con implementación rápida y costo efectivo."
+    },
+    {
+      "name": "Ediciones Matrix",
+      "desc": "Matrix Gemini, Matrix Express y Matrix Tracker según el alcance requerido."
+    }
+  ],
   "meta": {
     "title": "LIMS | Informática · LIMS | CCV Grupo Venezuela",
     "description": "Sistema de gestión de información de laboratorio de extremo a extremo."
@@ -39,6 +64,25 @@
       "icon": "support",
       "title": "Soporte",
       "desc": "Capacitación y soporte continuo."
+    }
+  ],
+  "benefits": [
+    {
+      "title": "Sistemas de larga vida útil",
+      "desc": "Se ajustan a necesidades futuras sin reprogramar, protegiendo su inversión."
+    },
+    {
+      "title": "Menor costo de propiedad",
+      "desc": "La configuración sin código reduce tiempos y costos de implementación y cambios."
+    },
+    {
+      "title": "Trazabilidad y auditoría",
+      "desc": "Acceso controlado para verificar ensayos y cumplir estándares de calidad."
+    }
+  ],
+  "brands": [
+    {
+      "name": "Autoscribe Informatics"
     }
   ]
 }
