@@ -71,5 +71,10 @@
       "title": "Resultados e informe",
       "desc": "Validación, reporte de resultados y asesoría técnica."
     }
+  ],
+  "brands": [
+    {
+      "name": "PerkinElmer"
+    }
   ]
 }

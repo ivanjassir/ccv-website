@@ -8,12 +8,33 @@
   "name": "Ingeniería",
   "eyebrow": "Servicio Técnico",
   "hero": {
-    "title": "Ingeniería",
-    "lead": "Soluciones de ingeniería a la medida de cada proyecto."
+    "title": "Ingeniería para proyectos farmacéuticos",
+    "lead": "Con oficinas en 16 países, Telstar aporta capacidad global de ingeniería y diseño para proyectos farmacéuticos, veterinarios y biotecnológicos."
   },
-  "intro": "Soluciones de ingeniería respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Diseñamos instalaciones críticas con conocimiento especializado del sector, desde el diseño conceptual hasta la automatización.",
+  "items_title": "Capacidades de ingeniería",
+  "items": [
+    {
+      "name": "Diseño conceptual",
+      "desc": "Métodos propios para el diseño de nuevas instalaciones."
+    },
+    {
+      "name": "Dimensionamiento y proceso",
+      "desc": "Cálculo de lotes, dimensionamiento de equipos y diseño de proceso."
+    },
+    {
+      "name": "Flujos y zonificación",
+      "desc": "Flujos de personal, material y residuos; segregación HVAC y zonas ATEX."
+    },
+    {
+      "name": "Automatización y 3D",
+      "desc": "Automatización integrada, procesos IT y modelado 3D."
+    },
+    {
+      "name": "Gestión de riesgos",
+      "desc": "Identificación y mitigación de riesgos en fases tempranas."
+    }
+  ],
   "meta": {
     "title": "Ingeniería | Servicio Técnico | CCV Grupo Venezuela",
     "description": "Soluciones de ingeniería a la medida de cada proyecto."
@@ -39,6 +60,11 @@
       "icon": "support",
       "title": "Repuestos",
       "desc": "Partes originales y mejoras."
+    }
+  ],
+  "brands": [
+    {
+      "name": "Telstar · azbil group"
     }
   ]
 }

@@ -111,5 +111,24 @@
       "title": "Soporte continuo",
       "desc": "Calibración, repuestos y servicio técnico local."
     }
+  ],
+  "overview": {
+    "title": "Instrumentación analítica de última generación",
+    "body": [
+      "Nuestra división de laboratorio suministra equipos e instrumentos analíticos de última generación, confiables y duraderos, de empresas fabricantes reconocidas mundialmente.",
+      "Los equipos incluyen garantía de un año, instalación y entrenamiento en su operación, respaldados por nuestro servicio técnico con personal entrenado en fábrica."
+    ],
+    "points": [
+      "Organizada por sectores e industrias",
+      "Garantía de un año, instalación y entrenamiento",
+      "Servicio técnico entrenado en fábrica"
+    ],
+    "stat": "1 año",
+    "stat_label": "Garantía + instalación + entrenamiento"
+  },
+  "brands": [
+    {
+      "name": "PerkinElmer"
+    }
   ]
 }

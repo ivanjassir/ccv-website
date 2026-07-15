@@ -8,12 +8,37 @@
   "name": "Consultoría",
   "eyebrow": "Servicio Técnico",
   "hero": {
-    "title": "Consultoría",
-    "lead": "Asesoría técnica y optimización de operaciones de laboratorio."
+    "title": "Consultoría para Life Sciences",
+    "lead": "Servicio de consultoría de Telstar Life Sciences para farmacéutica, química fina, productos sanitarios, cosméticos y afines: cumplimiento normativo, I+D, registros y farmacovigilancia durante todo el ciclo de vida del producto."
   },
-  "intro": "Soluciones de consultoría respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Consultores con amplia experiencia en producción, calidad, ingeniería, investigación y registros en la industria Life Sciences.",
+  "items_title": "Áreas de consultoría",
+  "items": [
+    {
+      "name": "Cumplimiento GxP e ISO",
+      "desc": "Soporte en normativas de calidad vigentes."
+    },
+    {
+      "name": "Cualificaciones",
+      "desc": "Instalaciones, clima, aguas, gases y equipos."
+    },
+    {
+      "name": "Validación",
+      "desc": "Sistemas, limpiezas, procesos y métodos."
+    },
+    {
+      "name": "Registros y variaciones",
+      "desc": "Registro de productos y sus variaciones."
+    },
+    {
+      "name": "Auditorías GMP/ISO",
+      "desc": "Auditorías y mejora continua."
+    },
+    {
+      "name": "Farmacovigilancia",
+      "desc": "Estudios de estabilidad y desarrollo galénico."
+    }
+  ],
   "meta": {
     "title": "Consultoría | Servicio Técnico | CCV Grupo Venezuela",
     "description": "Asesoría técnica y optimización de operaciones de laboratorio."
@@ -39,6 +64,11 @@
       "icon": "support",
       "title": "Repuestos",
       "desc": "Partes originales y mejoras."
+    }
+  ],
+  "brands": [
+    {
+      "name": "Telstar Life Sciences"
     }
   ]
 }

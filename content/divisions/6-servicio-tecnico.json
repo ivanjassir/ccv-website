@@ -8,8 +8,8 @@
   "tagline": "Soporte especializado durante todo el ciclo de vida.",
   "hero": {
     "eyebrow": "Servicio Técnico",
-    "title": "Soporte durante todo el ciclo de vida",
-    "lead": "Nuestro equipo de ingeniería propio acompaña su equipamiento desde la instalación hasta el mantenimiento, con repuestos originales y tiempos de respuesta locales."
+    "title": "Soporte experto durante toda la vida útil",
+    "lead": "Nuestro departamento de servicio técnico, con personal entrenado en fábrica, asegura el funcionamiento continuo de su equipamiento: cada instrumento se verifica antes del despacho y se respalda con mantenimiento, repuestos y soporte."
   },
   "intro": "Maximizamos la disponibilidad y la vida útil de sus equipos con programas preventivos y correctivos, calibración trazable y disponibilidad de partes originales.",
   "children_title": "Servicios",
@@ -58,19 +58,19 @@
       "label": "Repuestos y consumibles"
     }
   ],
-  "benefits_title": "Lo que nos diferencia",
+  "benefits_title": "Por qué nuestro servicio marca la diferencia",
   "benefits": [
     {
-      "title": "Continuidad operativa",
-      "desc": "Mantenimiento preventivo y correctivo que reduce paradas no planificadas."
+      "title": "Personal entrenado en fábrica",
+      "desc": "Técnicos capacitados por el fabricante aseguran la continuidad de sus equipos."
     },
     {
-      "title": "Calibración trazable",
-      "desc": "Aseguramos la exactitud y el cumplimiento de sus equipos."
+      "title": "Validaciones IQ/OQ",
+      "desc": "Calificación y verificación documentada de sus instrumentos."
     },
     {
-      "title": "Respuesta local",
-      "desc": "Cobertura nacional con tiempos de atención competitivos."
+      "title": "Soporte remoto sin costo",
+      "desc": "Diagnóstico y asistencia remota por internet."
     }
   ],
   "approach_title": "Nuestro servicio, paso a paso",
@@ -111,5 +111,19 @@
       "title": "Repuestos y mejoras",
       "desc": "Partes originales y actualizaciones."
     }
-  ]
+  ],
+  "overview": {
+    "title": "Un laboratorio de servicio propio",
+    "body": [
+      "Contamos con un laboratorio donde se verifica cada instrumento antes de su despacho al cliente, además de realizar sus reparaciones y mantenimientos.",
+      "Ofrecemos mantenimiento preventivo y correctivo, validaciones IQ/OQ, verificación de instrumentos, contratos de servicio, traslados de equipos y soporte remoto por internet sin costo."
+    ],
+    "points": [
+      "Personal técnico entrenado en fábrica",
+      "Validaciones IQ/OQ y verificación de instrumentos",
+      "Soporte remoto por internet sin costo"
+    ],
+    "stat": "IQ/OQ",
+    "stat_label": "Validación y verificación"
+  }
 }
