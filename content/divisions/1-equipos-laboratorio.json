@@ -14,14 +14,14 @@
   "intro": "Desde cromatografía y espectroscopía hasta análisis elemental y preparación de muestras, ofrecemos soluciones completas por industria, con asesoría especializada en cada etapa del proceso analítico.",
   "children_title": "Soluciones por industria",
   "children": [
-    { "name": "Alimentos y Bebidas", "desc": "Control de calidad e inocuidad para la industria de alimentos y bebidas." },
-    { "name": "Petróleo y Energía", "desc": "Análisis de crudos, refinados, lubricantes y petroquímica." },
-    { "name": "Ambiente", "desc": "Monitoreo de agua, aire y suelo con métodos normalizados." },
-    { "name": "Geología y Minería", "desc": "Caracterización de minerales, metalurgia y materiales ferrosos." },
-    { "name": "Agroindustria", "desc": "Soluciones para producción agrícola y cannabis medicinal." },
-    { "name": "Ciencia de los Materiales", "desc": "Ensayo de polímeros, cemento, concreto, corrosión y textiles." },
-    { "name": "Industria Química", "desc": "Análisis y control de procesos para la industria química." },
-    { "name": "Farmacéutica y Cosmética", "desc": "Microbiología, estabilidad y control de producto terminado." }
+    { "name": "Alimentos y Bebidas", "slug": "alimentos-y-bebidas", "desc": "Control de calidad e inocuidad para la industria de alimentos y bebidas." },
+    { "name": "Petróleo y Energía", "slug": "petroleo-y-energia", "desc": "Análisis de crudos, refinados, lubricantes y petroquímica." },
+    { "name": "Ambiente", "slug": "ambiente", "desc": "Monitoreo de agua, aire y suelo con métodos normalizados." },
+    { "name": "Geología y Minería", "slug": "geologia-mineria", "desc": "Caracterización de minerales, metalurgia y materiales ferrosos." },
+    { "name": "Agroindustria", "slug": "agroindustria", "desc": "Soluciones para producción agrícola y cannabis medicinal." },
+    { "name": "Ciencia de los Materiales", "slug": "ciencia-materiales", "desc": "Ensayo de polímeros, cemento, concreto, corrosión y textiles." },
+    { "name": "Industria Química", "slug": "industria-quimica", "desc": "Análisis y control de procesos para la industria química." },
+    { "name": "Farmacéutica y Cosmética", "slug": "farmaceutica-cosmetica", "desc": "Microbiología, estabilidad y control de producto terminado." }
   ],
   "meta": {
     "title": "Equipos de Laboratorio | CCV Grupo Venezuela",

@@ -1,0 +1,22 @@
+{
+  "order": 5,
+  "slug": "agroindustria",
+  "parent": { "slug": "equipos-laboratorio", "name": "Equipos de Laboratorio" },
+  "name": "Agroindustria",
+  "eyebrow": "Equipos de Laboratorio",
+  "hero": {
+    "title": "Soluciones para la agroindustria",
+    "lead": "Instrumentación para producción agrícola, insumos y nuevos cultivos regulados como el cannabis medicinal."
+  },
+  "intro": "Acompañamos a la agroindustria en el control de calidad de insumos, suelos y productos, incluyendo aplicaciones emergentes de alto valor.",
+  "applications_title": "Aplicaciones",
+  "applications": [
+    { "name": "Cannabis medicinal", "desc": "Potencia, contaminantes y control de calidad." },
+    { "name": "Producción agrícola", "desc": "Análisis de suelos, fertilizantes y agua de riego." },
+    { "name": "Alimentos balanceados", "desc": "Nutrientes y control de calidad para alimentación animal." }
+  ],
+  "meta": {
+    "title": "Agroindustria | Equipos de Laboratorio | CCV Grupo Venezuela",
+    "description": "Instrumentación para producción agrícola, insumos y cannabis medicinal, con control de calidad y cumplimiento."
+  }
+}

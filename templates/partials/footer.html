@@ -25,7 +25,7 @@
       <div>
         <h4>CCV Grupo</h4>
         {% for r in site.regions %}
-        <a href="{{ r.url }}"{% if not r.current %} target="_blank" rel="noopener"{% endif %}>{{ r.flag }} {{ r.name }}</a>
+        <a href="{{ r.url }}"{% if not r.current %} target="_blank" rel="noopener"{% endif %}>{{ r.name }}</a>
         {% endfor %}
         <a href="{{ site.group_url }}" target="_blank" rel="noopener">ccvgrupo.com</a>
       </div>

@@ -11,7 +11,7 @@
   "regions": [
     {
       "name": "Venezuela",
-      "flag": "🇻🇪",
+      "code": "VE",
       "url": "index.html",
       "site": "ccv.com.ve",
       "role": "Sede principal",
@@ -20,7 +20,7 @@
     },
     {
       "name": "Colombia",
-      "flag": "🇨🇴",
+      "code": "CO",
       "url": "https://www.ccvgrupo.com.co",
       "site": "ccvgrupo.com.co",
       "role": "CCV de Colombia",
@@ -29,7 +29,7 @@
     },
     {
       "name": "Perú",
-      "flag": "🇵🇪",
+      "code": "PE",
       "url": "https://www.ccvgrupo.com",
       "site": "ccvgrupo.com",
       "role": "Presencia regional",
@@ -42,6 +42,7 @@
     "phone_href": "+582127614757",
     "email_support": "atencionalcliente_ve@ccvgrupo.com",
     "email_sales": "ventas_ve@ccvgrupo.com",
-    "address": "Centro Comercial Av. Libertador, Nivel Mezzanina, Caracas — Cód. Postal 1050"
+    "address": "Centro Comercial Av. Libertador, Nivel Mezzanina, Caracas — Cód. Postal 1050",
+    "form_endpoint": ""
   }
 }

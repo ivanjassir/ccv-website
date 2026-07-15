@@ -1,0 +1,22 @@
+{
+  "order": 3,
+  "slug": "ambiente",
+  "parent": { "slug": "equipos-laboratorio", "name": "Equipos de Laboratorio" },
+  "name": "Ambiente",
+  "eyebrow": "Equipos de Laboratorio",
+  "hero": {
+    "title": "Monitoreo ambiental confiable",
+    "lead": "Instrumentación para el análisis de agua, aire y suelo con métodos normalizados para cumplimiento y vigilancia ambiental."
+  },
+  "intro": "Apoyamos a laboratorios ambientales, industria y organismos con soluciones para medir contaminantes y parámetros de calidad en las principales matrices ambientales.",
+  "applications_title": "Matrices",
+  "applications": [
+    { "name": "Agua", "desc": "Potable, residual y de proceso: metales, nutrientes y parámetros fisicoquímicos." },
+    { "name": "Aire", "desc": "Calidad del aire, partículas y emisiones." },
+    { "name": "Suelo", "desc": "Contaminantes, metales pesados y caracterización de suelos." }
+  ],
+  "meta": {
+    "title": "Ambiente | Equipos de Laboratorio | CCV Grupo Venezuela",
+    "description": "Instrumentación para análisis ambiental de agua, aire y suelo con métodos normalizados de cumplimiento."
+  }
+}

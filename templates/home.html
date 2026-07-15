@@ -198,7 +198,7 @@
           <li><span>Dirección</span><p>{{ site.contact.address }}</p></li>
         </ul>
       </div>
-      <form class="contact-form" onsubmit="return CCV.submit(event)">
+      <form class="contact-form" data-endpoint="{{ site.contact.form_endpoint }}" data-mailto="{{ site.contact.email_sales }}" onsubmit="return CCV.submit(event)">
         <div class="field">
           <label for="nombre">Nombre</label>
           <input id="nombre" name="nombre" type="text" required autocomplete="name" />

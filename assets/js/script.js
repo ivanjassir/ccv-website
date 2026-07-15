@@ -131,10 +131,45 @@ const CCV = (() => {
     });
   }
 
-  function submit(e) {
+  async function submit(e) {
     e.preventDefault();
-    document.getElementById('formNote').textContent = 'Gracias, hemos recibido su consulta. Le contactaremos pronto.';
-    e.target.reset();
+    const form = e.target;
+    const note = document.getElementById('formNote');
+    const data = new FormData(form);
+    const endpoint = form.dataset.endpoint;
+    const to = form.dataset.mailto;
+
+    // 1) If a form endpoint is configured (e.g. Formspree / Web3Forms), POST it.
+    if (endpoint) {
+      note.textContent = 'Enviando…';
+      try {
+        const res = await fetch(endpoint, { method: 'POST', body: data, headers: { Accept: 'application/json' } });
+        if (res.ok) {
+          note.textContent = 'Gracias, hemos recibido su consulta. Le contactaremos pronto.';
+          form.reset();
+        } else {
+          note.textContent = 'No pudimos enviar su consulta. Escríbanos a ' + (to || 'nuestro correo') + '.';
+        }
+      } catch (err) {
+        note.textContent = 'No pudimos enviar su consulta. Escríbanos a ' + (to || 'nuestro correo') + '.';
+      }
+      return false;
+    }
+
+    // 2) Fallback: compose a prefilled email — works with no backend.
+    if (to) {
+      const subject = 'Consulta web — ' + (data.get('empresa') || data.get('nombre') || 'CCV Grupo');
+      const body =
+        'Nombre: ' + (data.get('nombre') || '') + '\n' +
+        'Correo: ' + (data.get('correo') || '') + '\n' +
+        'Empresa: ' + (data.get('empresa') || '') + '\n\n' +
+        'Mensaje:\n' + (data.get('mensaje') || '');
+      window.location.href = 'mailto:' + to + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+      note.textContent = 'Abriendo su cliente de correo para enviar la consulta…';
+    } else {
+      note.textContent = 'Gracias, hemos recibido su consulta. Le contactaremos pronto.';
+    }
+    form.reset();
     return false;
   }
   return { submit };

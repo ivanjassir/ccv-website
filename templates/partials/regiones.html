@@ -9,7 +9,7 @@
     <div class="regions" data-reveal aria-label="Países donde opera CCV Grupo">
       {% for r in site.regions %}
       <a class="region-card{% if r.current %} region-card--current{% endif %}" href="{{ r.url }}"{% if not r.current %} target="_blank" rel="noopener"{% endif %} data-stagger data-tilt>
-        <span class="region-card__flag" aria-hidden="true">{{ r.flag }}</span>
+        <span class="region-card__code" aria-hidden="true">{{ r.code }}</span>
         <h3>{{ r.name }}{% if r.current %} <span class="region-card__badge">Estás aquí</span>{% endif %}</h3>
         <p class="region-card__role">{{ r.role }}</p>
         <p class="region-card__note">{{ r.note }}</p>

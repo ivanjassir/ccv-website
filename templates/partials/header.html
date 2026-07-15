@@ -25,15 +25,15 @@
     <div class="nav__right">
       <div class="region">
         <button class="region__btn" aria-haspopup="true" aria-expanded="false">
-          <span class="region__flag">{{ current_region.flag }}</span>
+          <span class="region__code">{{ current_region.code }}</span>
           <span>{{ current_region.name }}</span>
-          <span class="region__caret" aria-hidden="true">▾</span>
+          <span class="region__caret" aria-hidden="true"></span>
         </button>
         <div class="region__menu">
           <span class="region__label">CCV Grupo</span>
           {% for r in site.regions %}
           <a href="{{ r.url }}"{% if r.current %} class="is-current" aria-current="true"{% else %} target="_blank" rel="noopener"{% endif %}>
-            <span class="region__flag">{{ r.flag }}</span>
+            <span class="region__code">{{ r.code }}</span>
             <span>{{ r.name }}</span>
             <small>{{ r.site }}</small>
           </a>
@@ -60,7 +60,7 @@
     <a href="index.html#contacto">Contáctenos</a>
     <span class="nav__mobile-label">CCV Grupo</span>
     {% for r in site.regions %}
-    <a href="{{ r.url }}"{% if not r.current %} target="_blank" rel="noopener"{% endif %}>{{ r.flag }} {{ r.name }} · {{ r.site }}</a>
+    <a href="{{ r.url }}"{% if not r.current %} target="_blank" rel="noopener"{% endif %}>{{ r.name }} · {{ r.site }}</a>
     {% endfor %}
   </nav>
 </header>

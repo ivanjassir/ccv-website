@@ -138,6 +138,22 @@ Once Phase 0 lands, per-page cost is minutes (content entry), not hours.
   (no broken links/assets, alt text, no-JS reveal gating). Localhost + git synced.
   *Next:* Phase 2 sector pages (sector template + 8 sector JSON), then wire
   division→sector links.
+- **2026-07-15 — Two open decisions resolved + Phase 2 delivered.**
+  - *Contact form:* configurable `form_endpoint` in `site.json` with a working
+    `mailto:` fallback (composes a prefilled email to Ventas). Swap in a
+    Formspree/Web3Forms endpoint later for async POST. Backend decision closed.
+  - *7th division:* keep **Reactivos y Consumibles** (real offering + card art);
+    **Filtración** deferred until artwork exists (still on the live-site parity list).
+  - *No emoji:* removed all flag emoji from the region switcher / Presencia /
+    footer; replaced with VE/CO/PE code monograms. Standing rule: no emoji anywhere.
+  - *Phase 2:* built the **sector template** + **8 sector pages** under Equipos de
+    Laboratorio (alimentos-y-bebidas, petroleo-y-energia, ambiente, geologia-mineria,
+    agroindustria, ciencia-materiales, industria-quimica, farmaceutica-cosmetica),
+    with breadcrumbs, applications grids, sibling cross-links and CTA. Wired the
+    Equipos division cards to link into the sector pages. 16 pages total; QA passed
+    (no broken links/assets, no emoji, alt text, no-JS gating).
+  *Next:* Phase 3–4 product-category + sub-sector/application pages (extend the
+  same pattern: sub-sector template + content, link sectors→applications).
 
 ### Immediate next step — Phase 0 kickoff
 

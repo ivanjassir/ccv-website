@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block main %}
+<main id="main">
+  <!-- SECTOR HERO -->
+  <section class="dhero">
+    <div class="dhero__bg" aria-hidden="true"></div>
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Ruta de navegación">
+        <a href="index.html">Inicio</a> <span aria-hidden="true">/</span>
+        <a href="{{ sector.parent.slug }}.html">{{ sector.parent.name }}</a> <span aria-hidden="true">/</span>
+        <span aria-current="page">{{ sector.name }}</span>
+      </nav>
+      <span class="pill" data-reveal>{{ sector.eyebrow }}</span>
+      <h1 class="dhero__title" data-reveal>{{ sector.hero.title }}</h1>
+      <p class="dhero__lead" data-reveal>{{ sector.hero.lead }}</p>
+      <div class="hero__cta" data-reveal>
+        <a href="index.html#contacto" class="btn btn--lg">Solicitar asesoría</a>
+        <a href="{{ sector.parent.slug }}.html" class="btn btn--lg btn--ghost">Volver a {{ sector.parent.name }}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPLICATIONS -->
+  <section class="section">
+    <div class="wrap">
+      <header class="s-head" data-reveal>
+        <span class="s-tag">{{ sector.name }}</span>
+        <h2>{{ sector.applications_title }}</h2>
+        <p>{{ sector.intro }}</p>
+      </header>
+      <div class="cards" data-reveal>
+        {% for a in sector.applications %}
+        <article class="card" data-stagger data-tilt data-spot>
+          <h3>{{ a.name }}</h3>
+          <p>{{ a.desc }}</p>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- SIBLING SECTORS -->
+  {% set siblings = sectors | selectattr('parent.slug', 'equalto', sector.parent.slug) | rejectattr('slug', 'equalto', sector.slug) | list %}
+  {% if siblings %}
+  <section class="section section--soft">
+    <div class="wrap">
+      <header class="s-head" data-reveal>
+        <span class="s-tag">{{ sector.parent.name }}</span>
+        <h2>Otras áreas</h2>
+      </header>
+      <div class="cards" data-reveal>
+        {% for s in siblings %}
+        <a class="card card--link" href="{{ s.slug }}.html" data-stagger data-tilt data-spot>
+          <h3>{{ s.name }}</h3>
+          <span class="card__more">Ver área</span>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  <!-- CTA BAND -->
+  <section class="cta-band">
+    <div class="wrap cta-band__inner" data-reveal>
+      <h2>¿Necesita equipar su laboratorio?</h2>
+      <p>Nuestro equipo de asesores le ayuda a seleccionar la instrumentación adecuada para su industria.</p>
+      <a href="index.html#contacto" class="btn btn--lg">Contáctenos</a>
+    </div>
+  </section>
+</main>
+{% endblock %}

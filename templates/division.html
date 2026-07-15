@@ -30,10 +30,18 @@
       </header>
       <div class="cards" data-reveal>
         {% for c in division.children %}
+        {% if c.slug %}
+        <a class="card card--link" href="{{ c.slug }}.html" data-stagger data-tilt data-spot>
+          <h3>{{ c.name }}</h3>
+          <p>{{ c.desc }}</p>
+          <span class="card__more">Ver más</span>
+        </a>
+        {% else %}
         <article class="card" data-stagger data-tilt data-spot>
           <h3>{{ c.name }}</h3>
           <p>{{ c.desc }}</p>
         </article>
+        {% endif %}
         {% endfor %}
       </div>
     </div>

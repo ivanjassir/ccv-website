@@ -1,0 +1,24 @@
+{
+  "order": 2,
+  "slug": "petroleo-y-energia",
+  "parent": { "slug": "equipos-laboratorio", "name": "Equipos de Laboratorio" },
+  "name": "Petróleo y Energía",
+  "eyebrow": "Equipos de Laboratorio",
+  "hero": {
+    "title": "Análisis para petróleo y energía",
+    "lead": "Soluciones para caracterización de crudos, productos refinados, petroquímica y control energético bajo métodos ASTM e ISO."
+  },
+  "intro": "Cubrimos toda la cadena de valor de hidrocarburos y energía con instrumentación robusta para laboratorios de refinería, producción y control de calidad.",
+  "applications_title": "Aplicaciones",
+  "applications": [
+    { "name": "Refinería y productos de petróleo", "desc": "Destilados, combustibles y especificaciones de producto." },
+    { "name": "Crudo", "desc": "Caracterización, azufre, agua y sedimentos." },
+    { "name": "Petroquímica", "desc": "Monómeros, intermedios y control de proceso." },
+    { "name": "Electricidad", "desc": "Aceites dieléctricos y análisis de transformadores." },
+    { "name": "Grasas y aceites lubricantes", "desc": "Viscosidad, desgaste y análisis de lubricantes." }
+  ],
+  "meta": {
+    "title": "Petróleo y Energía | Equipos de Laboratorio | CCV Grupo Venezuela",
+    "description": "Instrumentación para caracterización de crudos, refinados, petroquímica y control energético bajo métodos ASTM e ISO."
+  }
+}
