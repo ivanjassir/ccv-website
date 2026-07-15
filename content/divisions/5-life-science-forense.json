@@ -8,10 +8,10 @@
   "tagline": "Soluciones para biología molecular y análisis forense.",
   "hero": {
     "eyebrow": "Life Science & Forense",
-    "title": "Biología molecular y ciencia forense",
-    "lead": "Tecnología para investigación en ciencias de la vida y análisis forense: PCR, secuenciación de ADN, microscopía, lectores de placas e instrumentos analíticos."
+    "title": "Tecnología de última generación para la ciencia y la justicia",
+    "lead": "Suministramos instrumentos de última generación al sector salud, la investigación y los organismos de orden público, de fabricantes reconocidos mundialmente y respaldados por servicio técnico entrenado en fábrica."
   },
-  "intro": "Habilitamos laboratorios de investigación, diagnóstico y criminalística con plataformas de última generación y el soporte técnico para operarlas con confianza.",
+  "intro": "Organizada en dos áreas —Ciencia de la Vida y Forénsico— con líneas de PCR, secuenciación de ADN, microscopía, lectores de placas e instrumentos analíticos.",
   "children_title": "Plataformas y aplicaciones",
   "children": [
     {
@@ -63,19 +63,19 @@
       "label": "Soluciones para criminalística"
     }
   ],
-  "benefits_title": "Lo que nos diferencia",
+  "benefits_title": "Por qué elegir nuestra división",
   "benefits": [
     {
-      "title": "Última generación",
-      "desc": "Plataformas de investigación y diagnóstico de fabricantes líderes."
+      "title": "Marcas reconocidas mundialmente",
+      "desc": "Representamos a PerkinElmer, Thermo Fisher (Applied Biosystems) e Hitachi."
     },
     {
-      "title": "Aplicaciones forenses",
-      "desc": "Equipos dedicados a genética forense y criminalística."
+      "title": "Servicio entrenado en fábrica",
+      "desc": "Personal técnico capacitado por el fabricante asegura la continuidad de sus equipos."
     },
     {
-      "title": "Puesta en marcha",
-      "desc": "Instalación, capacitación y soporte para operar con confianza."
+      "title": "De la salud a la justicia",
+      "desc": "Soluciones para investigación biomédica y para producir pruebas forenses admisibles en tribunales."
     }
   ],
   "process_title": "Cómo lo implementamos",
@@ -101,5 +101,19 @@
       "title": "Soporte especializado",
       "desc": "Consumibles, servicio y actualización."
     }
-  ]
+  ],
+  "overview": {
+    "title": "Del laboratorio de investigación a la escena del crimen",
+    "body": [
+      "Nuestra división Life Science | Forense suministra instrumentos confiables y duraderos, de empresas fabricantes reconocidas mundialmente, para el avance científico en salud e investigación y para el trabajo de los organismos de orden público.",
+      "En el área forense, con más de 25 años de trayectoria, ofrecemos soluciones para investigar escenas del crimen, identificar delincuentes y producir pruebas admisibles en tribunales de justicia."
+    ],
+    "points": [
+      "Biología molecular y celular, estudios de ADN y proteínas",
+      "Ciencia forense: balística, ADN y comparación de imágenes",
+      "Servicio técnico con personal entrenado en fábrica"
+    ],
+    "stat": "25+",
+    "stat_label": "Años en ciencia forense"
+  }
 }

@@ -8,12 +8,21 @@
   "name": "Secuenciación de ADN",
   "eyebrow": "Life Science & Forense",
   "hero": {
-    "title": "Secuenciación de ADN",
-    "lead": "Secuenciadores para genómica e identificación genética."
+    "title": "Secuenciación de ADN — genómica e identificación genética",
+    "lead": "Plataformas de secuenciación de Applied Biosystems (Thermo Fisher) para secuenciación de nueva generación (NGS) y secuenciación capilar Sanger."
   },
-  "intro": "Soluciones de secuenciación de adn respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Cubrimos desde la secuenciación de nueva generación con tecnología Ion Torrent hasta la secuenciación capilar Sanger y el análisis de fragmentos.",
+  "items_title": "Equipos",
+  "items": [
+    {
+      "name": "Ion GeneStudio S5 (Prime, Plus, S5)",
+      "desc": "Secuenciación de nueva generación (NGS) con tecnología Ion Torrent."
+    },
+    {
+      "name": "Analizador SeqStudio",
+      "desc": "Secuenciación capilar Sanger y análisis de fragmentos."
+    }
+  ],
   "meta": {
     "title": "Secuenciación de ADN | Life Science & Forense | CCV Grupo Venezuela",
     "description": "Secuenciadores para genómica e identificación genética."
@@ -39,6 +48,11 @@
       "icon": "support",
       "title": "Soporte",
       "desc": "Consumibles, servicio y actualización."
+    }
+  ],
+  "brands": [
+    {
+      "name": "Applied Biosystems · Thermo Fisher"
     }
   ]
 }

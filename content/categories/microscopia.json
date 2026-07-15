@@ -8,10 +8,10 @@
   "name": "Microscopía",
   "eyebrow": "Life Science & Forense",
   "hero": {
-    "title": "Microscopía",
-    "lead": "Microscopía óptica y digital para investigación y patología."
+    "title": "Microscopía para investigación y patología",
+    "lead": "Microscopía óptica y digital para el área de Ciencia de la Vida y aplicaciones forenses, de fabricantes reconocidos mundialmente."
   },
-  "intro": "Soluciones de microscopía respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "intro": "Suministramos soluciones de microscopía para biología molecular y celular, patología e investigación, con respaldo de servicio técnico local.",
   "items_title": "Soluciones",
   "items": [],
   "meta": {
@@ -39,6 +39,14 @@
       "icon": "support",
       "title": "Soporte",
       "desc": "Consumibles, servicio y actualización."
+    }
+  ],
+  "brands": [
+    {
+      "name": "Hitachi"
+    },
+    {
+      "name": "PerkinElmer"
     }
   ]
 }

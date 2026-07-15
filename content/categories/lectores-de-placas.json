@@ -8,12 +8,25 @@
   "name": "Lectores de Placas",
   "eyebrow": "Life Science & Forense",
   "hero": {
-    "title": "Lectores de Placas",
-    "lead": "Detección multimodal para ensayos de alto rendimiento."
+    "title": "Lectores de placas — detección multimodal",
+    "lead": "Lectores de microplacas para ensayos de alto rendimiento en investigación y diagnóstico."
   },
-  "intro": "Soluciones de lectores de placas respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Detección por absorbancia, fluorescencia y luminiscencia para ensayos bioquímicos y de biología celular, con el respaldo de marcas líderes.",
+  "items_title": "Modos de detección",
+  "items": [
+    {
+      "name": "Absorbancia",
+      "desc": "Cuantificación colorimétrica y de ácidos nucleicos y proteínas."
+    },
+    {
+      "name": "Fluorescencia",
+      "desc": "Ensayos de fluorescencia e intensidad."
+    },
+    {
+      "name": "Luminiscencia",
+      "desc": "Ensayos de luminiscencia de alta sensibilidad."
+    }
+  ],
   "meta": {
     "title": "Lectores de Placas | Life Science & Forense | CCV Grupo Venezuela",
     "description": "Detección multimodal para ensayos de alto rendimiento."
@@ -39,6 +52,11 @@
       "icon": "support",
       "title": "Soporte",
       "desc": "Consumibles, servicio y actualización."
+    }
+  ],
+  "brands": [
+    {
+      "name": "PerkinElmer"
     }
   ]
 }

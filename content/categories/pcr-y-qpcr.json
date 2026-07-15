@@ -8,12 +8,29 @@
   "name": "PCR y qPCR",
   "eyebrow": "Life Science & Forense",
   "hero": {
-    "title": "PCR y qPCR",
-    "lead": "Amplificación y detección de ácidos nucleicos en tiempo real."
+    "title": "PCR y qPCR — amplificación y detección de ácidos nucleicos",
+    "lead": "Sistemas de PCR en tiempo real y termocicladores de Applied Biosystems (Thermo Fisher) para investigación, diagnóstico y análisis forense."
   },
-  "intro": "Soluciones de pcr y qpcr respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Ofrecemos la línea completa de PCR de Applied Biosystems, desde termocicladores de punto final hasta sistemas de PCR en tiempo real (qPCR) de alto rendimiento.",
+  "items_title": "Equipos",
+  "items": [
+    {
+      "name": "Sistemas QuantStudio (qPCR)",
+      "desc": "Familia QuantStudio (3, 5, 6, 7, 12K Flex y Dx) para PCR en tiempo real, cuantificación y genotipado."
+    },
+    {
+      "name": "StepOne y StepOnePlus",
+      "desc": "Sistemas qPCR compactos para laboratorios de menor volumen."
+    },
+    {
+      "name": "Serie 7500",
+      "desc": "Sistemas 7500 y 7500 Fast para PCR en tiempo real en investigación y diagnóstico."
+    },
+    {
+      "name": "Termocicladores Veriti y ProFlex",
+      "desc": "Termocicladores para PCR de punto final; también SimpliAmp y MiniAmp."
+    }
+  ],
   "meta": {
     "title": "PCR y qPCR | Life Science & Forense | CCV Grupo Venezuela",
     "description": "Amplificación y detección de ácidos nucleicos en tiempo real."
@@ -39,6 +56,11 @@
       "icon": "support",
       "title": "Soporte",
       "desc": "Consumibles, servicio y actualización."
+    }
+  ],
+  "brands": [
+    {
+      "name": "Applied Biosystems · Thermo Fisher"
     }
   ]
 }

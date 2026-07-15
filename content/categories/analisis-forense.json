@@ -8,12 +8,33 @@
   "name": "Análisis Forense",
   "eyebrow": "Life Science & Forense",
   "hero": {
-    "title": "Análisis Forense",
-    "lead": "PCR, microscopía y lectores dedicados a criminalística."
+    "title": "Análisis forense — de la escena del crimen al tribunal",
+    "lead": "Instrumentos de última generación para que los organismos de orden público investiguen escenas del crimen, identifiquen delincuentes y produzcan pruebas admisibles en tribunales."
   },
-  "intro": "Soluciones de análisis forense respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
-  "items_title": "Soluciones",
-  "items": [],
+  "intro": "Con más de 25 años en defensa y seguridad, integramos plataformas forenses respaldadas por marcas reconocidas mundialmente y por servicio técnico entrenado en fábrica.",
+  "items_title": "Aplicaciones forenses",
+  "items": [
+    {
+      "name": "Análisis de ADN forense",
+      "desc": "PCR y secuenciación para identificación genética."
+    },
+    {
+      "name": "Balística",
+      "desc": "Comparación e identificación balística."
+    },
+    {
+      "name": "Comparación de imágenes",
+      "desc": "Análisis y cotejo de imágenes forenses."
+    },
+    {
+      "name": "Biología forense",
+      "desc": "Procesamiento de evidencia biológica."
+    },
+    {
+      "name": "Microscopía forense",
+      "desc": "Examen microscópico de evidencia."
+    }
+  ],
   "meta": {
     "title": "Análisis Forense | Life Science & Forense | CCV Grupo Venezuela",
     "description": "PCR, microscopía y lectores dedicados a criminalística."
@@ -39,6 +60,14 @@
       "icon": "support",
       "title": "Soporte",
       "desc": "Consumibles, servicio y actualización."
+    }
+  ],
+  "brands": [
+    {
+      "name": "PerkinElmer"
+    },
+    {
+      "name": "Applied Biosystems · Thermo Fisher"
     }
   ]
 }

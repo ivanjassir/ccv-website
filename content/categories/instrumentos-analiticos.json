@@ -8,10 +8,10 @@
   "name": "Instrumentos Analíticos",
   "eyebrow": "Life Science & Forense",
   "hero": {
-    "title": "Instrumentos Analíticos",
-    "lead": "Equipamiento para análisis de biología molecular."
+    "title": "Instrumentos analíticos para Life Science",
+    "lead": "Equipamiento analítico para biología molecular, celular y estudios de proteínas, de fabricantes reconocidos mundialmente."
   },
-  "intro": "Soluciones de instrumentos analíticos respaldadas por la experiencia y el soporte técnico local de CCV Grupo Venezuela.",
+  "intro": "Complementamos las líneas de PCR, secuenciación y microscopía con instrumentos analíticos para investigación en salud y ciencias de la vida.",
   "items_title": "Soluciones",
   "items": [],
   "meta": {
@@ -39,6 +39,14 @@
       "icon": "support",
       "title": "Soporte",
       "desc": "Consumibles, servicio y actualización."
+    }
+  ],
+  "brands": [
+    {
+      "name": "PerkinElmer"
+    },
+    {
+      "name": "Applied Biosystems · Thermo Fisher"
     }
   ]
 }
