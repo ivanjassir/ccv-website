@@ -20,7 +20,8 @@
     </div>
   </section>
 
-  <!-- INTRO / ITEMS -->
+  {% if cat["items"] %}
+  <!-- ITEMS -->
   <section class="section">
     <div class="wrap">
       <header class="s-head" data-reveal>
@@ -28,7 +29,6 @@
         <h2>{{ cat["items_title"] or "Soluciones" }}</h2>
         <p>{{ cat.intro }}</p>
       </header>
-      {% if cat["items"] %}
       <div class="cards" data-reveal>
         {% for a in cat["items"] %}
         {% if a.slug %}
@@ -45,9 +45,33 @@
         {% endif %}
         {% endfor %}
       </div>
-      {% endif %}
     </div>
   </section>
+  {% else %}
+  <!-- OVERVIEW (no sub-items) -->
+  <section class="section">
+    <div class="wrap two-col">
+      <div class="two-col__text" data-reveal>
+        <span class="s-tag">{{ cat.name }}</span>
+        <h2>En qué le ayudamos</h2>
+        <p>{{ cat.intro }}</p>
+        <ul class="checklist">
+          <li>Asesoría y selección de la solución adecuada</li>
+          <li>Instalación, puesta en marcha y capacitación</li>
+          <li>Mantenimiento, calibración y repuestos originales</li>
+        </ul>
+        <a href="index.html#contacto" class="btn btn--lg">Solicitar asesoría</a>
+      </div>
+      <div class="two-col__panel" data-reveal aria-hidden="true">
+        <div class="badge">
+          <span class="badge__since">CCV Grupo</span>
+          <b>Venezuela</b>
+          <span>Soporte técnico local</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  {% endif %}
 
   <!-- BENEFITS / VALUE -->
   <section class="section section--soft">

@@ -1,0 +1,26 @@
+{
+  "slug": "seminarios",
+  "name": "Seminarios",
+  "eyebrow": "Formación y capacitación",
+  "hero": {
+    "title": "Seminarios y capacitación técnica",
+    "lead": "Programas de formación para sacar el máximo provecho de su instrumentación y mantenerse al día con las mejores prácticas de laboratorio."
+  },
+  "items_title": "Programas",
+  "intro": "Ofrecemos cursos y seminarios técnicos, presenciales y en línea, dictados por especialistas y adaptados a las necesidades de su equipo.",
+  "items": [
+    { "name": "Cursos de capacitación", "desc": "Formación práctica en el uso, operación y mantenimiento de equipos." },
+    { "name": "Seminarios técnicos", "desc": "Actualización en métodos, normativas y nuevas aplicaciones." },
+    { "name": "Entrenamiento a la medida", "desc": "Programas diseñados según los objetivos de su laboratorio." }
+  ],
+  "benefits": [
+    { "title": "Especialistas de producto", "desc": "Instructores con experiencia real en las plataformas que representamos." },
+    { "title": "Práctico y aplicado", "desc": "Contenido orientado a resolver los retos de su día a día." },
+    { "title": "Certificado", "desc": "Constancia de participación para su equipo técnico." }
+  ],
+  "cta_label": "Solicitar información",
+  "meta": {
+    "title": "Seminarios | CCV Grupo Venezuela",
+    "description": "Cursos y seminarios técnicos, presenciales y en línea, para aprovechar al máximo su instrumentación y sus procesos de laboratorio."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "marcas",
+  "name": "Marcas",
+  "eyebrow": "Aliados tecnológicos",
+  "hero": {
+    "title": "Tecnología de referencia mundial",
+    "lead": "Representamos a fabricantes líderes para llevar a Venezuela instrumentación y sistemas de primer nivel, respaldados por soporte técnico local."
+  },
+  "items_title": "Tecnología que representamos",
+  "intro": "Combinamos marcas de referencia internacional con ingeniería y servicio propios, cubriendo análisis, farma, life science, ciencia forense e informática de laboratorio.",
+  "items": [
+    { "name": "PerkinElmer", "desc": "Instrumentación analítica de referencia mundial.", "slug": "perkin-elmer" },
+    { "name": "Analítica", "desc": "Cromatografía, espectroscopía y análisis elemental." },
+    { "name": "Farma", "desc": "Esterilización, liofilización y agua de proceso." },
+    { "name": "Life Science", "desc": "PCR, secuenciación de ADN y microscopía." },
+    { "name": "Forense", "desc": "Plataformas dedicadas a criminalística." },
+    { "name": "Informática · LIMS", "desc": "Gestión e informática de laboratorio." }
+  ],
+  "benefits": [
+    { "title": "Representación oficial", "desc": "Acceso al portafolio y al respaldo de los fabricantes que representamos." },
+    { "title": "Soporte local", "desc": "Instalación, calibración y repuestos con respuesta en toda Venezuela." },
+    { "title": "Asesoría experta", "desc": "Le ayudamos a elegir la marca y el modelo exactos para su aplicación." }
+  ],
+  "meta": {
+    "title": "Marcas | CCV Grupo Venezuela",
+    "description": "Representamos marcas líderes mundiales en instrumentación analítica, farma, life science e informática de laboratorio, con soporte técnico local."
+  }
+}

@@ -54,6 +54,12 @@ def crumbs_for(c):
     return chain
 
 
+pages_dir = ROOT / "content/pages"
+pages = [
+    json.loads(p.read_text(encoding="utf-8"))
+    for p in sorted(pages_dir.glob("*.json"))
+] if pages_dir.exists() else []
+
 current_region = next(
     (r for r in site["regions"] if r.get("current")), site["regions"][0]
 )
@@ -89,6 +95,11 @@ for c in categories:
         f"{c['slug']}.html",
         env.get_template("category.html").render(**GLOBAL, cat=c, crumbs=crumbs_for(c), meta=c["meta"], page="category"),
     )
+for pg in pages:
+    write(
+        f"{pg['slug']}.html",
+        env.get_template("page.html").render(**GLOBAL, pg=pg, meta=pg["meta"], page="page"),
+    )
 
 # ---- self-contained preview.html (homepage, fully inlined) ----
 print("Building self-contained preview.html…")
@@ -119,4 +130,4 @@ leftover = re.findall(r'(?:src|href)="(assets/[^"]+)"', html)
 size_mb = (ROOT / "preview.html").stat().st_size / (1024 * 1024)
 print(f"  preview.html ({size_mb:.2f} MB) — leftover local refs: {leftover or 'none'}")
 
-print(f"\nDone: 1 home + {len(divisions)} divisions + {len(categories)} categories + preview.html")
+print(f"\nDone: 1 home + {len(divisions)} divisions + {len(categories)} categories + {len(pages)} pages + preview.html")

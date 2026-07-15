@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% block main %}
+<main id="main">
+  <!-- PAGE HERO -->
+  <section class="dhero">
+    <div class="dhero__bg" aria-hidden="true"></div>
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Ruta de navegación">
+        <a href="index.html">Inicio</a> <span aria-hidden="true">/</span>
+        <span aria-current="page">{{ pg.name }}</span>
+      </nav>
+      <span class="pill" data-reveal>{{ pg.eyebrow }}</span>
+      <h1 class="dhero__title" data-reveal>{{ pg.hero.title }}</h1>
+      <p class="dhero__lead" data-reveal>{{ pg.hero.lead }}</p>
+      <div class="hero__cta" data-reveal>
+        <a href="index.html#contacto" class="btn btn--lg">{{ pg.cta_label or "Contáctenos" }}</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ITEMS -->
+  <section class="section">
+    <div class="wrap">
+      <header class="s-head" data-reveal>
+        <span class="s-tag">{{ pg.name }}</span>
+        <h2>{{ pg["items_title"] or "Contenido" }}</h2>
+        <p>{{ pg.intro }}</p>
+      </header>
+      {% if pg["items"] %}
+      <div class="cards" data-reveal>
+        {% for a in pg["items"] %}
+        {% if a.slug %}
+        <a class="card card--link" href="{{ a.slug }}.html" data-stagger data-tilt data-spot>
+          <h3>{{ a.name }}</h3>
+          <p>{{ a.desc }}</p>
+          <span class="card__more">Ver más</span>
+        </a>
+        {% else %}
+        <article class="card" data-stagger data-tilt data-spot>
+          <h3>{{ a.name }}</h3>
+          <p>{{ a.desc }}</p>
+        </article>
+        {% endif %}
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </section>
+
+  {% if pg.benefits %}
+  <!-- BENEFITS -->
+  <section class="section section--soft">
+    <div class="wrap">
+      <header class="s-head" data-reveal>
+        <span class="s-tag">Por qué CCV Grupo</span>
+        <h2>{{ pg.benefits_title or "Lo que nos diferencia" }}</h2>
+      </header>
+      <div class="cards" data-reveal>
+        {% for b in pg.benefits %}
+        <article class="card feature" data-stagger data-tilt data-spot>
+          <span class="card__ico" aria-hidden="true">◆</span>
+          <h3>{{ b.title }}</h3>
+          <p>{{ b.desc }}</p>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  <!-- CTA BAND -->
+  <section class="cta-band">
+    <div class="wrap cta-band__inner" data-reveal>
+      <h2>¿Listo para su próximo proyecto?</h2>
+      <p>Nuestro equipo de asesores está listo para ayudarle a encontrar la solución adecuada.</p>
+      <a href="index.html#contacto" class="btn btn--lg">Contáctenos</a>
+    </div>
+  </section>
+</main>
+{% endblock %}
